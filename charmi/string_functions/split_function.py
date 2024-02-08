@@ -1,4 +1,4 @@
-string= "I love programming"
+string= "I love programming"        #turns the string into a list
 split_list1= string.split()
 print(split_list1)
 
