@@ -23,6 +23,8 @@ def main():
 
     print("Your name is: ", input_name)
 
+    print("The reversed name: ", reversed_name)
+
     print("Your name in upper case looks like this: ", name_in_uppercase)
 
     print("Your name in lowercase looks like this: ", name_in_lowercase)
