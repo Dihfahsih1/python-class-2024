@@ -1,7 +1,7 @@
 #opening and reading a text file in the same folder
 #example 1
 
-with open("text.txt") as file:
+with open("text.txt", "r") as file:
     print(file.read())
 
 print(file.close())
