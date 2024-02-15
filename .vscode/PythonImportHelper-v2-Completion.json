@@ -1,0 +1,1465 @@
+[
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "2DArrays.afod.class",
+        "description": "2DArrays.afod.class",
+        "peekOfCode": "students = [\"afod\",\"emma\",\"axam\",\"joel\",\"punchal\",\"mumbere\",\"maurice\"]\nfor student in students:\n    print(student)",
+        "detail": "2DArrays.afod.class",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "afod.class_1",
+        "description": "afod.class_1",
+        "peekOfCode": "class Car:\n    def __init__(self, make, model, year):\n        self.make=make\n        self.model=model\n        self.year=year\n        self.is_running=False\n    def start_engine(self):\n        self.is_running=True\n        print(\"the engine has started\")\n    def stop_engine(self):",
+        "detail": "afod.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "my_car",
+        "kind": 5,
+        "importPath": "afod.class_1",
+        "description": "afod.class_1",
+        "peekOfCode": "my_car = Car(make, model, year)\nprint(f\"The car Make: {my_car.make}\")\nprint(f\"The car Model: {my_car.model}\")\nprint(f\"The car Year: {my_car.year}\")\nmy_car.start_engine()\nprint(my_car.is_running)\nmy_car.stop_engine()\nprint(my_car.is_running)",
+        "detail": "afod.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "class Human:\n    def brain(self):\n        return \"Thinking\"\nclass Cow(Human):\n    def brain(self):\n        return \"Closure\"\nclass Goat(Human):\n    def brain(self):\n        return \"Meow\"\n# polymorphism example 1",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "Cow",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "class Cow(Human):\n    def brain(self):\n        return \"Closure\"\nclass Goat(Human):\n    def brain(self):\n        return \"Meow\"\n# polymorphism example 1\ndef make_sound(animal):\n    return animal.brain()\ncow = Cow()",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "Goat",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "class Goat(Human):\n    def brain(self):\n        return \"Meow\"\n# polymorphism example 1\ndef make_sound(animal):\n    return animal.brain()\ncow = Cow()\ngoat = Goat()\nprint(make_sound(cow))\nprint(make_sound(goat))",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "class Point:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __add__(self, other):\n        return Point(self.x + other.x, self.y + other.y)\np1 = Point(1,2)\np2 = Point(28,12)\nresult = p1 + p2\nprint(f\"Result: {result.x}, {result.y}\")",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "make_sound",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "def make_sound(animal):\n    return animal.brain()\ncow = Cow()\ngoat = Goat()\nprint(make_sound(cow))\nprint(make_sound(goat))\n# polymorphism example 2\nclass Point:\n    def __init__(self, x, y):\n        self.x = x",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "cow",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "cow = Cow()\ngoat = Goat()\nprint(make_sound(cow))\nprint(make_sound(goat))\n# polymorphism example 2\nclass Point:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __add__(self, other):",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "goat",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "goat = Goat()\nprint(make_sound(cow))\nprint(make_sound(goat))\n# polymorphism example 2\nclass Point:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n    def __add__(self, other):\n        return Point(self.x + other.x, self.y + other.y)",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "p1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "p1 = Point(1,2)\np2 = Point(28,12)\nresult = p1 + p2\nprint(f\"Result: {result.x}, {result.y}\")",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "p2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "p2 = Point(28,12)\nresult = p1 + p2\nprint(f\"Result: {result.x}, {result.y}\")",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asigment_11.class_1",
+        "description": "Aksam.assignments.asigment_11.class_1",
+        "peekOfCode": "result = p1 + p2\nprint(f\"Result: {result.x}, {result.y}\")",
+        "detail": "Aksam.assignments.asigment_11.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "month",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_1.hello_world",
+        "description": "Aksam.assignments.asignment_1.hello_world",
+        "peekOfCode": "month = \"January\"\nage=30\nis_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "Aksam.assignments.asignment_1.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "is_teacher",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_1.hello_world",
+        "description": "Aksam.assignments.asignment_1.hello_world",
+        "peekOfCode": "is_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "Aksam.assignments.asignment_1.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    def greet(self):\n        return f\"Hello, my name is {self.name} and i am {self.age} yrs old. \"\n    @property\n    def is_adult(self):\n        return self.age >= 18\n    def celebrate(self):",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "class Car(Person): # inheritance\n    def __init__(self, make, model, year):\n        self.make = make\n        self.model = model\n        self.year = year\n        self.is_running = False\n    def start_engine(self):\n        self.is_running = True\n        print(\"The car engine has started\")\n        print(self.is_running)",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "my_self",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "my_self = Person(\"Aksam\",25) # object\n# accessing properties\nprint(my_self.name)\nprint(my_self.age)\n# calling methods\nprint(my_self.greet())\nprint(my_self.is_adult)\nmy_self.celebrate()\nprint(my_self.age)\nprint(my_self.is_adult)",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "make",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "make = str(input(\"Please enter car make: \"))\nmodel = str(input(\"Please enter car model: \"))\nyear = int(input(\"Please enter car year: \"))\nmy_car = Car(make, model, year)\nprint(my_car.start_engine())\nprint(my_car.stop_engine())",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "model = str(input(\"Please enter car model: \"))\nyear = int(input(\"Please enter car year: \"))\nmy_car = Car(make, model, year)\nprint(my_car.start_engine())\nprint(my_car.stop_engine())",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "year = int(input(\"Please enter car year: \"))\nmy_car = Car(make, model, year)\nprint(my_car.start_engine())\nprint(my_car.stop_engine())",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "my_car",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_10.class",
+        "description": "Aksam.assignments.asignment_10.class",
+        "peekOfCode": "my_car = Car(make, model, year)\nprint(my_car.start_engine())\nprint(my_car.stop_engine())",
+        "detail": "Aksam.assignments.asignment_10.class",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "class BankAccount():\n    def __init__(self, account_number, balance):\n        self._account_number = account_number # encapsulated attribute\n        self._balance = balance # encapsulated attribute\n    def deposit(self, amount):\n        self._balance += amount\n    def withdraw(self, amount):\n        if self._balance >= amount:\n            self._balance -= amount\n        else:",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "class Shape(ABC):\n    def area(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n    def area(self):\n        return self.length * self.width\nclass Circle(Shape):",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n    def area(self):\n        return self.length * self.width\nclass Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return 3.14 * self.radius * self.radius\nrectangle = Rectangle(5,4)\ncircle = Circle(3)\nprint(\"Area of a rectangle\", rectangle.area())\nprint(\"Area of a circle\", circle.area())",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "balance",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "balance = int(input(\"Enter bank balance: \"))\naccount_num = int(input(\"Enter bank account number: \"))\naccount1 = BankAccount(account_num, balance)\n# Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an oblect\nfrom abc import ABC, abstractmethod\nclass Shape(ABC):\n    def area(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, length, width):",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "account_num",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "account_num = int(input(\"Enter bank account number: \"))\naccount1 = BankAccount(account_num, balance)\n# Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an oblect\nfrom abc import ABC, abstractmethod\nclass Shape(ABC):\n    def area(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "account1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "account1 = BankAccount(account_num, balance)\n# Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an oblect\nfrom abc import ABC, abstractmethod\nclass Shape(ABC):\n    def area(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "rectangle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "rectangle = Rectangle(5,4)\ncircle = Circle(3)\nprint(\"Area of a rectangle\", rectangle.area())\nprint(\"Area of a circle\", circle.area())",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "circle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_12.asignment",
+        "description": "Aksam.assignments.asignment_12.asignment",
+        "peekOfCode": "circle = Circle(3)\nprint(\"Area of a rectangle\", rectangle.area())\nprint(\"Area of a circle\", circle.area())",
+        "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_2.assignment2",
+        "description": "Aksam.assignments.asignment_2.assignment2",
+        "peekOfCode": "area = 76\nprint(area)\narea = 45\nprint(area)",
+        "detail": "Aksam.assignments.asignment_2.assignment2",
+        "documentation": {}
+    },
+    {
+        "label": "area",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_2.assignment2",
+        "description": "Aksam.assignments.asignment_2.assignment2",
+        "peekOfCode": "area = 45\nprint(area)",
+        "detail": "Aksam.assignments.asignment_2.assignment2",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.case",
+        "description": "Aksam.assignments.asignment_3.case",
+        "peekOfCode": "name = \"Aksam\"\nName = \"Cyrus\"\nprint(\"Example 1:\")\nprint(name)\nprint(Name)\n# example 2\nuserAge = 12\nprint(\"Example 2:\")\nprint(userAge)\n# example 3",
+        "detail": "Aksam.assignments.asignment_3.case",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.case",
+        "description": "Aksam.assignments.asignment_3.case",
+        "peekOfCode": "Name = \"Cyrus\"\nprint(\"Example 1:\")\nprint(name)\nprint(Name)\n# example 2\nuserAge = 12\nprint(\"Example 2:\")\nprint(userAge)\n# example 3\nPhone_Number = \"0709667917\"",
+        "detail": "Aksam.assignments.asignment_3.case",
+        "documentation": {}
+    },
+    {
+        "label": "userAge",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.case",
+        "description": "Aksam.assignments.asignment_3.case",
+        "peekOfCode": "userAge = 12\nprint(\"Example 2:\")\nprint(userAge)\n# example 3\nPhone_Number = \"0709667917\"\nprint(\"Example 3:\")\nprint(Phone_Number)",
+        "detail": "Aksam.assignments.asignment_3.case",
+        "documentation": {}
+    },
+    {
+        "label": "Phone_Number",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.case",
+        "description": "Aksam.assignments.asignment_3.case",
+        "peekOfCode": "Phone_Number = \"0709667917\"\nprint(\"Example 3:\")\nprint(Phone_Number)",
+        "detail": "Aksam.assignments.asignment_3.case",
+        "documentation": {}
+    },
+    {
+        "label": "int_val",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "int_val = 42\nstr_val = str(int_val)\nprint(\"Original integer: \", int_val)\nprint(\"converted integer\", str_val)\n# string to float\nfloat_string = \"3.14\"\nfloat_value = float(float_string)\nprint(\"Original string\", float_string)\nprint(\"converted Float\", float_value)\n# concatenating strings",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "str_val",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "str_val = str(int_val)\nprint(\"Original integer: \", int_val)\nprint(\"converted integer\", str_val)\n# string to float\nfloat_string = \"3.14\"\nfloat_value = float(float_string)\nprint(\"Original string\", float_string)\nprint(\"converted Float\", float_value)\n# concatenating strings\nfirst_name = \"Aksam\"",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "float_string",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "float_string = \"3.14\"\nfloat_value = float(float_string)\nprint(\"Original string\", float_string)\nprint(\"converted Float\", float_value)\n# concatenating strings\nfirst_name = \"Aksam\"\nlast_name = \"Cyrus\"\nfull_name = first_name + \" \" + last_name \nprint(\"first name:\", first_name)\nprint(\"last name:\", last_name)",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "float_value",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "float_value = float(float_string)\nprint(\"Original string\", float_string)\nprint(\"converted Float\", float_value)\n# concatenating strings\nfirst_name = \"Aksam\"\nlast_name = \"Cyrus\"\nfull_name = first_name + \" \" + last_name \nprint(\"first name:\", first_name)\nprint(\"last name:\", last_name)\nprint(\"full name:\", full_name)",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "first_name = \"Aksam\"\nlast_name = \"Cyrus\"\nfull_name = first_name + \" \" + last_name \nprint(\"first name:\", first_name)\nprint(\"last name:\", last_name)\nprint(\"full name:\", full_name)",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "last_name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "last_name = \"Cyrus\"\nfull_name = first_name + \" \" + last_name \nprint(\"first name:\", first_name)\nprint(\"last name:\", last_name)\nprint(\"full name:\", full_name)",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "full_name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.casting",
+        "description": "Aksam.assignments.asignment_3.casting",
+        "peekOfCode": "full_name = first_name + \" \" + last_name \nprint(\"first name:\", first_name)\nprint(\"last name:\", last_name)\nprint(\"full name:\", full_name)",
+        "detail": "Aksam.assignments.asignment_3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.delete",
+        "description": "Aksam.assignments.asignment_3.delete",
+        "peekOfCode": "name = \"Aksam\"\n# printing students before del\ndel name\nprint(name)\n# example 2\nstudents = [\"Anwar\",\"Akram\",\"Aklass\"]\n# printing students before del\nprint(students)\ndel students\n#example 3",
+        "detail": "Aksam.assignments.asignment_3.delete",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.delete",
+        "description": "Aksam.assignments.asignment_3.delete",
+        "peekOfCode": "students = [\"Anwar\",\"Akram\",\"Aklass\"]\n# printing students before del\nprint(students)\ndel students\n#example 3\n# dictionary\nuser_info = {\n    \"username\": \"Aksam\",\n    \"email\": \"aksamcyrus@gmail.com\",\n    \"password\": \"1234\",",
+        "detail": "Aksam.assignments.asignment_3.delete",
+        "documentation": {}
+    },
+    {
+        "label": "user_info",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.delete",
+        "description": "Aksam.assignments.asignment_3.delete",
+        "peekOfCode": "user_info = {\n    \"username\": \"Aksam\",\n    \"email\": \"aksamcyrus@gmail.com\",\n    \"password\": \"1234\",\n    \"age\": 20\n}\n# printing user_info before del\nprint(user_info)\ndel user_info",
+        "detail": "Aksam.assignments.asignment_3.delete",
+        "documentation": {}
+    },
+    {
+        "label": "a=b=c",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.multiple",
+        "description": "Aksam.assignments.asignment_3.multiple",
+        "peekOfCode": "a=b=c = 10\nprint(a, b, c)\n# example 2\nx, y, z = 10, 40, 70\nprint(\"x:\", x)\nprint(\"y:\", y)\nprint(\"z:\", z)\nprint()\n# example 3\nboy, girl = 5, 8",
+        "detail": "Aksam.assignments.asignment_3.multiple",
+        "documentation": {}
+    },
+    {
+        "label": "constant",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "constant = 50 # normal variable naming\nhello = \"Hello world\"\nprint(constant)\nprint(hello)\n# Example 2\nname1 = \"Cyrus\" # Alpha Numeric variable naming\nage2 = 200\nprint(name1)\nprint(age2)\n# Example 3",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "hello = \"Hello world\"\nprint(constant)\nprint(hello)\n# Example 2\nname1 = \"Cyrus\" # Alpha Numeric variable naming\nage2 = 200\nprint(name1)\nprint(age2)\n# Example 3\nfirst_name = \"Aksam\" # snake Case variable naming",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "name1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "name1 = \"Cyrus\" # Alpha Numeric variable naming\nage2 = 200\nprint(name1)\nprint(age2)\n# Example 3\nfirst_name = \"Aksam\" # snake Case variable naming\nlast_name = \"Cyrus\"\nprint(first_name)\nprint(last_name)\n# Example 4",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "age2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "age2 = 200\nprint(name1)\nprint(age2)\n# Example 3\nfirst_name = \"Aksam\" # snake Case variable naming\nlast_name = \"Cyrus\"\nprint(first_name)\nprint(last_name)\n# Example 4\nlastName = \"Naruto\" # camal case variable naming",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "first_name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "first_name = \"Aksam\" # snake Case variable naming\nlast_name = \"Cyrus\"\nprint(first_name)\nprint(last_name)\n# Example 4\nlastName = \"Naruto\" # camal case variable naming\nfirstName = \"Uzumaki\"\nprint(lastName)\nprint(firstName)\nFirstName = \"Uzumaki\" # Pascal case variable naming",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "last_name",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "last_name = \"Cyrus\"\nprint(first_name)\nprint(last_name)\n# Example 4\nlastName = \"Naruto\" # camal case variable naming\nfirstName = \"Uzumaki\"\nprint(lastName)\nprint(firstName)\nFirstName = \"Uzumaki\" # Pascal case variable naming\nHelloWorld = \"My output\"",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "lastName",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "lastName = \"Naruto\" # camal case variable naming\nfirstName = \"Uzumaki\"\nprint(lastName)\nprint(firstName)\nFirstName = \"Uzumaki\" # Pascal case variable naming\nHelloWorld = \"My output\"",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "firstName",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "firstName = \"Uzumaki\"\nprint(lastName)\nprint(firstName)\nFirstName = \"Uzumaki\" # Pascal case variable naming\nHelloWorld = \"My output\"",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "FirstName",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "FirstName = \"Uzumaki\" # Pascal case variable naming\nHelloWorld = \"My output\"",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "HelloWorld",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.naming",
+        "description": "Aksam.assignments.asignment_3.naming",
+        "peekOfCode": "HelloWorld = \"My output\"",
+        "detail": "Aksam.assignments.asignment_3.naming",
+        "documentation": {}
+    },
+    {
+        "label": "interger_var",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.type",
+        "description": "Aksam.assignments.asignment_3.type",
+        "peekOfCode": "interger_var = 43\nprint(\"Variable: \", interger_var)\nprint(\"Data type: \", type(interger_var))\n# Example 2\nstring_var = \"Hello, World\"\nprint(\"Variable: \", string_var)\nprint(\"Data type: \", type(string_var))\n# Example 3\nfloat_var = 1230.89\nprint(\"Variable: \", float_var)",
+        "detail": "Aksam.assignments.asignment_3.type",
+        "documentation": {}
+    },
+    {
+        "label": "string_var",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.type",
+        "description": "Aksam.assignments.asignment_3.type",
+        "peekOfCode": "string_var = \"Hello, World\"\nprint(\"Variable: \", string_var)\nprint(\"Data type: \", type(string_var))\n# Example 3\nfloat_var = 1230.89\nprint(\"Variable: \", float_var)\nprint(\"Data type: \", type(float_var))\n# example 4\nis_valid = True\nprint(type(is_valid))",
+        "detail": "Aksam.assignments.asignment_3.type",
+        "documentation": {}
+    },
+    {
+        "label": "float_var",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.type",
+        "description": "Aksam.assignments.asignment_3.type",
+        "peekOfCode": "float_var = 1230.89\nprint(\"Variable: \", float_var)\nprint(\"Data type: \", type(float_var))\n# example 4\nis_valid = True\nprint(type(is_valid))",
+        "detail": "Aksam.assignments.asignment_3.type",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_3.type",
+        "description": "Aksam.assignments.asignment_3.type",
+        "peekOfCode": "is_valid = True\nprint(type(is_valid))",
+        "detail": "Aksam.assignments.asignment_3.type",
+        "documentation": {}
+    },
+    {
+        "label": "emp_list",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "emp_list = []\nnewElement = \"Student\"\nemp_list.append(newElement)\nprint(\"Empty list after adding\", newElement + \":\", emp_list)\nprint()\n# EXAMPLE 2\ncontra = [\"a\",\"b\",\"c\"]\ncontra.append(\"d\")\nprint(\"Contra after appending\", contra)\nprint()",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "newElement",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "newElement = \"Student\"\nemp_list.append(newElement)\nprint(\"Empty list after adding\", newElement + \":\", emp_list)\nprint()\n# EXAMPLE 2\ncontra = [\"a\",\"b\",\"c\"]\ncontra.append(\"d\")\nprint(\"Contra after appending\", contra)\nprint()\n# INSERTING EXAMPLES IN PYTHN",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "contra",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "contra = [\"a\",\"b\",\"c\"]\ncontra.append(\"d\")\nprint(\"Contra after appending\", contra)\nprint()\n# INSERTING EXAMPLES IN PYTHN\n# EXAMPLE 3\nfruits = [\"Mango\", \"Apple\", \"Orange\", \"Banana\"]\nNew_Fruits = \"Berries\"\nindexInsert = 1\nfruits.insert(indexInsert, New_Fruits)",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "fruits = [\"Mango\", \"Apple\", \"Orange\", \"Banana\"]\nNew_Fruits = \"Berries\"\nindexInsert = 1\nfruits.insert(indexInsert, New_Fruits)\nprint(\"Fruits list after inserting\", New_Fruits, \"at index\", indexInsert, \":\", fruits)\nprint()\n# EXAMPLE 4\nveg = [\"carrot\", \"Broccoli\"]\nnewElement2 = \"Spinach\"\nveg = veg + [newElement2]",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "New_Fruits",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "New_Fruits = \"Berries\"\nindexInsert = 1\nfruits.insert(indexInsert, New_Fruits)\nprint(\"Fruits list after inserting\", New_Fruits, \"at index\", indexInsert, \":\", fruits)\nprint()\n# EXAMPLE 4\nveg = [\"carrot\", \"Broccoli\"]\nnewElement2 = \"Spinach\"\nveg = veg + [newElement2]\nprint(\"Veg list after adding\", newElement2, \":\", veg)",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "indexInsert",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "indexInsert = 1\nfruits.insert(indexInsert, New_Fruits)\nprint(\"Fruits list after inserting\", New_Fruits, \"at index\", indexInsert, \":\", fruits)\nprint()\n# EXAMPLE 4\nveg = [\"carrot\", \"Broccoli\"]\nnewElement2 = \"Spinach\"\nveg = veg + [newElement2]\nprint(\"Veg list after adding\", newElement2, \":\", veg)\nprint()",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "veg",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "veg = [\"carrot\", \"Broccoli\"]\nnewElement2 = \"Spinach\"\nveg = veg + [newElement2]\nprint(\"Veg list after adding\", newElement2, \":\", veg)\nprint()\n# EXAMPLE 5\nstudy = [\"Roger\", \"3.14\", True, 20, 17.27]\nprint(\"Original study \", study)\nstudy.insert(1, \"Markson\")\nprint(\"Study after appending: \", study)",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "newElement2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "newElement2 = \"Spinach\"\nveg = veg + [newElement2]\nprint(\"Veg list after adding\", newElement2, \":\", veg)\nprint()\n# EXAMPLE 5\nstudy = [\"Roger\", \"3.14\", True, 20, 17.27]\nprint(\"Original study \", study)\nstudy.insert(1, \"Markson\")\nprint(\"Study after appending: \", study)\nstudy.insert(-1, \"Pass\")",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "veg",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "veg = veg + [newElement2]\nprint(\"Veg list after adding\", newElement2, \":\", veg)\nprint()\n# EXAMPLE 5\nstudy = [\"Roger\", \"3.14\", True, 20, 17.27]\nprint(\"Original study \", study)\nstudy.insert(1, \"Markson\")\nprint(\"Study after appending: \", study)\nstudy.insert(-1, \"Pass\")\nprint(\"List after appending: \", study)",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "study",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.add_to_list",
+        "description": "Aksam.assignments.asignment_4.add_to_list",
+        "peekOfCode": "study = [\"Roger\", \"3.14\", True, 20, 17.27]\nprint(\"Original study \", study)\nstudy.insert(1, \"Markson\")\nprint(\"Study after appending: \", study)\nstudy.insert(-1, \"Pass\")\nprint(\"List after appending: \", study)\nprint()",
+        "detail": "Aksam.assignments.asignment_4.add_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.remove_list",
+        "description": "Aksam.assignments.asignment_4.remove_list",
+        "peekOfCode": "fruits = [\"Mango\", \"Apple\", \"Orange\", \"Banana\"]\nel_to_remove = \"Banana\"\nprint(\"original list:\", fruits)\nfruits.remove(el_to_remove)\nprint(\"list after removing\", el_to_remove + \":\", fruits)\nprint()\n# EXAMPLE 2\nnumbers = [1,2,3,4,5,6]\nindex_to_remove = 3\nprint(\"original list:\", numbers)",
+        "detail": "Aksam.assignments.asignment_4.remove_list",
+        "documentation": {}
+    },
+    {
+        "label": "el_to_remove",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.remove_list",
+        "description": "Aksam.assignments.asignment_4.remove_list",
+        "peekOfCode": "el_to_remove = \"Banana\"\nprint(\"original list:\", fruits)\nfruits.remove(el_to_remove)\nprint(\"list after removing\", el_to_remove + \":\", fruits)\nprint()\n# EXAMPLE 2\nnumbers = [1,2,3,4,5,6]\nindex_to_remove = 3\nprint(\"original list:\", numbers)\ndel numbers[index_to_remove]",
+        "detail": "Aksam.assignments.asignment_4.remove_list",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.remove_list",
+        "description": "Aksam.assignments.asignment_4.remove_list",
+        "peekOfCode": "numbers = [1,2,3,4,5,6]\nindex_to_remove = 3\nprint(\"original list:\", numbers)\ndel numbers[index_to_remove]\nprint(\"list after removing element at index\", index_to_remove, \":\", numbers)",
+        "detail": "Aksam.assignments.asignment_4.remove_list",
+        "documentation": {}
+    },
+    {
+        "label": "index_to_remove",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_4.remove_list",
+        "description": "Aksam.assignments.asignment_4.remove_list",
+        "peekOfCode": "index_to_remove = 3\nprint(\"original list:\", numbers)\ndel numbers[index_to_remove]\nprint(\"list after removing element at index\", index_to_remove, \":\", numbers)",
+        "detail": "Aksam.assignments.asignment_4.remove_list",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_5.function",
+        "description": "Aksam.assignments.asignment_5.function",
+        "peekOfCode": "def time():\n    current_time = datetime.now().strftime('%H:%M:%S')\n    print('Current time:', current_time)\ntime()\n# EXAMPLE 1\ndef helloWorld():\n    print(\"Hello World\")\nhelloWorld()\n# EXAMPLE 3\ndef add(item1, item2):",
+        "detail": "Aksam.assignments.asignment_5.function",
+        "documentation": {}
+    },
+    {
+        "label": "helloWorld",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_5.function",
+        "description": "Aksam.assignments.asignment_5.function",
+        "peekOfCode": "def helloWorld():\n    print(\"Hello World\")\nhelloWorld()\n# EXAMPLE 3\ndef add(item1, item2):\n    result = item1 + item2\n    print(result)\nadd(17, 10)\nadd('Hello ', 'World')",
+        "detail": "Aksam.assignments.asignment_5.function",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_5.function",
+        "description": "Aksam.assignments.asignment_5.function",
+        "peekOfCode": "def add(item1, item2):\n    result = item1 + item2\n    print(result)\nadd(17, 10)\nadd('Hello ', 'World')",
+        "detail": "Aksam.assignments.asignment_5.function",
+        "documentation": {}
+    },
+    {
+        "label": "assign1",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "def assign1():\n    x = 10\n    return x\nprint(\"Returned value:\", assign1())\ndef assign2(y):\n    y += 3\n    return y\nprint(\"Returned value:\", assign2(4))\ndef assign3(z):\n    z *= 2",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "assign2",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "def assign2(y):\n    y += 3\n    return y\nprint(\"Returned value:\", assign2(4))\ndef assign3(z):\n    z *= 2\n    return z\nprint(\"Returned value:\", assign3(7))\na = 21\nb = 10 ",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "assign3",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "def assign3(z):\n    z *= 2\n    return z\nprint(\"Returned value:\", assign3(7))\na = 21\nb = 10 \nc =0\nc = a + b\nprint(c)\nc += a",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "a = 21\nb = 10 \nc =0\nc = a + b\nprint(c)\nc += a\nprint(c)\nc *= a\nprint(c)\nc /= a",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "b = 10 \nc =0\nc = a + b\nprint(c)\nc += a\nprint(c)\nc *= a\nprint(c)\nc /= a\nprint(c)",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "c = a + b\nprint(c)\nc += a\nprint(c)\nc *= a\nprint(c)\nc /= a\nprint(c)\nc = 2\nprint(c)",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "description": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "peekOfCode": "c = 2\nprint(c)\nc **= a\nprint(c)\nc %= a\nprint(c)\nc //= a\nprint(c)",
+        "detail": "Aksam.assignments.asignment_7.operators.assignment_operators",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "description": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "peekOfCode": "num1 = 10\nnum2 = 5\nresult_and = num1 & num2\nprint(\"bitwise and\", result_and)\nresult_or = num1 | num2\nprint(\"bitwise or\", result_or)\nresult_xor = num1 ^ num2\nprint(\"bitwise and\", result_xor)",
+        "detail": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "description": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "peekOfCode": "num2 = 5\nresult_and = num1 & num2\nprint(\"bitwise and\", result_and)\nresult_or = num1 | num2\nprint(\"bitwise or\", result_or)\nresult_xor = num1 ^ num2\nprint(\"bitwise and\", result_xor)",
+        "detail": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "documentation": {}
+    },
+    {
+        "label": "result_and",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "description": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "peekOfCode": "result_and = num1 & num2\nprint(\"bitwise and\", result_and)\nresult_or = num1 | num2\nprint(\"bitwise or\", result_or)\nresult_xor = num1 ^ num2\nprint(\"bitwise and\", result_xor)",
+        "detail": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "documentation": {}
+    },
+    {
+        "label": "result_or",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "description": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "peekOfCode": "result_or = num1 | num2\nprint(\"bitwise or\", result_or)\nresult_xor = num1 ^ num2\nprint(\"bitwise and\", result_xor)",
+        "detail": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "documentation": {}
+    },
+    {
+        "label": "result_xor",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "description": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "peekOfCode": "result_xor = num1 ^ num2\nprint(\"bitwise and\", result_xor)",
+        "detail": "Aksam.assignments.asignment_7.operators.bitwise_operators",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "num1 = [1,2,3,4,5]\nnum2 = [4,5,6,7,8]\nlog_op_num = [n1 for n1 in num1 for n2 in num2 if n1 == n2]\nprint(\"\\nExample 1: Selecting elements from two lists using AND operators\")\nprint(\"List 1:\", num1)\nprint(\"List 2:\", num2)\nprint(\"Logical operation numbers\", log_op_num)\nbox = 20\nbrush = 70\nlist1 = [1,2,3,5]",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "num2 = [4,5,6,7,8]\nlog_op_num = [n1 for n1 in num1 for n2 in num2 if n1 == n2]\nprint(\"\\nExample 1: Selecting elements from two lists using AND operators\")\nprint(\"List 1:\", num1)\nprint(\"List 2:\", num2)\nprint(\"Logical operation numbers\", log_op_num)\nbox = 20\nbrush = 70\nlist1 = [1,2,3,5]\nif(box in list1):",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "log_op_num",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "log_op_num = [n1 for n1 in num1 for n2 in num2 if n1 == n2]\nprint(\"\\nExample 1: Selecting elements from two lists using AND operators\")\nprint(\"List 1:\", num1)\nprint(\"List 2:\", num2)\nprint(\"Logical operation numbers\", log_op_num)\nbox = 20\nbrush = 70\nlist1 = [1,2,3,5]\nif(box in list1):\n    print(\"line 1 - box is available in the given list\")",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "box",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "box = 20\nbrush = 70\nlist1 = [1,2,3,5]\nif(box in list1):\n    print(\"line 1 - box is available in the given list\")\nelse:\n    print(\"line 1 - box is not available in the given list\")",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "brush",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "brush = 70\nlist1 = [1,2,3,5]\nif(box in list1):\n    print(\"line 1 - box is available in the given list\")\nelse:\n    print(\"line 1 - box is not available in the given list\")",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "description": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "peekOfCode": "list1 = [1,2,3,5]\nif(box in list1):\n    print(\"line 1 - box is available in the given list\")\nelse:\n    print(\"line 1 - box is not available in the given list\")",
+        "detail": "Aksam.assignments.asignment_7.operators.logical_operators",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.order",
+        "description": "Aksam.assignments.asignment_7.operators.order",
+        "peekOfCode": "result = (10 + 5) *2 \nprint(result)\nresult1 = 2 ** 3 * 4\nprint(result1)\nresult2 = -3 * 4\nprint(result2)\nresult3 = 10 + 5 *2 \nprint(result3)\nresult4 = 2 + 3 < 5 * 2\nprint(result4)",
+        "detail": "Aksam.assignments.asignment_7.operators.order",
+        "documentation": {}
+    },
+    {
+        "label": "result1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.order",
+        "description": "Aksam.assignments.asignment_7.operators.order",
+        "peekOfCode": "result1 = 2 ** 3 * 4\nprint(result1)\nresult2 = -3 * 4\nprint(result2)\nresult3 = 10 + 5 *2 \nprint(result3)\nresult4 = 2 + 3 < 5 * 2\nprint(result4)",
+        "detail": "Aksam.assignments.asignment_7.operators.order",
+        "documentation": {}
+    },
+    {
+        "label": "result2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.order",
+        "description": "Aksam.assignments.asignment_7.operators.order",
+        "peekOfCode": "result2 = -3 * 4\nprint(result2)\nresult3 = 10 + 5 *2 \nprint(result3)\nresult4 = 2 + 3 < 5 * 2\nprint(result4)",
+        "detail": "Aksam.assignments.asignment_7.operators.order",
+        "documentation": {}
+    },
+    {
+        "label": "result3",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.order",
+        "description": "Aksam.assignments.asignment_7.operators.order",
+        "peekOfCode": "result3 = 10 + 5 *2 \nprint(result3)\nresult4 = 2 + 3 < 5 * 2\nprint(result4)",
+        "detail": "Aksam.assignments.asignment_7.operators.order",
+        "documentation": {}
+    },
+    {
+        "label": "result4",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_7.operators.order",
+        "description": "Aksam.assignments.asignment_7.operators.order",
+        "peekOfCode": "result4 = 2 + 3 < 5 * 2\nprint(result4)",
+        "detail": "Aksam.assignments.asignment_7.operators.order",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.add",
+        "description": "Aksam.assignments.asignment_7.add",
+        "peekOfCode": "def add(num1,num2):\n    return (num1 + num2)\ndef get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The summed values = \", add(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\nprint('EXAMPLE 2')",
+        "detail": "Aksam.assignments.asignment_7.add",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.add",
+        "description": "Aksam.assignments.asignment_7.add",
+        "peekOfCode": "def get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The summed values = \", add(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\nprint('EXAMPLE 2')\ndef add2(n1, n2):\n    n1 = input('Enter value 1 ')",
+        "detail": "Aksam.assignments.asignment_7.add",
+        "documentation": {}
+    },
+    {
+        "label": "add2",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.add",
+        "description": "Aksam.assignments.asignment_7.add",
+        "peekOfCode": "def add2(n1, n2):\n    n1 = input('Enter value 1 ')\n    n2 = input('Enter Value 2 ')\n    result1 = int(n1) + int(n2)\n    print('The summed value is:', result1)\nadd2(10,20)",
+        "detail": "Aksam.assignments.asignment_7.add",
+        "documentation": {}
+    },
+    {
+        "label": "divided",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.divide",
+        "description": "Aksam.assignments.asignment_7.divide",
+        "peekOfCode": "def divided(num1,num2):\n    return (num1 / num2)\ndef get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The divided values = \", divided(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\ndef divide(number_1, number_2):",
+        "detail": "Aksam.assignments.asignment_7.divide",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.divide",
+        "description": "Aksam.assignments.asignment_7.divide",
+        "peekOfCode": "def get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The divided values = \", divided(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\ndef divide(number_1, number_2):\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number ')   )",
+        "detail": "Aksam.assignments.asignment_7.divide",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.divide",
+        "description": "Aksam.assignments.asignment_7.divide",
+        "peekOfCode": "def divide(number_1, number_2):\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number ')   )\n    result = number_1 / number_2\n    return (result)\nprint()\ndef outPut():\n    print(\"The divided values = \", divide(10,20))\noutPut()",
+        "detail": "Aksam.assignments.asignment_7.divide",
+        "documentation": {}
+    },
+    {
+        "label": "outPut",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.divide",
+        "description": "Aksam.assignments.asignment_7.divide",
+        "peekOfCode": "def outPut():\n    print(\"The divided values = \", divide(10,20))\noutPut()",
+        "detail": "Aksam.assignments.asignment_7.divide",
+        "documentation": {}
+    },
+    {
+        "label": "multiplyed",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.multipy",
+        "description": "Aksam.assignments.asignment_7.multipy",
+        "peekOfCode": "def multiplyed(num1,num2):\n    return (num1 * num2)\ndef get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The multiplied values = \", multiplyed(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\ndef multiply(number_1, number_2):",
+        "detail": "Aksam.assignments.asignment_7.multipy",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.multipy",
+        "description": "Aksam.assignments.asignment_7.multipy",
+        "peekOfCode": "def get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The multiplied values = \", multiplyed(number_1, number_2))\nget_input()\nprint()\n# EXAMPLE 2\ndef multiply(number_1, number_2):\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number ')   )",
+        "detail": "Aksam.assignments.asignment_7.multipy",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.multipy",
+        "description": "Aksam.assignments.asignment_7.multipy",
+        "peekOfCode": "def multiply(number_1, number_2):\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number ')   )\n    result = int(number_1) * int(number_2)\n    return (result)\nprint()\ndef outPut():\n    print(\"The multiplied values = \", multiply(10,20))\noutPut()",
+        "detail": "Aksam.assignments.asignment_7.multipy",
+        "documentation": {}
+    },
+    {
+        "label": "outPut",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.multipy",
+        "description": "Aksam.assignments.asignment_7.multipy",
+        "peekOfCode": "def outPut():\n    print(\"The multiplied values = \", multiply(10,20))\noutPut()",
+        "detail": "Aksam.assignments.asignment_7.multipy",
+        "documentation": {}
+    },
+    {
+        "label": "subract",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.subtract",
+        "description": "Aksam.assignments.asignment_7.subtract",
+        "peekOfCode": "def subract(number_1, number_2):\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    result = float(number_1) - float(number_2)\n    return (result)\nprint()\ndef outPut():\n    print(\"The subtracted values = \", subract(10,20))\noutPut()\nprint()",
+        "detail": "Aksam.assignments.asignment_7.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "outPut",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.subtract",
+        "description": "Aksam.assignments.asignment_7.subtract",
+        "peekOfCode": "def outPut():\n    print(\"The subtracted values = \", subract(10,20))\noutPut()\nprint()\n# EXAMPLE 2\nprint('EXAMPLE 2')\ndef subracted(num1,num2):\n    return (num1 - num2)\ndef get_input():\n    number_1 = float(input('Enter Your First Number '))",
+        "detail": "Aksam.assignments.asignment_7.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "subracted",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.subtract",
+        "description": "Aksam.assignments.asignment_7.subtract",
+        "peekOfCode": "def subracted(num1,num2):\n    return (num1 - num2)\ndef get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The subtracted values = \", subracted(number_1, number_2))\nget_input()",
+        "detail": "Aksam.assignments.asignment_7.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_7.subtract",
+        "description": "Aksam.assignments.asignment_7.subtract",
+        "peekOfCode": "def get_input():\n    number_1 = float(input('Enter Your First Number '))\n    number_2 = float(input('Enter Your Second Number '))\n    print(\"The subtracted values = \", subracted(number_1, number_2))\nget_input()",
+        "detail": "Aksam.assignments.asignment_7.subtract",
+        "documentation": {}
+    },
+    {
+        "label": "pychos",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_compresion",
+        "description": "Aksam.assignments.asignment_8.list_compresion",
+        "peekOfCode": "pychos = [1,2,3,4,5,6,7]\nsquared_pychos = [] # empty list to get values\nfor pycho in pychos:\n    squared_pychos.append(pycho ** 2)\nprint(\"Squared pychos without list comprehension\", squared_pychos)\nsquared_pychos_lc = [pycho ** 2 for pycho in pychos ]\nprint(\"Squared pychos with list comprehension\", squared_pychos_lc)",
+        "detail": "Aksam.assignments.asignment_8.list_compresion",
+        "documentation": {}
+    },
+    {
+        "label": "squared_pychos",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_compresion",
+        "description": "Aksam.assignments.asignment_8.list_compresion",
+        "peekOfCode": "squared_pychos = [] # empty list to get values\nfor pycho in pychos:\n    squared_pychos.append(pycho ** 2)\nprint(\"Squared pychos without list comprehension\", squared_pychos)\nsquared_pychos_lc = [pycho ** 2 for pycho in pychos ]\nprint(\"Squared pychos with list comprehension\", squared_pychos_lc)",
+        "detail": "Aksam.assignments.asignment_8.list_compresion",
+        "documentation": {}
+    },
+    {
+        "label": "squared_pychos_lc",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_compresion",
+        "description": "Aksam.assignments.asignment_8.list_compresion",
+        "peekOfCode": "squared_pychos_lc = [pycho ** 2 for pycho in pychos ]\nprint(\"Squared pychos with list comprehension\", squared_pychos_lc)",
+        "detail": "Aksam.assignments.asignment_8.list_compresion",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_pop",
+        "description": "Aksam.assignments.asignment_8.list_pop",
+        "peekOfCode": "list1 = [1, 'Cyrus', 20.9, 190, True]\nprint(list1) # printed before poping\nlist1.pop()\nprint(list1) # removes one item from the end\n# Example 2\nlist2 = [1, 'Cyrus', 20.9, 190, 'John']\nprint('Original List:', list2)\nremoved_element = list2.pop()\nprint(\"Modified list after pop(): \",list2)\nprint(\"Removed Element:\", removed_element)",
+        "detail": "Aksam.assignments.asignment_8.list_pop",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_pop",
+        "description": "Aksam.assignments.asignment_8.list_pop",
+        "peekOfCode": "list2 = [1, 'Cyrus', 20.9, 190, 'John']\nprint('Original List:', list2)\nremoved_element = list2.pop()\nprint(\"Modified list after pop(): \",list2)\nprint(\"Removed Element:\", removed_element)",
+        "detail": "Aksam.assignments.asignment_8.list_pop",
+        "documentation": {}
+    },
+    {
+        "label": "removed_element",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_8.list_pop",
+        "description": "Aksam.assignments.asignment_8.list_pop",
+        "peekOfCode": "removed_element = list2.pop()\nprint(\"Modified list after pop(): \",list2)\nprint(\"Removed Element:\", removed_element)",
+        "detail": "Aksam.assignments.asignment_8.list_pop",
+        "documentation": {}
+    },
+    {
+        "label": "deposit",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.bank_info",
+        "description": "Aksam.assignments.asignment_9.bank_info",
+        "peekOfCode": "def deposit(balance, amount):\n    \"Function to deposit money\"\n    balance += amount\n    return balance\ndef withdraw(balance,amount):\n    \"Function to withdraw money\"\n    if amount <= balance: # checks if a user is eligable to withdraw\n        balance -= amount\n        return balance, True # if their is money in the bank it will be successful\n    else:",
+        "detail": "Aksam.assignments.asignment_9.bank_info",
+        "documentation": {}
+    },
+    {
+        "label": "withdraw",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.bank_info",
+        "description": "Aksam.assignments.asignment_9.bank_info",
+        "peekOfCode": "def withdraw(balance,amount):\n    \"Function to withdraw money\"\n    if amount <= balance: # checks if a user is eligable to withdraw\n        balance -= amount\n        return balance, True # if their is money in the bank it will be successful\n    else:\n        return balance, False # if their is no money in the bank it will be unsuccessful\ndef bank_info():\n    \"Function for user interaction\"\n    balance = 0",
+        "detail": "Aksam.assignments.asignment_9.bank_info",
+        "documentation": {}
+    },
+    {
+        "label": "bank_info",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.bank_info",
+        "description": "Aksam.assignments.asignment_9.bank_info",
+        "peekOfCode": "def bank_info():\n    \"Function for user interaction\"\n    balance = 0\n    print(\"Welcome to Cyberspace Maze Bank!\")\n    while True:\n        print(\"\\nWhat would you like to do:\")\n        print(\"A: Deposit money\")\n        print(\"B: Withdraw money\")\n        print(\"C: Exit\")\n        choice = input(\"Enter your choice: \")",
+        "detail": "Aksam.assignments.asignment_9.bank_info",
+        "documentation": {}
+    },
+    {
+        "label": "user_option",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_9.bank_info",
+        "description": "Aksam.assignments.asignment_9.bank_info",
+        "peekOfCode": "user_option = input(\"Enter your option: \")\nprint(\"-----------------------------\")\nif (user_option == \"a\" or user_option == \"A\"):\n    withdraw = float(input(\"Enter amount to be withdrawn: \"))\n    account_balance = float(input(\"Enter the current amount in your bank account: \"))\n    def subtract_amount(withdraw, account_balance):\n        result = account_balance - withdraw \n        print(\"Your new account balance is: \", result)\n        print(str(account_balance) + \" - \" + str(withdraw) + \" = \" + str(result) + \"Shs. \" )\n        print(\"------------------\")",
+        "detail": "Aksam.assignments.asignment_9.bank_info",
+        "documentation": {}
+    },
+    {
+        "label": "input_day",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.day",
+        "description": "Aksam.assignments.asignment_9.day",
+        "peekOfCode": "def input_day():\n    print(\"EXAMPLE 1\")\n    my_day = int(input(\"Enter the current day of the week (1-7): \"))\n    if my_day == 1:\n        print(\"Monday: Organizing for the week ahead\")\n    elif my_day == 2:\n        print(\"Tuesday: Planing my time table to code for the week\")\n    elif my_day == 3:\n        print(\"Wednesday: Taking my clothes to the washing machine\")\n    elif my_day == 4:",
+        "detail": "Aksam.assignments.asignment_9.day",
+        "documentation": {}
+    },
+    {
+        "label": "current_daytime",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.day",
+        "description": "Aksam.assignments.asignment_9.day",
+        "peekOfCode": "def current_daytime():\n    current_day = datetime.now().weekday() + 1\n    if current_day == 1:\n        return \"Monday: Planing and Organizing for the week ahead\"\n    elif current_day == 2:\n        return \"Tuesday: Team meeting and collaboration\"\n    elif current_day == 3:\n        return \"Wednesday: Mid-week assessments and assignments from  the teacher\"\n    elif current_day == 4:\n        return \"Thursday: Playing games on my PS4 consle and coming to the institute\"",
+        "detail": "Aksam.assignments.asignment_9.day",
+        "documentation": {}
+    },
+    {
+        "label": "Checking_num",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.whileloop",
+        "description": "Aksam.assignments.asignment_9.whileloop",
+        "peekOfCode": "def Checking_num():\n    numbers = [1,2,3,4,5,6]\n    counter = 0 # responsible for counting the even or odd nums\n    while counter < len(numbers):\n        # using an if statement to check if the current is even\n        if numbers[counter] % 2 == 0: # this is the even if statement which checks if there are numbers that can be divisable by 2 \n            print(f\"{numbers[counter]} is even\")\n        else:\n            print(f\"{numbers[counter]} is odd\") # this else automatically \n        counter += 1",
+        "detail": "Aksam.assignments.asignment_9.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "vowels",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.whileloop",
+        "description": "Aksam.assignments.asignment_9.whileloop",
+        "peekOfCode": "def vowels():\n    students = [\"Panchal\", \"Joel\", \"Rajvir\", \"Emma\", \"Afford\", \"Mumbere\", \"Aksam\"]\n    index = 0\n    while index  < len(students):\n        # using an if statement to check if the current element starts with a vowel\n        if students[index][0].lower() in [\"a\",\"e\",\"i\",\"o\",\"u\"]:\n            print(f\"{students[index]} starts with a vowel\")\n        else:\n            print(f\"{students[index]} does not starts with a vowel\")\n        index += 1",
+        "detail": "Aksam.assignments.asignment_9.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "fruit_leng",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_9.whileloop",
+        "description": "Aksam.assignments.asignment_9.whileloop",
+        "peekOfCode": "def fruit_leng():\n    fruits = [\"apple\",\"banana\",\"orange\",\"mango\",\"Kiwi\"]\n    count = 0\n    print(\"----------------------------------\")\n    print(\"using a while loop:\")\n    while count < len(fruits):\n        if len(fruits[count]) % 2 == 0:\n            print(f\"The Length of {fruits[count]} is a even number\")\n        elif len(fruits[count]) % 2 != 0:\n            print(f\"The Length of {fruits[count]} is a odd number\")",
+        "detail": "Aksam.assignments.asignment_9.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "looping",
+        "kind": 2,
+        "importPath": "Aksam.forloop",
+        "description": "Aksam.forloop",
+        "peekOfCode": "def looping():\n    numbers = [1,2,3,4,5,6]\n    for number in numbers:\n        print(number)\nlooping()",
+        "detail": "Aksam.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "def add(a,b):\n    answer=a+b \n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "def sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 2,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "def div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") ",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "kind": 2,
+        "importPath": "calculator.main",
+        "description": "calculator.main",
+        "peekOfCode": "def mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") \nprint(\"D, Division)\") \nchoice=input(\"input your choice: \")\nif choice == 'a' or choice==\"A\":",
+        "detail": "calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "charmi.add",
+        "description": "charmi.add",
+        "peekOfCode": "def add(a,b):\n    return a+b\nprint(add(a,b))",
+        "detail": "charmi.add",
+        "documentation": {}
+    },
+    {
+        "label": "switch_case",
+        "kind": 2,
+        "importPath": "conditions.switch_cases",
+        "description": "conditions.switch_cases",
+        "peekOfCode": "def switch_case(argument):\n    print(f\"You selected option: {argument}\")\n    if argument=='a':\n        return \"Apple\"\n    elif argument=='b':\n        return \"Bananas\"\n    elif argument=='c':\n        return \"Cherry\"\n    elif argument=='d':\n        return \"dates\"",
+        "detail": "conditions.switch_cases",
+        "documentation": {}
+    },
+    {
+        "label": "oper",
+        "kind": 2,
+        "importPath": "Emma.functions",
+        "description": "Emma.functions",
+        "peekOfCode": "def oper(a,b):\n    print(\"Your answer will be :\",int(a)*int(b))\noper(a,b)",
+        "detail": "Emma.functions",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def Name():\n    name=input(\"Enter Your Name: \")\n    return name \ndef Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass\ndef function2():\n    print(\"not empty\")",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "function",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def function():\n    pass\ndef function2():\n    print(\"not empty\")",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "function2",
+        "kind": 2,
+        "importPath": "functions.functions",
+        "description": "functions.functions",
+        "peekOfCode": "def function2():\n    print(\"not empty\")",
+        "detail": "functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "functions.inputs",
+        "description": "functions.inputs",
+        "peekOfCode": "def add(num1,num2):\n    return (num1+num2)\ndef get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
+        "detail": "functions.inputs",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "functions.inputs",
+        "description": "functions.inputs",
+        "peekOfCode": "def get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
+        "detail": "functions.inputs",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "julson.whileloop",
+        "description": "julson.whileloop",
+        "peekOfCode": "num = 10\nwhile num <= 0:\n    print(num)\n    num -=1\nprint('My name is Mumbere Luviro Julson')",
+        "detail": "julson.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "loops.whileloops",
+        "description": "loops.whileloops",
+        "peekOfCode": "sum = 0\ncount = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)",
+        "detail": "loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "loops.whileloops",
+        "description": "loops.whileloops",
+        "peekOfCode": "count = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)\n    num +=2",
+        "detail": "loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "loops.whileloops",
+        "description": "loops.whileloops",
+        "peekOfCode": "y = 6\nwhile y <=5:\n    print(\"Hello, World\")\n    y +=1\n# looping through strings\nstring = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1",
+        "detail": "loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "loops.whileloops",
+        "description": "loops.whileloops",
+        "peekOfCode": "string = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1\n# counting down from a specified number\n# num = int(input(\"Enter a number to count: \"))\nwhile num > 0:\n    # print(num)\n    num -=10",
+        "detail": "loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "loops.whileloops",
+        "description": "loops.whileloops",
+        "peekOfCode": "numbers = [1,2,3,4,5]\ntotal=1\nfor x in numbers:\n    total+=x\nprint(f\"Total: {total} of the list {numbers}\")",
+        "detail": "loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "OOP.class_1",
+        "description": "OOP.class_1",
+        "peekOfCode": "class Human:\n    def __init__(self, name, age, gender):\n        self.age=age\n        self.name=name \n        self.gender=gender\n    def introduce(self):\n        print(f\"Hello, my name is {self.name}, i'm {self.age} years old and my gender is {self.gender} \")\nperson1 = Human('Alice', 30, 'Female')\nperson2 = Human('Ali', 20, 'Male')\nperson1.introduce()",
+        "detail": "OOP.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "person1",
+        "kind": 5,
+        "importPath": "OOP.class_1",
+        "description": "OOP.class_1",
+        "peekOfCode": "person1 = Human('Alice', 30, 'Female')\nperson2 = Human('Ali', 20, 'Male')\nperson1.introduce()\nperson2.introduce()",
+        "detail": "OOP.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "person2",
+        "kind": 5,
+        "importPath": "OOP.class_1",
+        "description": "OOP.class_1",
+        "peekOfCode": "person2 = Human('Ali', 20, 'Male')\nperson1.introduce()\nperson2.introduce()",
+        "detail": "OOP.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "new_list",
+        "kind": 5,
+        "importPath": "operations.list_operations",
+        "description": "operations.list_operations",
+        "peekOfCode": "new_list = list1 + list2 \nprint(new_list)\n#clear() removes everything from a list\nlist2.clear()\nprint(list2)\n#count\ncount_items=new_list.count(20)\nprint(count_items)\n#sort(only sort numbers)\nunsorted_items=[29,3,0,1,5,80]",
+        "detail": "operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "copied_list",
+        "kind": 5,
+        "importPath": "operations.list_operations",
+        "description": "operations.list_operations",
+        "peekOfCode": "copied_list = unsorted_items.copy()\nprint(copied_list)",
+        "detail": "operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "slice_tuple",
+        "kind": 5,
+        "importPath": "operations.tuple_operations",
+        "description": "operations.tuple_operations",
+        "peekOfCode": "slice_tuple = tuple5[1:2:3]\nprint(slice_tuple)",
+        "detail": "operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "Rajvir.function",
+        "description": "Rajvir.function",
+        "peekOfCode": "def sub(num1 , num2):\n    return(num1 - num2)\nnumber1=int(input(\"enter the first value: \"))\nnumber2= int(input(\"enter the second value: \"))\nprint(\"The answer will be:\", sub(number1,number2))",
+        "detail": "Rajvir.function",
+        "documentation": {}
+    }
+]
