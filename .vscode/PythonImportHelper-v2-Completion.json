@@ -1427,6 +1427,42 @@
         "documentation": {}
     },
     {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "class Person():\n    def __init__(self, fname, lname):\n        self.fname = fname\n        self.lname = lname\n    def display_info(self):\n        print(f\"First name: {self.fname}, Last name: {self.lname}\")\nclass Students(Person):\n    def __init__(self, fname, lname, student_id):\n        super().__init__(fname, lname)\n        self.student_id = student_id",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "kind": 6,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "class Students(Person):\n    def __init__(self, fname, lname, student_id):\n        super().__init__(fname, lname)\n        self.student_id = student_id\n    def display_info(self):\n        super().display_info()\n        print(f\"Student ID: {self.student_id}\")\nperson1 = Person(\"Aksam\", \"Cyrus\", \"7\")\nperson1.display_info()\nstudent1 = Students(\"Bob\", \"Marley\", \"4\")",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "person1",
+        "kind": 5,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "person1 = Person(\"Aksam\", \"Cyrus\", \"7\")\nperson1.display_info()\nstudent1 = Students(\"Bob\", \"Marley\", \"4\")\nstudent1.display_info()",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "student1 = Students(\"Bob\", \"Marley\", \"4\")\nstudent1.display_info()",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
         "label": "dict1",
         "kind": 5,
         "importPath": "Aksam.operations.dict_operations",
