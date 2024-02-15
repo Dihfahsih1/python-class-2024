@@ -1220,12 +1220,444 @@
         "documentation": {}
     },
     {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Aksam.dictionary.dics",
+        "description": "Aksam.dictionary.dics",
+        "peekOfCode": "students = {\n    \"Aksam\": 95,\n    \"John\": 78,\n    \"Micheal\": 97,\n}\nprint(students)\n# EXAMPLE 2\nfruits = {\n    \"Mango\": 12,\n    \"Lemon\": 90,",
+        "detail": "Aksam.dictionary.dics",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Aksam.dictionary.dics",
+        "description": "Aksam.dictionary.dics",
+        "peekOfCode": "fruits = {\n    \"Mango\": 12,\n    \"Lemon\": 90,\n    \"Orange\": 2,\n}\nprint(fruits)\ncapitals = {\"Uganda\":\"Kampala\", \"Kenya\":\"Nairobi\"} \nprint(capitals.get[\"Uganda\"])\nprint(capitals[\"Uganda\"])",
+        "detail": "Aksam.dictionary.dics",
+        "documentation": {}
+    },
+    {
+        "label": "capitals",
+        "kind": 5,
+        "importPath": "Aksam.dictionary.dics",
+        "description": "Aksam.dictionary.dics",
+        "peekOfCode": "capitals = {\"Uganda\":\"Kampala\", \"Kenya\":\"Nairobi\"} \nprint(capitals.get[\"Uganda\"])\nprint(capitals[\"Uganda\"])",
+        "detail": "Aksam.dictionary.dics",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Aksam.functions.function",
+        "description": "Aksam.functions.function",
+        "peekOfCode": "def add(num1, num2):\n    result = num1 + num2\n    return result\nadd(10,20)\ndef inputs(n1, n2):\n    n1 = input('Enter value 2 ')\n    n2 = input('Enter Value 1 ')\n    result1 = int(n1) + int(n2)\n    print('The summed value is:', result1)\ninputs(10,20)",
+        "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "inputs",
+        "kind": 2,
+        "importPath": "Aksam.functions.function",
+        "description": "Aksam.functions.function",
+        "peekOfCode": "def inputs(n1, n2):\n    n1 = input('Enter value 2 ')\n    n2 = input('Enter Value 1 ')\n    result1 = int(n1) + int(n2)\n    print('The summed value is:', result1)\ninputs(10,20)\ndef Name(): \n    name = input('Enter your Name?: ') \n    return name  \ndef Age(): ",
+        "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "kind": 2,
+        "importPath": "Aksam.functions.function",
+        "description": "Aksam.functions.function",
+        "peekOfCode": "def Name(): \n    name = input('Enter your Name?: ') \n    return name  \ndef Age(): \n    age = input('Enter your age?: ') \n    print(Name(), age)\nAge()\ndef function(one, two):\n    pass",
+        "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 2,
+        "importPath": "Aksam.functions.function",
+        "description": "Aksam.functions.function",
+        "peekOfCode": "def Age(): \n    age = input('Enter your age?: ') \n    print(Name(), age)\nAge()\ndef function(one, two):\n    pass",
+        "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "function",
+        "kind": 2,
+        "importPath": "Aksam.functions.function",
+        "description": "Aksam.functions.function",
+        "peekOfCode": "def function(one, two):\n    pass",
+        "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "def add(a,b):\n    answer = a + b\n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef subtract(a,b):\n    answer = a - b\n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef divide(a,b):\n    answer = a / b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef multipy(a,b):",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "def subtract(a,b):\n    answer = a - b\n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef divide(a,b):\n    answer = a / b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef multipy(a,b):\n    answer = a * b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nchoice = input(\"Enter your choice: \")",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "def divide(a,b):\n    answer = a / b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef multipy(a,b):\n    answer = a * b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nchoice = input(\"Enter your choice: \")\nprint(\"A, Addition\")\nprint(\"B, Subtraction\")\nprint(\"C, Multiplication\")",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "multipy",
+        "kind": 2,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "def multipy(a,b):\n    answer = a * b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nchoice = input(\"Enter your choice: \")\nprint(\"A, Addition\")\nprint(\"B, Subtraction\")\nprint(\"C, Multiplication\")\nprint(\"D, Divition\")\nif choice == \"a\" and choice == \"A\":\n    print(\"Addition\")",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "a = int(input(\"Enter first value: \"))\nb = int(input(\"Enter first value: \"))\nprint(\"-------------------------\")\ndef add(a,b):\n    answer = a + b\n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef subtract(a,b):\n    answer = a - b\n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef divide(a,b):",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "b = int(input(\"Enter first value: \"))\nprint(\"-------------------------\")\ndef add(a,b):\n    answer = a + b\n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef subtract(a,b):\n    answer = a - b\n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef divide(a,b):\n    answer = a / b",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "kind": 5,
+        "importPath": "Aksam.if_statements.if_statement",
+        "description": "Aksam.if_statements.if_statement",
+        "peekOfCode": "choice = input(\"Enter your choice: \")\nprint(\"A, Addition\")\nprint(\"B, Subtraction\")\nprint(\"C, Multiplication\")\nprint(\"D, Divition\")\nif choice == \"a\" and choice == \"A\":\n    print(\"Addition\")\n    add(a,b)\nelif choice == \"b\" or choice == \"B\":\n    print(\"Subtraction\")",
+        "detail": "Aksam.if_statements.if_statement",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Aksam.lists.forloop",
+        "description": "Aksam.lists.forloop",
+        "peekOfCode": "students = ['Aksam', 'Mary', 'Harry']\nfor student in students:\n    print(student, end='')",
+        "detail": "Aksam.lists.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Aksam.lists.list_operations",
+        "description": "Aksam.lists.list_operations",
+        "peekOfCode": "list1 = [\"a\", True, 3, 4.5, 3]\nlist2 = [100, False, \"John\", 0.0, True]\nprint(list1)\n# Add items to a list\nprint(\"original list 1: \", list2)\nprint(\"Before updating index 2:\", list2[2])\nnewvalues = \"Mary\"\n# updating list2[2]\nlist2[1] = \"Doe\"\nprint(\"After updating index 2:\", list2[1])",
+        "detail": "Aksam.lists.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "Aksam.lists.list_operations",
+        "description": "Aksam.lists.list_operations",
+        "peekOfCode": "list2 = [100, False, \"John\", 0.0, True]\nprint(list1)\n# Add items to a list\nprint(\"original list 1: \", list2)\nprint(\"Before updating index 2:\", list2[2])\nnewvalues = \"Mary\"\n# updating list2[2]\nlist2[1] = \"Doe\"\nprint(\"After updating index 2:\", list2[1])\nprint(list2)",
+        "detail": "Aksam.lists.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "newvalues",
+        "kind": 5,
+        "importPath": "Aksam.lists.list_operations",
+        "description": "Aksam.lists.list_operations",
+        "peekOfCode": "newvalues = \"Mary\"\n# updating list2[2]\nlist2[1] = \"Doe\"\nprint(\"After updating index 2:\", list2[1])\nprint(list2)\nlist3 = [1,2,3,4]\nprint(list3[0])",
+        "detail": "Aksam.lists.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "list2[1]",
+        "kind": 5,
+        "importPath": "Aksam.lists.list_operations",
+        "description": "Aksam.lists.list_operations",
+        "peekOfCode": "list2[1] = \"Doe\"\nprint(\"After updating index 2:\", list2[1])\nprint(list2)\nlist3 = [1,2,3,4]\nprint(list3[0])",
+        "detail": "Aksam.lists.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "list3",
+        "kind": 5,
+        "importPath": "Aksam.lists.list_operations",
+        "description": "Aksam.lists.list_operations",
+        "peekOfCode": "list3 = [1,2,3,4]\nprint(list3[0])",
+        "detail": "Aksam.lists.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Aksam.loops.enumerator",
+        "description": "Aksam.loops.enumerator",
+        "peekOfCode": "my_list = ['apples', 'bananas', 'cherry','Dates']\nfor index, value in enumerate(my_list):\n    print(f\"Index: {index}, value: {value}\")\n    print(f\"[{index}, {value}]\")",
+        "detail": "Aksam.loops.enumerator",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "Aksam.loops.forloop",
+        "description": "Aksam.loops.forloop",
+        "peekOfCode": "students = [\"Panchal\", \"Joel\", \"Rajvir\", \"Emma\", \"Afford\", \"Mumbere\", \"Aksam\"]\nfor student in students:\n    print(student)\nprint(\"Loop ended\")",
+        "detail": "Aksam.loops.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "dict1",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "dict1 = {\"a\":1, \"b\":2 }\ndict2 = {\"a\":3, \"b\":4 }\ndict2.update(dict1)\nprint(dict2)\n# comparing a dictionary\ndict1 = {\"a\":1, \"b\":2 }\ndict2 = {\"a\":3, \"b\":4 }\nprint( dict1 == dict2)\n#length of a dict\nprint(len(dict1))",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "dict2",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "dict2 = {\"a\":3, \"b\":4 }\ndict2.update(dict1)\nprint(dict2)\n# comparing a dictionary\ndict1 = {\"a\":1, \"b\":2 }\ndict2 = {\"a\":3, \"b\":4 }\nprint( dict1 == dict2)\n#length of a dict\nprint(len(dict1))\n# sorting items in dict",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "dict1",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "dict1 = {\"a\":1, \"b\":2 }\ndict2 = {\"a\":3, \"b\":4 }\nprint( dict1 == dict2)\n#length of a dict\nprint(len(dict1))\n# sorting items in dict\ndict3 = {\"a\":1, \"b\":2, \"c\":3, }\nsort_dict = dict(sorted(dict3.items()))\nprint(sort_dict)",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "dict2",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "dict2 = {\"a\":3, \"b\":4 }\nprint( dict1 == dict2)\n#length of a dict\nprint(len(dict1))\n# sorting items in dict\ndict3 = {\"a\":1, \"b\":2, \"c\":3, }\nsort_dict = dict(sorted(dict3.items()))\nprint(sort_dict)",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "dict3",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "dict3 = {\"a\":1, \"b\":2, \"c\":3, }\nsort_dict = dict(sorted(dict3.items()))\nprint(sort_dict)",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "sort_dict",
+        "kind": 5,
+        "importPath": "Aksam.operations.dict_operations",
+        "description": "Aksam.operations.dict_operations",
+        "peekOfCode": "sort_dict = dict(sorted(dict3.items()))\nprint(sort_dict)",
+        "detail": "Aksam.operations.dict_operations",
+        "documentation": {}
+    },
+    {
+        "label": "list1",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "list1 = [\"John\", False, 20, 0.7, 9]\nprint(len(list1))# checking the length of a list\nlist1.remove(9) # removing a value from a list\nprint(len(list1))\n# Concatenating lists\nlist2 = [\"John\", 20, 30]\nnew_list = list1 + list2\nprint(new_list)\n# clear() removes everything from a list\nlist2.clear()",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "list2 = [\"John\", 20, 30]\nnew_list = list1 + list2\nprint(new_list)\n# clear() removes everything from a list\nlist2.clear()\nprint(list2)\n# count\ncount_items = new_list.count(20)\nprint(count_items)\n# sort(only sort number)",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "new_list",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "new_list = list1 + list2\nprint(new_list)\n# clear() removes everything from a list\nlist2.clear()\nprint(list2)\n# count\ncount_items = new_list.count(20)\nprint(count_items)\n# sort(only sort number)\nunsort_items = [29,10,23,1,5,67]",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "count_items",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "count_items = new_list.count(20)\nprint(count_items)\n# sort(only sort number)\nunsort_items = [29,10,23,1,5,67]\nunsort_items.sort()\nprint(\"These are the sorted items: \",unsort_items)\n# reverse items\nunsort_items.reverse()\nprint(unsort_items)\n# copying",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "unsort_items",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "unsort_items = [29,10,23,1,5,67]\nunsort_items.sort()\nprint(\"These are the sorted items: \",unsort_items)\n# reverse items\nunsort_items.reverse()\nprint(unsort_items)\n# copying\ncopy_item = unsort_items.copy()\nprint(copy_item)",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "copy_item",
+        "kind": 5,
+        "importPath": "Aksam.operations.list_operations",
+        "description": "Aksam.operations.list_operations",
+        "peekOfCode": "copy_item = unsort_items.copy()\nprint(copy_item)",
+        "detail": "Aksam.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple1",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "tuple1 = (1, False, \"10\")\nprint(tuple1)\n# unpacking a tuple\na,b,c = tuple1\nprint(\"The assignrd to a :\", a)\n# tuple comparison\ntuple2 = (1,2,4)\ntuple3 = (1,2,3)\nprint(tuple2 == tuple3) # outputs a false\n# deleting a tuple",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "a,b,c",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "a,b,c = tuple1\nprint(\"The assignrd to a :\", a)\n# tuple comparison\ntuple2 = (1,2,4)\ntuple3 = (1,2,3)\nprint(tuple2 == tuple3) # outputs a false\n# deleting a tuple\ntuple4 = (1,2,3,4,5)\ndel tuple4\ntuple5 = (\"John\", False, 20, 0.7)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple2",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "tuple2 = (1,2,4)\ntuple3 = (1,2,3)\nprint(tuple2 == tuple3) # outputs a false\n# deleting a tuple\ntuple4 = (1,2,3,4,5)\ndel tuple4\ntuple5 = (\"John\", False, 20, 0.7)\nslice_tuple = tuple5[1:1:3]\nprint(slice_tuple)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple3",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "tuple3 = (1,2,3)\nprint(tuple2 == tuple3) # outputs a false\n# deleting a tuple\ntuple4 = (1,2,3,4,5)\ndel tuple4\ntuple5 = (\"John\", False, 20, 0.7)\nslice_tuple = tuple5[1:1:3]\nprint(slice_tuple)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple4",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "tuple4 = (1,2,3,4,5)\ndel tuple4\ntuple5 = (\"John\", False, 20, 0.7)\nslice_tuple = tuple5[1:1:3]\nprint(slice_tuple)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple5",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "tuple5 = (\"John\", False, 20, 0.7)\nslice_tuple = tuple5[1:1:3]\nprint(slice_tuple)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "slice_tuple",
+        "kind": 5,
+        "importPath": "Aksam.operations.tuple_operations",
+        "description": "Aksam.operations.tuple_operations",
+        "peekOfCode": "slice_tuple = tuple5[1:1:3]\nprint(slice_tuple)",
+        "detail": "Aksam.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "kind": 5,
+        "importPath": "Aksam.tuples.tuple",
+        "description": "Aksam.tuples.tuple",
+        "peekOfCode": "Tuple = ('John', True, 2.5)\ntupl = Tuple[1]\nprint(tupl)\nTuple2 = Tuple[0:2]\nprint(Tuple2)\nTuple[0] = 'Mary'\nprint(Tuple)",
+        "detail": "Aksam.tuples.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "tupl",
+        "kind": 5,
+        "importPath": "Aksam.tuples.tuple",
+        "description": "Aksam.tuples.tuple",
+        "peekOfCode": "tupl = Tuple[1]\nprint(tupl)\nTuple2 = Tuple[0:2]\nprint(Tuple2)\nTuple[0] = 'Mary'\nprint(Tuple)",
+        "detail": "Aksam.tuples.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple2",
+        "kind": 5,
+        "importPath": "Aksam.tuples.tuple",
+        "description": "Aksam.tuples.tuple",
+        "peekOfCode": "Tuple2 = Tuple[0:2]\nprint(Tuple2)\nTuple[0] = 'Mary'\nprint(Tuple)",
+        "detail": "Aksam.tuples.tuple",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple[0]",
+        "kind": 5,
+        "importPath": "Aksam.tuples.tuple",
+        "description": "Aksam.tuples.tuple",
+        "peekOfCode": "Tuple[0] = 'Mary'\nprint(Tuple)",
+        "detail": "Aksam.tuples.tuple",
+        "documentation": {}
+    },
+    {
         "label": "looping",
         "kind": 2,
         "importPath": "Aksam.forloop",
         "description": "Aksam.forloop",
         "peekOfCode": "def looping():\n    numbers = [1,2,3,4,5,6]\n    for number in numbers:\n        print(number)\nlooping()",
         "detail": "Aksam.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "month",
+        "kind": 5,
+        "importPath": "Aksam.hello_world",
+        "description": "Aksam.hello_world",
+        "peekOfCode": "month = \"January\"\nage=30\nis_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "Aksam.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "is_teacher",
+        "kind": 5,
+        "importPath": "Aksam.hello_world",
+        "description": "Aksam.hello_world",
+        "peekOfCode": "is_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "Aksam.hello_world",
         "documentation": {}
     },
     {
