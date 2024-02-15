@@ -1,0 +1,25 @@
+ASSIGNMENT 8
+
+1. How do we use list comprehension in python?
+-It is used in conditional statements like if. Else to filter existing lists, its also a concise way to create lists from ones that already exist.
+
+2. How do you remove an element from a list using a pop function?
+- The pop function utilizes the index of an element in a list to remove it using the pop function.
+
+3. How do you delete in a dictionary?
+-we can remove an item by using its by utilizing the pop function(pop()).
+-we can also use the clear() function to remove everything in a dictionary.
+-we can also use the use the popitem() function to remove an item and return its key and value.
+- we can also use the del to remove an item key.
+
+4. What are logical operators?
+- These are operators used to compare logical expressions that returns a result of true or false.
+
+5.How do we use the order of precedence?
+- the order of precedence that tells us which arithmetic operator is evaluated first when a program is ran.
+
+6. How do we use comparison operators?
+- there are used to compare different values in python then its shows if the particular statement is false or true.
+
+7. How do we use bitwise operators?
+- They are used to perform bitwise calculations on integers by converting them to binary format and then operations are performed bit by bit.
