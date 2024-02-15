@@ -1,0 +1,9 @@
+a=b=c=40
+print(a,b,c)
+x=y=z="hi"
+print(x,y,z)
+p=q=r=50.5
+print(p,q,r)
+d,e,f=30,67,21
+print(d,e,f)
+name,salary,age="Maurice",2000000,19
