@@ -6,7 +6,7 @@ class Human:
         
     def introduce(self):
         print(f"Hello, my name is {self.name}, i'm {self.age} years old and my gender is {self.gender} ")
-        
+#creating objects    
 person1 = Human('Alice', 30, 'Female')
 person2 = Human('Ali', 20, 'Male')
 
