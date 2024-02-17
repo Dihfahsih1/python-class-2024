@@ -13,4 +13,9 @@ person2 = Human('Ali', 20, 'Male')
 person1.introduce()
 person2.introduce()
 
+class Man(Human):
+    def __init__(self, college, weight):
+        super().__init__(self)
+        self.age=age
+
     
