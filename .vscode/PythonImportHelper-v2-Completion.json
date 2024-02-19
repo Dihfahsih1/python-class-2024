@@ -25,6 +25,22 @@
     },
     {
         "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
         "importPath": "class_1",
         "description": "class_1",
         "isExtraImport": true,
@@ -369,6 +385,51 @@
         "description": "Aksam.assignments.asignment_12.asignment",
         "peekOfCode": "circle = Circle(3)\nprint(\"Area of a rectangle\", rectangle.area())\nprint(\"Area of a circle\", circle.area())",
         "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Shape(ABC):\n    @abstractmethod\n    def shape_area(self):\n        pass\n    @abstractmethod\n    def shape_perimeter(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def shape_area(self):\n        return self.width * self.height\n    def shape_perimeter(self):\n        return 2 * (self.width + self.height)\nclass Circle(Shape):\n    def __init__(self, radius):",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def shape_area(self):\n        return 3.14 * self.radius\n    def shape_perimeter(self):\n        return 2 * 3.14 * self.radius\nmy_rectangle = Rectangle(10, 4)\nmy_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "my_rectangle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "my_rectangle = Rectangle(10, 4)\nmy_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")\nprint(f\"Perimeter of a rectangle is: {my_rectangle.shape_perimeter()}cm\")\nprint(\"Area of a circle\", my_circle.shape_area())\nprint(\"Perimeter of a circle\", my_circle.shape_perimeter())",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "my_circle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "my_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")\nprint(f\"Perimeter of a rectangle is: {my_rectangle.shape_perimeter()}cm\")\nprint(\"Area of a circle\", my_circle.shape_area())\nprint(\"Perimeter of a circle\", my_circle.shape_perimeter())",
+        "detail": "Aksam.assignments.asignment_13.assignment",
         "documentation": {}
     },
     {
