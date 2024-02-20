@@ -44,5 +44,5 @@ print(f"Perimeter of a rectangle is: {my_rectangle.shape_perimeter()}cm")
 
 
 
-print("Area of a circle", my_circle.shape_area())
-print("Perimeter of a circle", my_circle.shape_perimeter())
+print(f"Area of a circle is: {my_circle.shape_area()}cm")
+print(f"Perimeter of a circle is: {my_circle.shape_perimeter()}cm")
