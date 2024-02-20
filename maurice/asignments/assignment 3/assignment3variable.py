@@ -1,0 +1,12 @@
+name="Jack"
+age=40
+is_tall=True
+print(name)
+print(age)
+print(is_tall)
+name1="lora"
+name2="becky"
+salary=30000
+print(name1)
+print(name2)
+print(salary)
