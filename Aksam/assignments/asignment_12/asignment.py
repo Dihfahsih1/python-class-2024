@@ -1,23 +1,3 @@
-# Encapsulation: Refers to the bundling of data(attributes) and methds(functions) that operate on the data into a single unit,typically a class
-
-class BankAccount():
-    def __init__(self, account_number, balance):
-        self._account_number = account_number # encapsulated attribute
-        self._balance = balance # encapsulated attribute
-        
-    def deposit(self, amount):
-        self._balance += amount
-    
-    def withdraw(self, amount):
-        if self._balance >= amount:
-            self._balance -= amount
-        else:
-            print("Insufficient funds")
-
-balance = int(input("Enter bank balance: "))
-account_num = int(input("Enter bank account number: "))
-account1 = BankAccount(account_num, balance)
-
 
 # Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an oblect
 
