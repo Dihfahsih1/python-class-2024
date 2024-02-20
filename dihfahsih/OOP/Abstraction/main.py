@@ -14,3 +14,4 @@ class ConcreteSolution(Solution):
         return super().method1()
             
 obj1=ConcreteSolution()
+obj1.method1()
