@@ -50,6 +50,7 @@ print(shape1.type)
 print(shape2.type)
 
 #Encapsulation
+#Encapsulation helps impelement on private and public variables using either single underscore or double underscore
 
 #Example 1
 class Student:
@@ -58,29 +59,33 @@ class Student:
         self.__name=name            #this double underscore makes name a private variable
         self.__marks=marks
 
-    def Student_data(self):
-        print(f"The name of student is {self.__name} and the marks are {self.__marks}")
+class Student_profile(Student):
 
-student1= Student("Paul", 20)
-student1.Student_data()
+    def Student_data(self):
+        print(f"The student name is {self.__name} with {self.__marks} marks")
+
+student1= Student("John", 91)
+    
 
 #Example 2 
 class Employee:
 
     def __init__(self,name,age):
-        self._name=name
-        self._age=age
+        self.__name=name
+        self.__age=age
 
+    def employee_data(self):
+        print("This is the Employee's private data")
+
+
+class Employee_info(Employee):
     def employee_data(self):
         print("This is the Employee's private data")
 
 employee1= Employee("David", 30)
 employee2= Employee("Sarah", 40)
 
-print(employee1._name)
-print(employee1._age)
-
-print(employee2._name)
-print(employee2._age)
+# print(employee1.name)            #this wont print because name and age is private in the employee parent class
+# print(employee2.age)
 
 
