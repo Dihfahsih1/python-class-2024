@@ -9,7 +9,7 @@ def app():
     lower_case= upper_case.lower()
  # strip...
     word = ("    banana     ")
-    strip_sen = word.strip()
+    strip_sen = word.strip(" ")
  # count
     count_sen = strip_sen.count("")
 
