@@ -1,4 +1,4 @@
-#find() can also find the index
+#find() can also used to get the index
 
 string1= ("hello, my name is           Charmi")
 
