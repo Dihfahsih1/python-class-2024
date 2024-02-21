@@ -1,25 +1,20 @@
 from abc import ABC , abstractmethod
+class democlass(ABC):
+   @abstractmethod
+   def method1(self):
+      print ("abstract method")
+      return
+   def method2(self):
+      print ("concrete method")
 
-class Human:
-    def __init__(self,name,gender,age):
-        self.name=name
-        self.gender=gender
-        self.age=age
-    def speak(self):
-        print(f"{self.name} said we should go")
-    @abstractmethod
-    def Gender(self):
-        print(f"I am a {self.gender}")
-    
-    def Name(self):
-        print(f"My name is {self.name}")
-
-class Person1(Human):
-    def Genderx(self):
-        super().Gender()
-
-P1 = Person1("Chris","M",20)
-P1.Genderx()
+class concreteclass(democlass):
+   def method1(self):
+      super().method1()
+      return
+      
+obj = concreteclass()
+obj.method1()
+obj.method2()
 
 
         

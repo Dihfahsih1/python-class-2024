@@ -12,6 +12,9 @@ class student(person):
     def __init__(self,name,age):
         super().__init__(name,age)
 
+    def Speak(self):
+        pass
+
 Jam = student("Greg",19)
 
 Jam.stud_name()
