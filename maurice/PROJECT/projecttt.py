@@ -15,6 +15,11 @@ class Record():
     print(f'name:{self.name},age:{self.age},Former School:{self.former_school},Aquired:{self.acquired}')
 s1=Record("Maurice",18,"BCK","UCE")
 s2=Record('Hellen',20,'UMSSN','UCE')
+def name_edits():
+      old=input("Enter name to correct: ")
+      new=input("Enter correct name: ")
+      name_replacement=old.replace(old,new)
+      print(name_replacement)
 while True:
     print("\nHow can we help you:")
     print("1. Registration: ")
@@ -29,6 +34,8 @@ while True:
       print("Here is a list of our students")
       s1.Record_run()
       s2.Record_run()
+    elif choice==3:
+       name_edits()
     elif choice == 4:
       print("Exit program.")
       break  
