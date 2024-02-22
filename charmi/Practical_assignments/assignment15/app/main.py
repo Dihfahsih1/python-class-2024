@@ -1,5 +1,15 @@
+#another program
+def count_down():
+
+    number = int(input("Enter a number to count down from: "))
+
+    for a in range(number, 0, -1):
+        print(a)
+
+    print("Happy new year!")
+
 #this program gives a range of numbers with a power of the user's choice
-def main():
+def range_app():
 
 # inputing the necessary numbers
     y= int(input("Enter the power of your choice: "))
@@ -16,5 +26,8 @@ def main():
 #output of the list
     print(f"Your answer is: {power}")
 
-main() 
+if __name__ == "__main__":
+    range_app()                  #this will run the range_app function before the count_down function becoz its given the priority
+    count_down()
+
 
