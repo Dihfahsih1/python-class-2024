@@ -1,5 +1,5 @@
 
-# Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an oblect
+# Abstraction: refers to the process of hiding complex implementation details and showing only the essential features of an object
 
 from abc import ABC, abstractmethod
 
