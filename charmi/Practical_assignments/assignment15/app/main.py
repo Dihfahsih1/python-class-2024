@@ -27,7 +27,7 @@ def range_app():
     print(f"Your answer is: {power}")
 
 if __name__ == "__main__":
-    range_app()                  #this will run the range_app function before the count_down function becoz its given the priority
+    range_app()                  #this will run the range_app function before the count_down function because its given the priority
     count_down()
 
 
