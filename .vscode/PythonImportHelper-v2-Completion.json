@@ -1,5 +1,13 @@
 [
     {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -13,6 +21,30 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "class_1",
+        "description": "class_1",
+        "isExtraImport": true,
+        "detail": "class_1",
         "documentation": {}
     },
     {
@@ -56,6 +88,51 @@
         "description": "afod.class_1",
         "peekOfCode": "my_car = Car(make, model, year)\nprint(f\"The car Make: {my_car.make}\")\nprint(f\"The car Model: {my_car.model}\")\nprint(f\"The car Year: {my_car.year}\")\nmy_car.start_engine()\nprint(my_car.is_running)\nmy_car.stop_engine()\nprint(my_car.is_running)",
         "detail": "afod.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "kind": 6,
+        "importPath": "Aksam.abstract.class_1",
+        "description": "Aksam.abstract.class_1",
+        "peekOfCode": "class ABC:\n    def __init__(self, name, size):\n        self.name = name\n        self.size  = size\n    def size(self):\n        print(f\"Your size is {self.size}\")\nslick = ABC(\"Cyrus\", 40)",
+        "detail": "Aksam.abstract.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "slick",
+        "kind": 5,
+        "importPath": "Aksam.abstract.class_1",
+        "description": "Aksam.abstract.class_1",
+        "peekOfCode": "slick = ABC(\"Cyrus\", 40)",
+        "detail": "Aksam.abstract.class_1",
+        "documentation": {}
+    },
+    {
+        "label": "Human",
+        "kind": 6,
+        "importPath": "Aksam.abstract.test",
+        "description": "Aksam.abstract.test",
+        "peekOfCode": "class Human(ABC):\n    def __init__(self, name, size):\n        self.name = name\n        self.sized = size\n    @abstractmethod\n    def method1(self):\n        print(\"Hello world\")\n    def method2(self):\n        print(\"Hello world guys\")\nclass MorgCity(Human):",
+        "detail": "Aksam.abstract.test",
+        "documentation": {}
+    },
+    {
+        "label": "MorgCity",
+        "kind": 6,
+        "importPath": "Aksam.abstract.test",
+        "description": "Aksam.abstract.test",
+        "peekOfCode": "class MorgCity(Human):\n    def method1(self):\n        super().method1()\n        return\ncity = MorgCity(\"Aksam\", 40)\ncity.method1()\ncity.method2()",
+        "detail": "Aksam.abstract.test",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "kind": 5,
+        "importPath": "Aksam.abstract.test",
+        "description": "Aksam.abstract.test",
+        "peekOfCode": "city = MorgCity(\"Aksam\", 40)\ncity.method1()\ncity.method2()",
+        "detail": "Aksam.abstract.test",
         "documentation": {}
     },
     {
@@ -308,6 +385,51 @@
         "description": "Aksam.assignments.asignment_12.asignment",
         "peekOfCode": "circle = Circle(3)\nprint(\"Area of a rectangle\", rectangle.area())\nprint(\"Area of a circle\", circle.area())",
         "detail": "Aksam.assignments.asignment_12.asignment",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Shape(ABC):\n    @abstractmethod\n    def shape_area(self):\n        pass\n    @abstractmethod\n    def shape_perimeter(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def shape_area(self):\n        return self.width * self.height\n    def shape_perimeter(self):\n        return 2 * (self.width + self.height)\nclass Circle(Shape):\n    def __init__(self, radius):",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def shape_area(self):\n        return 3.14 * self.radius\n    def shape_perimeter(self):\n        return 2 * 3.14 * self.radius\nmy_rectangle = Rectangle(10, 4)\nmy_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "my_rectangle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "my_rectangle = Rectangle(10, 4)\nmy_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")\nprint(f\"Perimeter of a rectangle is: {my_rectangle.shape_perimeter()}cm\")\nprint(\"Area of a circle\", my_circle.shape_area())\nprint(\"Perimeter of a circle\", my_circle.shape_perimeter())",
+        "detail": "Aksam.assignments.asignment_13.assignment",
+        "documentation": {}
+    },
+    {
+        "label": "my_circle",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_13.assignment",
+        "description": "Aksam.assignments.asignment_13.assignment",
+        "peekOfCode": "my_circle = Circle(3)\nprint(f\"Area of a rectangle is: {my_rectangle.shape_area()}cm\")\nprint(f\"Perimeter of a rectangle is: {my_rectangle.shape_perimeter()}cm\")\nprint(\"Area of a circle\", my_circle.shape_area())\nprint(\"Perimeter of a circle\", my_circle.shape_perimeter())",
+        "detail": "Aksam.assignments.asignment_13.assignment",
         "documentation": {}
     },
     {
@@ -1424,6 +1546,42 @@
         "description": "Aksam.loops.forloop",
         "peekOfCode": "students = [\"Panchal\", \"Joel\", \"Rajvir\", \"Emma\", \"Afford\", \"Mumbere\", \"Aksam\"]\nfor student in students:\n    print(student)\nprint(\"Loop ended\")",
         "detail": "Aksam.loops.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "class Person():\n    def __init__(self, fname, lname):\n        self.fname = fname\n        self.lname = lname\n    def display_info(self):\n        print(f\"First name: {self.fname}, Last name: {self.lname}\")\nclass Students(Person):\n    def __init__(self, fname, lname, student_id):\n        super().__init__(fname, lname)\n        self.student_id = student_id",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "Students",
+        "kind": 6,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "class Students(Person):\n    def __init__(self, fname, lname, student_id):\n        super().__init__(fname, lname)\n        self.student_id = student_id\n    def display_info(self):\n        super().display_info()\n        print(f\"Student ID: {self.student_id}\")\nperson1 = Person(\"Aksam\", \"Cyrus\", \"7\")\nperson1.display_info()\nstudent1 = Students(\"Bob\", \"Marley\", \"4\")",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "person1",
+        "kind": 5,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "person1 = Person(\"Aksam\", \"Cyrus\", \"7\")\nperson1.display_info()\nstudent1 = Students(\"Bob\", \"Marley\", \"4\")\nstudent1.display_info()",
+        "detail": "Aksam.OOP.iheritance.class_obj",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "Aksam.OOP.iheritance.class_obj",
+        "description": "Aksam.OOP.iheritance.class_obj",
+        "peekOfCode": "student1 = Students(\"Bob\", \"Marley\", \"4\")\nstudent1.display_info()",
+        "detail": "Aksam.OOP.iheritance.class_obj",
         "documentation": {}
     },
     {
