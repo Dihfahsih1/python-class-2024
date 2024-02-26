@@ -1,6 +1,6 @@
 def file():
 
-    text= input("Enter the text of your choice to enter in the file: ")
+    text= input("Enter the text of your choice to enter in the file: " + "\n")
   
     with open("text.txt", "w") as file:
         file.write(text)
