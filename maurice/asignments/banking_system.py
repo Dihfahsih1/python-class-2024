@@ -1,3 +1,4 @@
+
 balance=0
 def deposit(amount):
     global balance
