@@ -2,7 +2,7 @@ import os
 
 def file_exists():
 
-    file_path = "data.txt"
+    file_path = "files/data.txt"
 
     if os.path.exists(file_path):
         new_data= input("Enter content to append: ")
