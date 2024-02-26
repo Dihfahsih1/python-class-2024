@@ -1,4 +1,5 @@
-# Greenbridge School of Open Technologies
+def generate_readme():
+    readme_content = """# Greenbridge School of Open Technologies
 
 Welcome to the Greenbridge School of Open Technologies! Here you will embark on an exciting journey into the world of Python programming. This README provides an overview of our Certificate in Python Programming course, its structure, and what you can expect to learn throughout the five-week duration.
 
@@ -62,8 +63,14 @@ Throughout the course, you'll engage in practical lab exercises to reinforce you
 
 We're thrilled to have you join us on this educational adventure. By the end of the course, you'll have a solid understanding of Python programming fundamentals, empowering you to embark on your own projects and ventures in the vast world of technology.
 
-For any inquiries or support, please contact our team at [dihfahsihm@gmail.com](mailto:dihfahsihm@gmail.com).
+For any inquiries or support, please contact our team at [email@example.com](mailto:email@example.com).
 
 Happy coding!
 
 *Greenbridge School of Open Technologies Team*
+"""
+    with open("README.md", "w") as readme_file:
+        readme_file.write(readme_content)
+
+if __name__ == "__main__":
+    generate_readme()
