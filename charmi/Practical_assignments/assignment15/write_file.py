@@ -6,7 +6,7 @@ text1= "Hello World \nMy name is Charmi\nI love python\n"
 
 with open("text1.txt", "w") as file:
     file.write(text1)
-
+            #when using with you don't need to close the file
 #example 2
 #appending to a file
 
