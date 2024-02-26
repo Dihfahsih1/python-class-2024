@@ -44,6 +44,6 @@ elif choice == 'd' or choice=="D":
     div(a,b)
     
 else:
-    print("Com'on you entered a wrong choice: ", choice)
+    print(f"Com'on you entered a wrong choice: {choice}")
     
  
