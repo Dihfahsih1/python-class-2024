@@ -1,7 +1,10 @@
 for i in range(5):
     # print(i)
     pass
-    
+
+for i in range(6):
+    print("Hello world") 
+      
 #start and end point
 
 for i in range(2,8):
