@@ -1,5 +1,6 @@
 import csv
 
-with open('files/csv_file.csv', 'r') as file:
+with open('files/csv_file1.csv', 'r') as file:
     data= csv.reader(file)
-    print(data)
+    for row in data:
+        print(data)

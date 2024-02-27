@@ -19,7 +19,7 @@ def file():
         print(content)
 
     elif choice == "b" or choice == "B":
-        text_append = input("\nEnter the text you want to append to the file: ")
+        text_append = input("\nEnter the text you want to append to the file: " + "\n")
         with open("text.txt", "a") as file:
             file.write(text_append)
 
