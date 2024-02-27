@@ -14,7 +14,7 @@ df = pd.read_csv("csv_file2.csv")
 
 #print(df['Year'])            #for accessing a specific coloumn
 
-# print(df.tail())          #for accessing the end of the 
+# print(df.tail())          #for accessing the end of the file
 
 # print(df.loc[0])
 
