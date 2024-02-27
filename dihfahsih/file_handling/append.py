@@ -1,4 +1,5 @@
 file=open("data.txt",'w')
-content=file.write("python is cool\n")
+input=input("Enter content to append")
+content=file.write(input)
 print(content)
 file.close()
