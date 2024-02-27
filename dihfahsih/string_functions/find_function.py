@@ -1,5 +1,4 @@
 #find()
-from advanced_functions import main
 sentence=input("Enter your string: ")
 word_to_find="are"
 replacement_word="is"
