@@ -7,10 +7,10 @@ try:
     print(file.read())
 
 except FileNotFoundError:
-    print("")
+    print("This file doesnot exist.")
 
 except PermissionError:
-    print("")
+    print("You ")
 
 except IOError:
     print("")
