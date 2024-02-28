@@ -1,5 +1,4 @@
 def wr_file():
-    data =input("enter the name of the txt file: ")
 
     file=open("data.txt","w") 
     file.write(input("Enter any text here: "))
