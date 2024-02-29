@@ -1,9 +1,0 @@
-   ASSIGNMENT 
-
-1. What is the difference between a parameter and an argument in a function?
--Parameters are the names listed in the function while arguments are the actual values passed in the function.
-
-2. What is the use of return function in a function?
-- It’s used to end the execution of a function and returns the control to the calling function.
-
-

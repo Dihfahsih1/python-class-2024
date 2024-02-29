@@ -1,3 +1,4 @@
+
 string1 = "Hello"
 joined_string1="*".join(string1)
 print(joined_string1)
