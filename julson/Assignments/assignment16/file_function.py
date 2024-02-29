@@ -13,7 +13,7 @@ def read_from_file(file_name):
 
 def append_to_file(file_name, content):
     with open(file_name, 'a') as file:
-        file.write(content)
+        file.write(content + '\n')
 
     print("***************************")
     print("Content appended to file successfully.")
