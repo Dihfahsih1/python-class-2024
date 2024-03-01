@@ -233,6 +233,54 @@
         "documentation": {}
     },
     {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -305,12 +353,73 @@
         "documentation": {}
     },
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "time",
         "description": "time",
         "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "sleeping_func",
+        "description": "sleeping_func",
+        "isExtraImport": true,
+        "detail": "sleeping_func",
         "documentation": {}
     },
     {
@@ -341,19 +450,12 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
+        "label": "first_module",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "importPath": "advanced_functions",
-        "description": "advanced_functions",
-        "isExtraImport": true,
-        "detail": "advanced_functions",
+        "importPath": "first_module",
+        "description": "first_module",
+        "detail": "first_module",
         "documentation": {}
     },
     {
@@ -363,15 +465,6 @@
         "importPath": "tkinter",
         "description": "tkinter",
         "detail": "tkinter",
-        "documentation": {}
-    },
-    {
-        "label": "students",
-        "kind": 5,
-        "importPath": "2DArrays.afod.class",
-        "description": "2DArrays.afod.class",
-        "peekOfCode": "students = [\"afod\",\"emma\",\"axam\",\"joel\",\"punchal\",\"mumbere\",\"maurice\"]\nfor student in students:\n    print(student)",
-        "detail": "2DArrays.afod.class",
         "documentation": {}
     },
     {
@@ -759,6 +852,24 @@
         "description": "afod.assignment14.assignment14",
         "peekOfCode": "def main():\n    input_string = input(\"enter your string: \")\n    reversed_string = input_string[::-1]\n    upper_cased_string = reversed_string.upper()\n    input_strip_string = input(\"enter your name begin with equal signs and end with equals\")\n    sriped_string= input_strip_string.strip(\"=\")\n    lowered_string = sriped_string.lower()\n    print(input_string)\n    print(reversed_string)\n    print(upper_cased_string)",
         "detail": "afod.assignment14.assignment14",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "afod.assignment15.assignment15",
+        "description": "afod.assignment15.assignment15",
+        "peekOfCode": "def main():\n    step = int(input(\"Enter the step: \"))\n    start = int(input(\"Enter the start value: \"))\n    end = int(input(\"Enter the end value: \"))\n    generated_range = list(range(start, end, step))\n    print(\"Generated range:\", generated_range)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "afod.assignment15.assignment15",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "afod.assignment15.assignment15",
+        "description": "afod.assignment15.assignment15",
+        "peekOfCode": "text = \"yooooooooooooooo\\ngotchu\"\nwith open('test.txt', 'w') as file:\n    file.write(text)\ndef main():\n    step = int(input(\"Enter the step: \"))\n    start = int(input(\"Enter the start value: \"))\n    end = int(input(\"Enter the end value: \"))\n    generated_range = list(range(start, end, step))\n    print(\"Generated range:\", generated_range)\nif __name__ == \"__main__\":",
+        "detail": "afod.assignment15.assignment15",
         "documentation": {}
     },
     {
@@ -1401,6 +1512,15 @@
         "documentation": {}
     },
     {
+        "label": "afod",
+        "kind": 2,
+        "importPath": "afod.main",
+        "description": "afod.main",
+        "peekOfCode": "def afod():\n    print(\"gotchu\")\nif __name__ == \"__main__\":\n    afod()",
+        "detail": "afod.main",
+        "documentation": {}
+    },
+    {
         "label": "Person",
         "kind": 6,
         "importPath": "afod.oop",
@@ -1461,6 +1581,33 @@
         "description": "Aksam.abstract.test",
         "peekOfCode": "city = MorgCity(\"Aksam\", 40)\ncity.method1()\ncity.method2()",
         "detail": "Aksam.abstract.test",
+        "documentation": {}
+    },
+    {
+        "label": "first",
+        "kind": 2,
+        "importPath": "Aksam.advanced_func.main",
+        "description": "Aksam.advanced_func.main",
+        "peekOfCode": "def first():\n    print(\"first code\")\ndef main():\n    print(\"this script is being executed directly\")\nif __name__==\"__main__\":\n    main()\n    first()",
+        "detail": "Aksam.advanced_func.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Aksam.advanced_func.main",
+        "description": "Aksam.advanced_func.main",
+        "peekOfCode": "def main():\n    print(\"this script is being executed directly\")\nif __name__==\"__main__\":\n    main()\n    first()",
+        "detail": "Aksam.advanced_func.main",
+        "documentation": {}
+    },
+    {
+        "label": "step",
+        "kind": 5,
+        "importPath": "Aksam.advanced_func.range",
+        "description": "Aksam.advanced_func.range",
+        "peekOfCode": "step = int(input(\"Enter the step u want it to follow: \"))\nfor i in range(start,end,step):\n    print(i)\n    for i in range(5):\n    # print(i)\n    pass\n#start and end point\nfor i in range(2,8):\n    # print(i)\n    pass",
+        "detail": "Aksam.advanced_func.range",
         "documentation": {}
     },
     {
@@ -1837,7 +1984,7 @@
         "kind": 2,
         "importPath": "Aksam.assignments.asignment_15.app",
         "description": "Aksam.assignments.asignment_15.app",
-        "peekOfCode": "def custom_range(start, end, step=1):\n    result = []\n    while start < end:\n        result.append(start)\n        start += step\n    return result\ndef main():\n    start = int(input(\"Enter the start value: \"))\n    end = int(input(\"Enter the end value: \"))\n    step = int(input(\"Enter the step value: \"))",
+        "peekOfCode": "def custom_range(start, end, step=1):\n    result = []\n    while start < end:\n        result.append(start)\n        start += step\n    return result\ndef main():\n    start = int(input(\"Enter the start value: \")).re\n    end = int(input(\"Enter the end value: \"))\n    step = int(input(\"Enter the step value: \"))",
         "detail": "Aksam.assignments.asignment_15.app",
         "documentation": {}
     },
@@ -1846,8 +1993,134 @@
         "kind": 2,
         "importPath": "Aksam.assignments.asignment_15.app",
         "description": "Aksam.assignments.asignment_15.app",
-        "peekOfCode": "def main():\n    start = int(input(\"Enter the start value: \"))\n    end = int(input(\"Enter the end value: \"))\n    step = int(input(\"Enter the step value: \"))\n    if step:\n        values = custom_range(start, end, step)\n    else:\n        values = custom_range(start, end)\n    print(\"Resulting range:\", values)\nif __name__ ==  \"__main__\":",
+        "peekOfCode": "def main():\n    start = int(input(\"Enter the start value: \")).re\n    end = int(input(\"Enter the end value: \"))\n    step = int(input(\"Enter the step value: \"))\n    if step:\n        values = custom_range(start, end, step)\n    else:\n        values = custom_range(start, end)\n    print(\"Resulting range:\", values)\nif __name__ ==  \"__main__\":",
         "detail": "Aksam.assignments.asignment_15.app",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_16.app",
+        "description": "Aksam.assignments.asignment_16.app",
+        "peekOfCode": "class Shape:\n    def __init__(self, name):\n        self.name = name\n    def area(self):\n        pass\n    def perimeter(self):\n        pass\n# Circle has inherited methods from class Shape\n# Sub classes below inherite from shape and provide thier implementations for these methods\nclass Circle(Shape):",
+        "detail": "Aksam.assignments.asignment_16.app",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_16.app",
+        "description": "Aksam.assignments.asignment_16.app",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, name, radius):\n        super().__init__(name)\n        self.radius = radius\n    def area(self):\n        # to show that the area is multiplied by two\n        return math.pi * self.radius ** 2\n    def perimeter(self):\n        # to show that the perimeter of a cicle\n        return 2 * math.pi * self.radius",
+        "detail": "Aksam.assignments.asignment_16.app",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_16.app",
+        "description": "Aksam.assignments.asignment_16.app",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, name, width, height):\n        super().__init__(name)\n        self.width = width\n        self.height = height\n    def area(self):\n        return self.width * self.height\n    def perimeter(self):\n        return 2 * (self.width + self.height)\n# polymorphism is demonstrated by calling the `area()` and `perimeter()`",
+        "detail": "Aksam.assignments.asignment_16.app",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle",
+        "kind": 6,
+        "importPath": "Aksam.assignments.asignment_16.app",
+        "description": "Aksam.assignments.asignment_16.app",
+        "peekOfCode": "class Triangle(Shape):\n    def __init__(self, name, side1, side2, side3):\n        super().__init__(name)\n        self.side1 = side1\n        self.side2 = side2\n        self.side3 = side3\n    def area(self):\n        s = (self.side1 + self.side2 + self.side3) / 2\n        return math.sqrt(s * (s - self.side1) * (s - self.side2) * (s - self.side3))\n    def perimeter(self):",
+        "detail": "Aksam.assignments.asignment_16.app",
+        "documentation": {}
+    },
+    {
+        "label": "write_to_file",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_17.app",
+        "description": "Aksam.assignments.asignment_17.app",
+        "peekOfCode": "def write_to_file(file_name, content):\n    with open(file_name, \"w\") as file:\n        file.write(content)\n    print(\"Content written to \", file_name)\ndef read_from_file(file_name):\n    with open(file_name, \"r\") as file:\n        content = file.read()\n    print(\"Content read from \", file_name)\n    print(content)\ndef append_to_file(file_name, content):",
+        "detail": "Aksam.assignments.asignment_17.app",
+        "documentation": {}
+    },
+    {
+        "label": "read_from_file",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_17.app",
+        "description": "Aksam.assignments.asignment_17.app",
+        "peekOfCode": "def read_from_file(file_name):\n    with open(file_name, \"r\") as file:\n        content = file.read()\n    print(\"Content read from \", file_name)\n    print(content)\ndef append_to_file(file_name, content):\n    with open(file_name, \"a\") as file:\n        file.write(content)\n    print(\"Content appended to \", file_name)\ndef main():",
+        "detail": "Aksam.assignments.asignment_17.app",
+        "documentation": {}
+    },
+    {
+        "label": "append_to_file",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_17.app",
+        "description": "Aksam.assignments.asignment_17.app",
+        "peekOfCode": "def append_to_file(file_name, content):\n    with open(file_name, \"a\") as file:\n        file.write(content)\n    print(\"Content appended to \", file_name)\ndef main():\n    file_name = input(\"Enter a file name with extension (.): \")\n    print(\"\\n\")\n    print(\"------SELECT ONE OPTION PLEASE--------\")\n    print(\"\\n\")\n    print(\"A. Write to file.\")",
+        "detail": "Aksam.assignments.asignment_17.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_17.app",
+        "description": "Aksam.assignments.asignment_17.app",
+        "peekOfCode": "def main():\n    file_name = input(\"Enter a file name with extension (.): \")\n    print(\"\\n\")\n    print(\"------SELECT ONE OPTION PLEASE--------\")\n    print(\"\\n\")\n    print(\"A. Write to file.\")\n    print(\"B. Read from file.\")\n    print(\"C. Append to a file.\")\n    print(\"\\n\")\n    choice = input(\"Please enter your choice: \")",
+        "detail": "Aksam.assignments.asignment_17.app",
+        "documentation": {}
+    },
+    {
+        "label": "copy_file",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_19.copy_file",
+        "description": "Aksam.assignments.asignment_19.copy_file",
+        "peekOfCode": "def copy_file(source_file, new_file):\n    try:\n        with open(source_file, \"rb\") as src_file:\n            with open(new_file, \"wb\") as dest_file:\n                dest_file.write(src_file.read())\n        print(f\"File {source_file} copied to {new_file} successfuly\")\n    except IOError as e:\n        print(f\"Error: {e}\")\nsource_file = input(\"Enter the file to copy from: \")\nnew_file = input(\"Enter the file to copy to: \")     ",
+        "detail": "Aksam.assignments.asignment_19.copy_file",
+        "documentation": {}
+    },
+    {
+        "label": "source_file",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_19.copy_file",
+        "description": "Aksam.assignments.asignment_19.copy_file",
+        "peekOfCode": "source_file = input(\"Enter the file to copy from: \")\nnew_file = input(\"Enter the file to copy to: \")     \ncopy_file(source_file, new_file)",
+        "detail": "Aksam.assignments.asignment_19.copy_file",
+        "documentation": {}
+    },
+    {
+        "label": "new_file",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_19.copy_file",
+        "description": "Aksam.assignments.asignment_19.copy_file",
+        "peekOfCode": "new_file = input(\"Enter the file to copy to: \")     \ncopy_file(source_file, new_file)",
+        "detail": "Aksam.assignments.asignment_19.copy_file",
+        "documentation": {}
+    },
+    {
+        "label": "rename_function",
+        "kind": 2,
+        "importPath": "Aksam.assignments.asignment_19.rename",
+        "description": "Aksam.assignments.asignment_19.rename",
+        "peekOfCode": "def rename_function(old_name, new_name):\n    try:\n        os.rename(old_name, new_name)\n        print(f\"Directory `{old_name}` has been renamed to `{new_name}` successfuly. \")\n    except OSError as e:\n        print(f\"Error: {e}\")\nold_directory = input(\"Enter the directory you want to rename: \")\nnew_directory = input(\"Enter the new name for the directory: \")       \nrename_function(old_directory, new_directory)",
+        "detail": "Aksam.assignments.asignment_19.rename",
+        "documentation": {}
+    },
+    {
+        "label": "old_directory",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_19.rename",
+        "description": "Aksam.assignments.asignment_19.rename",
+        "peekOfCode": "old_directory = input(\"Enter the directory you want to rename: \")\nnew_directory = input(\"Enter the new name for the directory: \")       \nrename_function(old_directory, new_directory)",
+        "detail": "Aksam.assignments.asignment_19.rename",
+        "documentation": {}
+    },
+    {
+        "label": "new_directory",
+        "kind": 5,
+        "importPath": "Aksam.assignments.asignment_19.rename",
+        "description": "Aksam.assignments.asignment_19.rename",
+        "peekOfCode": "new_directory = input(\"Enter the new name for the directory: \")       \nrename_function(old_directory, new_directory)",
+        "detail": "Aksam.assignments.asignment_19.rename",
         "documentation": {}
     },
     {
@@ -2760,6 +3033,42 @@
         "documentation": {}
     },
     {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Aksam.Calculator.main",
+        "description": "Aksam.Calculator.main",
+        "peekOfCode": "def add(a,b):\n    answer=a+b\n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))     #only strings can be concatenated\ndef sub(a,b):\n    answer=a+b\n    print(str(a) + \"-\" + str(b)  + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a+b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\ndef div(a,b):",
+        "detail": "Aksam.Calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "Aksam.Calculator.main",
+        "description": "Aksam.Calculator.main",
+        "peekOfCode": "def sub(a,b):\n    answer=a+b\n    print(str(a) + \"-\" + str(b)  + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a+b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a+b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\nprint(\"Select an option: \")",
+        "detail": "Aksam.Calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "kind": 2,
+        "importPath": "Aksam.Calculator.main",
+        "description": "Aksam.Calculator.main",
+        "peekOfCode": "def mul(a,b):\n    answer=a+b\n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a+b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\nprint(\"Select an option: \")\nprint('A: Addtion')\nprint('B: Subtraction')\nprint('C: Multipication')",
+        "detail": "Aksam.Calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 2,
+        "importPath": "Aksam.Calculator.main",
+        "description": "Aksam.Calculator.main",
+        "peekOfCode": "def div(a,b):\n    answer=a+b\n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\nprint(\"Select an option: \")\nprint('A: Addtion')\nprint('B: Subtraction')\nprint('C: Multipication')\nprint('D: Division')\nchoice=input(\"Enter your option:\")\nprint(\"*\"*20)",
+        "detail": "Aksam.Calculator.main",
+        "documentation": {}
+    },
+    {
         "label": "students",
         "kind": 5,
         "importPath": "Aksam.dictionary.dics",
@@ -2784,6 +3093,87 @@
         "description": "Aksam.dictionary.dics",
         "peekOfCode": "capitals = {\"Uganda\":\"Kampala\", \"Kenya\":\"Nairobi\"} \nprint(capitals.get[\"Uganda\"])\nprint(capitals[\"Uganda\"])",
         "detail": "Aksam.dictionary.dics",
+        "documentation": {}
+    },
+    {
+        "label": "append_read_file",
+        "kind": 2,
+        "importPath": "Aksam.file_handling.append",
+        "description": "Aksam.file_handling.append",
+        "peekOfCode": "def append_read_file():\n    file_path = \"data.txt\"\n    if os.path.exists(file_path):\n        content_to_append = input(\"Enter content to append\")\n        with open(file_path, \"a+\") as file:\n            file.write(content_to_append + \"\\n\")\n            file.seek(0)\n            file_content = file.read()\n        return file_content\nfile_contents = append_read_file()",
+        "detail": "Aksam.file_handling.append",
+        "documentation": {}
+    },
+    {
+        "label": "file_contents",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.append",
+        "description": "Aksam.file_handling.append",
+        "peekOfCode": "file_contents = append_read_file()\nprint(f\"The contents after appending: {file_contents}\")",
+        "detail": "Aksam.file_handling.append",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.exists",
+        "description": "Aksam.file_handling.exists",
+        "peekOfCode": "file_path = \"data.txt\"\nif os.path.exists(file_path):\n    # print(\"File exists\")\n    new_content = input(\"Please enter new content to append: \")\n    with open(file_path, \"r\") as file:\n        content_2 = file.read()\n        print(content_2)\nelse:\n    print(\"file doesnot exist\")",
+        "detail": "Aksam.file_handling.exists",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.read",
+        "description": "Aksam.file_handling.read",
+        "peekOfCode": "file = open(\"data.txt\", \"r\")\nprint(file)",
+        "detail": "Aksam.file_handling.read",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.reading",
+        "description": "Aksam.file_handling.reading",
+        "peekOfCode": "file = open(\"data.txt\", \"a\")\ncontent = file.write(\"Welcome to Python\\n\")\nprint(content)\nfile.close()",
+        "detail": "Aksam.file_handling.reading",
+        "documentation": {}
+    },
+    {
+        "label": "content",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.reading",
+        "description": "Aksam.file_handling.reading",
+        "peekOfCode": "content = file.write(\"Welcome to Python\\n\")\nprint(content)\nfile.close()",
+        "detail": "Aksam.file_handling.reading",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "Aksam.file_handling.write",
+        "description": "Aksam.file_handling.write",
+        "peekOfCode": "file = open(\"data.txt\", \"w\")\nprint(file)",
+        "detail": "Aksam.file_handling.write",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Aksam.functions.enumerator_list",
+        "description": "Aksam.functions.enumerator_list",
+        "peekOfCode": "names = ['Aksam', 'Cyrus', 'John', 'Doe', 'Kratos']\nnames_dict = {index:name for index, name in enumerate(names)}\nfor index,key in enumerate(names_dict):\n    print(index,key, names_dict[key])",
+        "detail": "Aksam.functions.enumerator_list",
+        "documentation": {}
+    },
+    {
+        "label": "names_dict",
+        "kind": 5,
+        "importPath": "Aksam.functions.enumerator_list",
+        "description": "Aksam.functions.enumerator_list",
+        "peekOfCode": "names_dict = {index:name for index, name in enumerate(names)}\nfor index,key in enumerate(names_dict):\n    print(index,key, names_dict[key])",
+        "detail": "Aksam.functions.enumerator_list",
         "documentation": {}
     },
     {
@@ -2829,6 +3219,60 @@
         "description": "Aksam.functions.function",
         "peekOfCode": "def function(one, two):\n    pass",
         "detail": "Aksam.functions.function",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Aksam.functions.measure_time",
+        "description": "Aksam.functions.measure_time",
+        "peekOfCode": "def main():\n    task = Task()\n    return task\nstart_time = time.time()\nend_time = time.time()\nmain()    \nelapsed_time = end_time - start_time\nprint(f\"Elapsed time: {elapsed_time}s\")",
+        "detail": "Aksam.functions.measure_time",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "Aksam.functions.measure_time",
+        "description": "Aksam.functions.measure_time",
+        "peekOfCode": "start_time = time.time()\nend_time = time.time()\nmain()    \nelapsed_time = end_time - start_time\nprint(f\"Elapsed time: {elapsed_time}s\")",
+        "detail": "Aksam.functions.measure_time",
+        "documentation": {}
+    },
+    {
+        "label": "end_time",
+        "kind": 5,
+        "importPath": "Aksam.functions.measure_time",
+        "description": "Aksam.functions.measure_time",
+        "peekOfCode": "end_time = time.time()\nmain()    \nelapsed_time = end_time - start_time\nprint(f\"Elapsed time: {elapsed_time}s\")",
+        "detail": "Aksam.functions.measure_time",
+        "documentation": {}
+    },
+    {
+        "label": "elapsed_time",
+        "kind": 5,
+        "importPath": "Aksam.functions.measure_time",
+        "description": "Aksam.functions.measure_time",
+        "peekOfCode": "elapsed_time = end_time - start_time\nprint(f\"Elapsed time: {elapsed_time}s\")",
+        "detail": "Aksam.functions.measure_time",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 2,
+        "importPath": "Aksam.functions.sleeping_func",
+        "description": "Aksam.functions.sleeping_func",
+        "peekOfCode": "def Task():\n        print(\"Task complete\")\nif __name__ == \"__main__\":\n    time.sleep(3)\n    Task()",
+        "detail": "Aksam.functions.sleeping_func",
+        "documentation": {}
+    },
+    {
+        "label": "seconds",
+        "kind": 5,
+        "importPath": "Aksam.functions.sleeping_func",
+        "description": "Aksam.functions.sleeping_func",
+        "peekOfCode": "seconds = int(input(\"Please the starting time or seconds: \"))\nfor sec in range(seconds, 0 ,-1):\n    print(sec)\n    time.sleep(3)\nprint(\"Time up\")\n# def task():\n#     seconds = int(input(\"Please the starting time or seconds: \"))\n#     for i in range(seconds):\n#         print(\"Task\", i+1 )\n#         time.sleep(3)",
+        "detail": "Aksam.functions.sleeping_func",
         "documentation": {}
     },
     {
@@ -3000,6 +3444,42 @@
         "description": "Aksam.immutability.main",
         "peekOfCode": "immut_str = ImmutableString(\"Hello\")",
         "detail": "Aksam.immutability.main",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 5,
+        "importPath": "Aksam.lambda.main",
+        "description": "Aksam.lambda.main",
+        "peekOfCode": "add = lambda x,y: x+y\nprint(add(3,2))\nsquare = lambda x: x**2\nprint(square(3))\nis_even = lambda x: x%2==0\nprint(is_even(7))\nrvs = lambda s:s[::-1] \nprint(rvs(20))",
+        "detail": "Aksam.lambda.main",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 5,
+        "importPath": "Aksam.lambda.main",
+        "description": "Aksam.lambda.main",
+        "peekOfCode": "square = lambda x: x**2\nprint(square(3))\nis_even = lambda x: x%2==0\nprint(is_even(7))\nrvs = lambda s:s[::-1] \nprint(rvs(20))",
+        "detail": "Aksam.lambda.main",
+        "documentation": {}
+    },
+    {
+        "label": "is_even",
+        "kind": 5,
+        "importPath": "Aksam.lambda.main",
+        "description": "Aksam.lambda.main",
+        "peekOfCode": "is_even = lambda x: x%2==0\nprint(is_even(7))\nrvs = lambda s:s[::-1] \nprint(rvs(20))",
+        "detail": "Aksam.lambda.main",
+        "documentation": {}
+    },
+    {
+        "label": "rvs",
+        "kind": 5,
+        "importPath": "Aksam.lambda.main",
+        "description": "Aksam.lambda.main",
+        "peekOfCode": "rvs = lambda s:s[::-1] \nprint(rvs(20))",
+        "detail": "Aksam.lambda.main",
         "documentation": {}
     },
     {
@@ -3525,39 +4005,21 @@
         "documentation": {}
     },
     {
-        "label": "add",
-        "kind": 2,
-        "importPath": "calculator.main",
-        "description": "calculator.main",
-        "peekOfCode": "def add(a,b):\n    answer=a+b \n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):",
-        "detail": "calculator.main",
+        "label": "string_1",
+        "kind": 5,
+        "importPath": "Aksam.split",
+        "description": "Aksam.split",
+        "peekOfCode": "string_1 = \"Hello World\"\nslipt_string = string_1.split(\",\")\nprint(slipt_string)",
+        "detail": "Aksam.split",
         "documentation": {}
     },
     {
-        "label": "sub",
-        "kind": 2,
-        "importPath": "calculator.main",
-        "description": "calculator.main",
-        "peekOfCode": "def sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")",
-        "detail": "calculator.main",
-        "documentation": {}
-    },
-    {
-        "label": "div",
-        "kind": 2,
-        "importPath": "calculator.main",
-        "description": "calculator.main",
-        "peekOfCode": "def div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") ",
-        "detail": "calculator.main",
-        "documentation": {}
-    },
-    {
-        "label": "mul",
-        "kind": 2,
-        "importPath": "calculator.main",
-        "description": "calculator.main",
-        "peekOfCode": "def mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") \nprint(\"D, Division)\") \nchoice=input(\"input your choice: \")\nif choice == 'a' or choice==\"A\":",
-        "detail": "calculator.main",
+        "label": "slipt_string",
+        "kind": 5,
+        "importPath": "Aksam.split",
+        "description": "Aksam.split",
+        "peekOfCode": "slipt_string = string_1.split(\",\")\nprint(slipt_string)",
+        "detail": "Aksam.split",
         "documentation": {}
     },
     {
@@ -3957,11 +4419,20 @@
         "documentation": {}
     },
     {
-        "label": "main",
+        "label": "count_down",
         "kind": 2,
         "importPath": "charmi.Practical_assignments.assignment15.app.main",
         "description": "charmi.Practical_assignments.assignment15.app.main",
-        "peekOfCode": "def main():\n# inputing the necessary numbers\n    y= int(input(\"Enter the power of your choice: \"))\n    input_start_value= int(input(\"Enter the start value in the range: \"))\n    input_end_value= int(input(\"Enter the end value in the range: \"))\n    input_step_value= int(input(\"Enter the step value in the range: \"))\n#function that calculates and gives the range of values\n    power= [x**y for x in range(input_start_value, input_end_value, input_step_value)]\n#output of the list\n    print(f\"Your answer is: {power}\")",
+        "peekOfCode": "def count_down():\n    number = int(input(\"Enter a number to count down from: \"))\n    for a in range(number, 0, -1):\n        print(a)\n    print(\"Happy new year!\")\n#this program gives a range of numbers with a power of the user's choice\ndef range_app():\n# inputing the necessary numbers\n    y= int(input(\"Enter the power of your choice: \"))\n    input_start_value= int(input(\"Enter the start value in the range: \"))",
+        "detail": "charmi.Practical_assignments.assignment15.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "range_app",
+        "kind": 2,
+        "importPath": "charmi.Practical_assignments.assignment15.app.main",
+        "description": "charmi.Practical_assignments.assignment15.app.main",
+        "peekOfCode": "def range_app():\n# inputing the necessary numbers\n    y= int(input(\"Enter the power of your choice: \"))\n    input_start_value= int(input(\"Enter the start value in the range: \"))\n    input_end_value= int(input(\"Enter the end value in the range: \"))\n    input_step_value= int(input(\"Enter the step value in the range: \"))\n#function that calculates and gives the range of values\n    power= [x**y for x in range(input_start_value, input_end_value, input_step_value)]\n#output of the list\n    print(f\"Your answer is: {power}\")",
         "detail": "charmi.Practical_assignments.assignment15.app.main",
         "documentation": {}
     },
@@ -4236,6 +4707,42 @@
         "documentation": {}
     },
     {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "charmi.Practical_assignments.assignment16",
+        "description": "charmi.Practical_assignments.assignment16",
+        "peekOfCode": "class Shape(ABC):\n    def __init__(self, length, width, radius):\n        self.length=length\n        self.width=width\n        self.radius=radius\n    @abstractmethod\n    def area(self):\n        pass\n        # print(\"This is for calculating the area of the shape.\")\n    @abstractmethod",
+        "detail": "charmi.Practical_assignments.assignment16",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "charmi.Practical_assignments.assignment16",
+        "description": "charmi.Practical_assignments.assignment16",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self,length, width, radius):\n        super().__init__(length, width, radius)\n        self.length=length\n        self.width=width\n        self.radius=radius\n#this is to calculate the area and perimeter of the circle\n    def area(self):\n        return self.radius*self.radius*(4.314)\n    def perimeter(self):",
+        "detail": "charmi.Practical_assignments.assignment16",
+        "documentation": {}
+    },
+    {
+        "label": "Square",
+        "kind": 6,
+        "importPath": "charmi.Practical_assignments.assignment16",
+        "description": "charmi.Practical_assignments.assignment16",
+        "peekOfCode": "class Square(Shape):\n    def __init__(self, length, width, radius):\n        super().__init__(length, width, radius)\n        self.length=length\n        self.width=width\n        self.radius=radius\n#this is to calculate the area and perimeter of the square\n    def area(self):\n        return self.length* self.length \n    def perimeter(self):",
+        "detail": "charmi.Practical_assignments.assignment16",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "charmi.Practical_assignments.assignment16",
+        "description": "charmi.Practical_assignments.assignment16",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, length, width, radius):\n        super().__init__(length, width, radius)\n        self.length=length\n        self.width=width\n        self.radius=radius\n#this is to calculate the area and perimeter of the rectangle\n    def area(self):\n        return self.length* self.width \n    def perimeter(self):",
+        "detail": "charmi.Practical_assignments.assignment16",
+        "documentation": {}
+    },
+    {
         "label": "interest",
         "kind": 2,
         "importPath": "charmi.Practical_assignments.assignment4",
@@ -4335,30 +4842,156 @@
         "documentation": {}
     },
     {
-        "label": "switch_case",
-        "kind": 2,
-        "importPath": "conditions.switch_cases",
-        "description": "conditions.switch_cases",
-        "peekOfCode": "def switch_case(argument):\n    print(f\"You selected option: {argument}\")\n    if argument=='a':\n        return \"Apple\"\n    elif argument=='b':\n        return \"Bananas\"\n    elif argument=='c':\n        return \"Cherry\"\n    elif argument=='d':\n        return \"dates\"",
-        "detail": "conditions.switch_cases",
-        "documentation": {}
-    },
-    {
-        "label": "first",
-        "kind": 2,
-        "importPath": "dihfahsih.advanced_functions.main",
-        "description": "dihfahsih.advanced_functions.main",
-        "peekOfCode": "def first():\n    print(\"first code\")\ndef main():\n    print(\"This script is being executed directly\")\nif __name__ == \"__main__\":\n    main() \n    first()",
-        "detail": "dihfahsih.advanced_functions.main",
+        "label": "students",
+        "kind": 5,
+        "importPath": "dihfahsih.2DArrays.afod.class",
+        "description": "dihfahsih.2DArrays.afod.class",
+        "peekOfCode": "students = [\"afod\",\"emma\",\"axam\",\"joel\",\"punchal\",\"mumbere\",\"maurice\"]\nfor student in students:\n    print(student)",
+        "detail": "dihfahsih.2DArrays.afod.class",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "dihfahsih.advanced_functions.main",
-        "description": "dihfahsih.advanced_functions.main",
-        "peekOfCode": "def main():\n    print(\"This script is being executed directly\")\nif __name__ == \"__main__\":\n    main() \n    first()",
-        "detail": "dihfahsih.advanced_functions.main",
+        "importPath": "dihfahsih.advanced_functions.first_module",
+        "description": "dihfahsih.advanced_functions.first_module",
+        "peekOfCode": "def main():\n    print(__name__, \"This script run directly \")\nif __name__ == \"__main__\": # it is so important to prevent automatic execution of our code in other modules\n    main()\nelse:\n    print('run from the import')",
+        "detail": "dihfahsih.advanced_functions.first_module",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "dihfahsih.calculator.main",
+        "description": "dihfahsih.calculator.main",
+        "peekOfCode": "def add(a,b):\n    answer=a+b \n    print(str(a) + \"+\" + str(b) + \"=\" + str(answer))\ndef sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):",
+        "detail": "dihfahsih.calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "sub",
+        "kind": 2,
+        "importPath": "dihfahsih.calculator.main",
+        "description": "dihfahsih.calculator.main",
+        "peekOfCode": "def sub(a,b):\n    answer=a-b \n    print(str(a) + \"-\" + str(b) + \"=\" + str(answer))\ndef div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")",
+        "detail": "dihfahsih.calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "div",
+        "kind": 2,
+        "importPath": "dihfahsih.calculator.main",
+        "description": "dihfahsih.calculator.main",
+        "peekOfCode": "def div(a,b):\n    answer=a/b \n    print(str(a) + \"/\" + str(b) + \"=\" + str(answer))\ndef mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") ",
+        "detail": "dihfahsih.calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "kind": 2,
+        "importPath": "dihfahsih.calculator.main",
+        "description": "dihfahsih.calculator.main",
+        "peekOfCode": "def mul(a,b):\n    answer=a*b \n    print(str(a) + \"*\" + str(b) + \"=\" + str(answer))\nprint(\"Choose one of the following operations\")\nprint(\"A. Addition\") \nprint(\"B. Subtraction\") \nprint(\"C, Multiplication\") \nprint(\"D, Division)\") \nchoice=input(\"input your choice: \")\nif choice == 'a' or choice==\"A\":",
+        "detail": "dihfahsih.calculator.main",
+        "documentation": {}
+    },
+    {
+        "label": "switch_case",
+        "kind": 2,
+        "importPath": "dihfahsih.conditions.switch_cases",
+        "description": "dihfahsih.conditions.switch_cases",
+        "peekOfCode": "def switch_case(argument):\n    print(f\"You selected option: {argument}\")\n    if argument=='a':\n        return \"Apple\"\n    elif argument=='b':\n        return \"Bananas\"\n    elif argument=='c':\n        return \"Cherry\"\n    elif argument=='d':\n        return \"dates\"",
+        "detail": "dihfahsih.conditions.switch_cases",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "dihfahsih.file_handling.file_app",
+        "description": "dihfahsih.file_handling.file_app",
+        "peekOfCode": "def read_file(filename):\n    try:\n        with open(filename, 'r') as file:\n            content = file.read()\n            print(\"File content:\")\n            print(content)\n    except FileNotFoundError:\n        print(\"File not found.\")\ndef write_to_file(filename, data):\n    try:",
+        "detail": "dihfahsih.file_handling.file_app",
+        "documentation": {}
+    },
+    {
+        "label": "write_to_file",
+        "kind": 2,
+        "importPath": "dihfahsih.file_handling.file_app",
+        "description": "dihfahsih.file_handling.file_app",
+        "peekOfCode": "def write_to_file(filename, data):\n    try:\n        with open(filename, 'w') as file:\n            file.write(data)\n            print(\"Data written to the file successfully.\")\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\ndef append_to_file(filename, data):\n    try:\n        with open(filename, 'a') as file:",
+        "detail": "dihfahsih.file_handling.file_app",
+        "documentation": {}
+    },
+    {
+        "label": "append_to_file",
+        "kind": 2,
+        "importPath": "dihfahsih.file_handling.file_app",
+        "description": "dihfahsih.file_handling.file_app",
+        "peekOfCode": "def append_to_file(filename, data):\n    try:\n        with open(filename, 'a') as file:\n            file.write(data)\n            print(\"Data appended to the file successfully.\")\n    except Exception as e:\n        print(f\"An error occurred: {e}\")\ndef main():\n    filename = 'data.txt'\n    print(\"1. Read from file\")",
+        "detail": "dihfahsih.file_handling.file_app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "dihfahsih.file_handling.file_app",
+        "description": "dihfahsih.file_handling.file_app",
+        "peekOfCode": "def main():\n    filename = 'data.txt'\n    print(\"1. Read from file\")\n    print(\"2. Write to file\")\n    print(\"3. Append to file\")\n    choice = input(\"Enter your choice (1/2/3): \")\n    if choice == '1':\n        read_file(filename)\n    elif choice == '2':\n        data = input(\"Enter data to write to the file: \")",
+        "detail": "dihfahsih.file_handling.file_app",
+        "documentation": {}
+    },
+    {
+        "label": "Name",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.functions",
+        "description": "dihfahsih.functions.functions",
+        "peekOfCode": "def Name():\n    name=input(\"Enter Your Name: \")\n    return name \ndef Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass",
+        "detail": "dihfahsih.functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.functions",
+        "description": "dihfahsih.functions.functions",
+        "peekOfCode": "def Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass\ndef function2():\n    print(\"not empty\")",
+        "detail": "dihfahsih.functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "function",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.functions",
+        "description": "dihfahsih.functions.functions",
+        "peekOfCode": "def function():\n    pass\ndef function2():\n    print(\"not empty\")",
+        "detail": "dihfahsih.functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "function2",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.functions",
+        "description": "dihfahsih.functions.functions",
+        "peekOfCode": "def function2():\n    print(\"not empty\")",
+        "detail": "dihfahsih.functions.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.inputs",
+        "description": "dihfahsih.functions.inputs",
+        "peekOfCode": "def add(num1,num2):\n    return (num1+num2)\ndef get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
+        "detail": "dihfahsih.functions.inputs",
+        "documentation": {}
+    },
+    {
+        "label": "get_input",
+        "kind": 2,
+        "importPath": "dihfahsih.functions.inputs",
+        "description": "dihfahsih.functions.inputs",
+        "peekOfCode": "def get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
+        "detail": "dihfahsih.functions.inputs",
         "documentation": {}
     },
     {
@@ -4434,6 +5067,51 @@
         "documentation": {}
     },
     {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "dihfahsih.loops.whileloops",
+        "description": "dihfahsih.loops.whileloops",
+        "peekOfCode": "sum = 0\ncount = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)",
+        "detail": "dihfahsih.loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "dihfahsih.loops.whileloops",
+        "description": "dihfahsih.loops.whileloops",
+        "peekOfCode": "count = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)\n    num +=2",
+        "detail": "dihfahsih.loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "dihfahsih.loops.whileloops",
+        "description": "dihfahsih.loops.whileloops",
+        "peekOfCode": "y = 6\nwhile y <=5:\n    print(\"Hello, World\")\n    y +=1\n# looping through strings\nstring = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1",
+        "detail": "dihfahsih.loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "dihfahsih.loops.whileloops",
+        "description": "dihfahsih.loops.whileloops",
+        "peekOfCode": "string = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1\n# counting down from a specified number\n# num = int(input(\"Enter a number to count: \"))\nwhile num > 0:\n    # print(num)\n    num -=10",
+        "detail": "dihfahsih.loops.whileloops",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "dihfahsih.loops.whileloops",
+        "description": "dihfahsih.loops.whileloops",
+        "peekOfCode": "numbers = [1,2,3,4,5]\ntotal=1\nfor x in numbers:\n    total+=x\nprint(f\"Total: {total} of the list {numbers}\")",
+        "detail": "dihfahsih.loops.whileloops",
+        "documentation": {}
+    },
+    {
         "label": "Solution",
         "kind": 6,
         "importPath": "dihfahsih.OOP.Abstraction.main",
@@ -4497,6 +5175,96 @@
         "documentation": {}
     },
     {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.code_of_thought",
+        "description": "dihfahsih.OOP.code_of_thought",
+        "peekOfCode": "class Vehicle:\n    def printConsumption(self):\n        print('none')\nclass MotorVehicle(Vehicle):\n    def printConsumption(self):\n        print('medium')\nclass Car(MotorVehicle):\n    pass\ncar=Car()\ncar.printConsumption()",
+        "detail": "dihfahsih.OOP.code_of_thought",
+        "documentation": {}
+    },
+    {
+        "label": "MotorVehicle",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.code_of_thought",
+        "description": "dihfahsih.OOP.code_of_thought",
+        "peekOfCode": "class MotorVehicle(Vehicle):\n    def printConsumption(self):\n        print('medium')\nclass Car(MotorVehicle):\n    pass\ncar=Car()\ncar.printConsumption()",
+        "detail": "dihfahsih.OOP.code_of_thought",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.code_of_thought",
+        "description": "dihfahsih.OOP.code_of_thought",
+        "peekOfCode": "class Car(MotorVehicle):\n    pass\ncar=Car()\ncar.printConsumption()",
+        "detail": "dihfahsih.OOP.code_of_thought",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.oop_app",
+        "description": "dihfahsih.OOP.oop_app",
+        "peekOfCode": "class Shape:\n    def area(self):\n        pass\n    def perimeter(self):\n        pass\n# Encapsulation: We'll encapsulate the properties and methods of each shape within its respective class.\n# Inheritance: Different shapes will inherit from the Shape class and implement their specific functionalities.\n# Polymorphism: We will use polymorphism to calculate the area and perimeter of different shapes using the same method names.\n# Define a Rectangle class inheriting from Shape\nclass Rectangle(Shape):",
+        "detail": "dihfahsih.OOP.oop_app",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.oop_app",
+        "description": "dihfahsih.OOP.oop_app",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def area(self):\n        return self.width * self.height\n    def perimeter(self):\n        return 2 * (self.width + self.height)\n# Define a Circle class inheriting from Shape\nclass Circle(Shape):",
+        "detail": "dihfahsih.OOP.oop_app",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.oop_app",
+        "description": "dihfahsih.OOP.oop_app",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return math.pi * self.radius ** 2\n    def perimeter(self):\n        return 2 * math.pi * self.radius\n# Define a Square class inheriting from Rectangle\nclass Square(Rectangle):\n    def __init__(self, side):",
+        "detail": "dihfahsih.OOP.oop_app",
+        "documentation": {}
+    },
+    {
+        "label": "Square",
+        "kind": 6,
+        "importPath": "dihfahsih.OOP.oop_app",
+        "description": "dihfahsih.OOP.oop_app",
+        "peekOfCode": "class Square(Rectangle):\n    def __init__(self, side):\n        super().__init__(side, side)\n# Example usage:\nif __name__ == \"__main__\":\n    rectangle = Rectangle(5, 4)\n    print(\"Rectangle Area:\", rectangle.area())\n    print(\"Rectangle Perimeter:\", rectangle.perimeter())\n    circle = Circle(7)\n    print(\"Circle Area:\", circle.area())",
+        "detail": "dihfahsih.OOP.oop_app",
+        "documentation": {}
+    },
+    {
+        "label": "new_list",
+        "kind": 5,
+        "importPath": "dihfahsih.operations.list_operations",
+        "description": "dihfahsih.operations.list_operations",
+        "peekOfCode": "new_list = list1 + list2 \nprint(new_list)\n#clear() removes everything from a list\nlist2.clear()\nprint(list2)\n#count\ncount_items=new_list.count(20)\nprint(count_items)\n#sort(only sort numbers)\nunsorted_items=[29,3,0,1,5,80]",
+        "detail": "dihfahsih.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "copied_list",
+        "kind": 5,
+        "importPath": "dihfahsih.operations.list_operations",
+        "description": "dihfahsih.operations.list_operations",
+        "peekOfCode": "copied_list = unsorted_items.copy()\nprint(copied_list)",
+        "detail": "dihfahsih.operations.list_operations",
+        "documentation": {}
+    },
+    {
+        "label": "slice_tuple",
+        "kind": 5,
+        "importPath": "dihfahsih.operations.tuple_operations",
+        "description": "dihfahsih.operations.tuple_operations",
+        "peekOfCode": "slice_tuple = tuple5[1:2:3]\nprint(slice_tuple)",
+        "detail": "dihfahsih.operations.tuple_operations",
+        "documentation": {}
+    },
+    {
         "label": "main",
         "kind": 2,
         "importPath": "dihfahsih.string_functions.app",
@@ -4557,6 +5325,24 @@
         "description": "dihfahsih.hello_world",
         "peekOfCode": "is_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
         "detail": "dihfahsih.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "dihfahsih.quiz",
+        "description": "dihfahsih.quiz",
+        "peekOfCode": "class A:\n    def __init__(self,new):\n        self.new = new.new\n    def a(self):\n        pass\ng = A(\"G\")\ng.a()",
+        "detail": "dihfahsih.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "dihfahsih.quiz",
+        "description": "dihfahsih.quiz",
+        "peekOfCode": "g = A(\"G\")\ng.a()",
+        "detail": "dihfahsih.quiz",
         "documentation": {}
     },
     {
@@ -4773,6 +5559,96 @@
         "description": "Emma.assignment_15.write",
         "peekOfCode": "file2 = open(\"second_file.txt\",\"w\")\nfile2.write(\"This is the second file text\")\nfile2.close()",
         "detail": "Emma.assignment_15.write",
+        "documentation": {}
+    },
+    {
+        "label": "Area_square",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class Area_square():\n    def __init__(self,length):\n        self.length=length\n    def calculate_Area(self):\n        Answer = self.length **2\n        print(\" ____________\")\n        print(\"|            |\")\n        print(\"|            |\", self.length,units)\n        print(\"|            |\")\n        print(\" ------------\")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "Area_rectangle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class Area_rectangle(Area_square):\n    def __init__(self,length,width):\n        super().__init__(length)\n        self.width=width\n    def calculate_Area(self):\n        Answer= self.length*self.width\n        print(\" -------------\")\n        print(\"|             |\" ,self.length,units)\n        print(\"|             |\")\n        print(\" -------------\")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "Area_triangle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class Area_triangle(Area_rectangle):\n    def __init__(self, length, width):\n        super().__init__(length, width)\n    def calculate_Area(self):\n        Answer = 1/2 * self.length*self.width\n        print(\"     /\\    \")\n        print(\"    /  \\  \")\n        print(\"   /    \\ \" \"height : \",self.width,units)\n        print(\"  /      \\ \")\n        print(\"  -------- \")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "Area_circle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class Area_circle(Area_square):\n    def __init__(self, length):\n        super().__init__(length)\n    def calculate_Area(self):\n        Answer = 3.14 * self.length**2\n        print(\"   ---   \")\n        print(\" /     \\ \")\n        print(\"|----   |\" ,\"radius : \", self.length,units)\n        print(\" \\     / \")\n        print(\"   --- \")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "perimeter_square",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class perimeter_square:\n    def __init__(self,length):\n        self.length=length\n    def calculate_perimeter(self):\n        Answer = 4*self.length\n        print(\" ____________\")\n        print(\"|            |\")\n        print(\"|            |\", self.length,units)\n        print(\"|            |\")\n        print(\" ------------\")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "perimeter_rectangle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class perimeter_rectangle(perimeter_square):\n    def __init__(self,length,width):\n        super().__init__(length)\n        self.width = width\n    def calculate_perimeter(self):\n        Answer = 2*(self.length+self.width)\n        print(\" -------------\")\n        print(\"|             |\" ,self.length,units)\n        print(\"|             |\")\n        print(\" -------------\")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "perimeter_triangle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class perimeter_triangle(perimeter_rectangle):\n    def __init__(self, length, width,height):\n        super().__init__(length, width)\n        self.height=height\n    def calculate_perimeter(self):\n        Answer = self.length + self.width + self.height\n        print(\"     /\\    \")\n        print(\"    /  \\  \")\n        print(\"   /    \\ \" \"height : \",self.width,units)\n        print(\"  /      \\ \")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "perimeter_circle",
+        "kind": 6,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "class perimeter_circle(perimeter_square):\n    def __init__(self, length):\n        super().__init__(length)\n    def calculate_perimeter(self):\n        Answer = 2*3.14*self.length\n        print(\"   ---\")\n        print(\" /     \\ \")\n        print(\"|----   |\" ,\"radius : \", self.length,units)\n        print(\" \\     /\")\n        print(\"   --- \")",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "units",
+        "kind": 5,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "units = input(\"what units are you using ? \\n: \")\nprint(\"What operation would you like to do ?\")\nprint(\"1. Area of a square     5. perimeter of a Square \\n2. Area of a rectangle  6. perimeter of a rectangle \\n3. Area of a triangle   7. perimeter of a triangle \\n4. Area of a circle     8. perimeter of a circle\")\nInput1 = input(\"Put in your option \\n :\")\nif Input1 == \"1\":\n    S = Area_square(int(input(\"put in your value : \")))\n    S.calculate_Area()\nelif Input1 == \"2\":\n    R = Area_rectangle(int(input(\"Put in your length : \")),int(input(\"Put in your width : \")))\n    R.calculate_Area()",
+        "detail": "Emma.assignment_16.shape_calc",
+        "documentation": {}
+    },
+    {
+        "label": "Input1",
+        "kind": 5,
+        "importPath": "Emma.assignment_16.shape_calc",
+        "description": "Emma.assignment_16.shape_calc",
+        "peekOfCode": "Input1 = input(\"Put in your option \\n :\")\nif Input1 == \"1\":\n    S = Area_square(int(input(\"put in your value : \")))\n    S.calculate_Area()\nelif Input1 == \"2\":\n    R = Area_rectangle(int(input(\"Put in your length : \")),int(input(\"Put in your width : \")))\n    R.calculate_Area()\nelif Input1 == \"3\":\n    T = Area_triangle(int(input(\"Put in your Base : \")),int(input(\"Put in your height : \")))\n    T.calculate_Area()",
+        "detail": "Emma.assignment_16.shape_calc",
         "documentation": {}
     },
     {
@@ -5271,57 +6147,12 @@
         "documentation": {}
     },
     {
-        "label": "Name",
-        "kind": 2,
-        "importPath": "functions.functions",
-        "description": "functions.functions",
-        "peekOfCode": "def Name():\n    name=input(\"Enter Your Name: \")\n    return name \ndef Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass",
-        "detail": "functions.functions",
-        "documentation": {}
-    },
-    {
-        "label": "Age",
-        "kind": 2,
-        "importPath": "functions.functions",
-        "description": "functions.functions",
-        "peekOfCode": "def Age():\n    age=input(\"Enter Your Age: \")\n    # print(\"Name: \" + Name() + ('\\n') + \"Age: \"+ str(age))\n    print(Name(), age)\nAge()\ndef function():\n    pass\ndef function2():\n    print(\"not empty\")",
-        "detail": "functions.functions",
-        "documentation": {}
-    },
-    {
-        "label": "function",
-        "kind": 2,
-        "importPath": "functions.functions",
-        "description": "functions.functions",
-        "peekOfCode": "def function():\n    pass\ndef function2():\n    print(\"not empty\")",
-        "detail": "functions.functions",
-        "documentation": {}
-    },
-    {
-        "label": "function2",
-        "kind": 2,
-        "importPath": "functions.functions",
-        "description": "functions.functions",
-        "peekOfCode": "def function2():\n    print(\"not empty\")",
-        "detail": "functions.functions",
-        "documentation": {}
-    },
-    {
-        "label": "add",
-        "kind": 2,
-        "importPath": "functions.inputs",
-        "description": "functions.inputs",
-        "peekOfCode": "def add(num1,num2):\n    return (num1+num2)\ndef get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
-        "detail": "functions.inputs",
-        "documentation": {}
-    },
-    {
-        "label": "get_input",
-        "kind": 2,
-        "importPath": "functions.inputs",
-        "description": "functions.inputs",
-        "peekOfCode": "def get_input():\n    number1=int(input(\"Enter first value: \"))\n    number2=int(input(\"Enter second value: \" ))\n    result=add(number1,number2)\n    print(\"The summed value is: \", result)\nget_input()",
-        "detail": "functions.inputs",
+        "label": "string1",
+        "kind": 5,
+        "importPath": "Emma.replace_func",
+        "description": "Emma.replace_func",
+        "peekOfCode": "string1 = \"They are going out\"\nstring2= string1.replace(\"They\",\"You\")\nprint(string2)",
+        "detail": "Emma.replace_func",
         "documentation": {}
     },
     {
@@ -5847,57 +6678,1092 @@
         "documentation": {}
     },
     {
+        "label": "month",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment1.hello_world",
+        "description": "julson.Assignments.assignment1.hello_world",
+        "peekOfCode": "month = \"January\"\nage=22\nis_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "julson.Assignments.assignment1.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "is_teacher",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment1.hello_world",
+        "description": "julson.Assignments.assignment1.hello_world",
+        "peekOfCode": "is_teacher = True\nprint(month)\nprint(age)\nprint(is_teacher)",
+        "detail": "julson.Assignments.assignment1.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment10.aasignment10_class",
+        "description": "julson.Assignments.assignment10.aasignment10_class",
+        "peekOfCode": "class car:\n    def __init__(self,name, model,year):\n        self.Name=name\n        self.Modal=model\n        self.Year=year\n    def is_running(self):\n        Start_ingine=True\n        print('The engine has sarted')\n    def stop_running(self):\n        print('The ingine has Stopped')",
+        "detail": "julson.Assignments.assignment10.aasignment10_class",
+        "documentation": {}
+    },
+    {
+        "label": "N",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment10.aasignment10_class",
+        "description": "julson.Assignments.assignment10.aasignment10_class",
+        "peekOfCode": "N = input(\"Car name :\")\nM = input(\"car model :\")\nY = int(input(\"car Year\"))\ncar1=car(N,M,Y)\ncar1.stop_running()",
+        "detail": "julson.Assignments.assignment10.aasignment10_class",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment10.aasignment10_class",
+        "description": "julson.Assignments.assignment10.aasignment10_class",
+        "peekOfCode": "M = input(\"car model :\")\nY = int(input(\"car Year\"))\ncar1=car(N,M,Y)\ncar1.stop_running()",
+        "detail": "julson.Assignments.assignment10.aasignment10_class",
+        "documentation": {}
+    },
+    {
+        "label": "Y",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment10.aasignment10_class",
+        "description": "julson.Assignments.assignment10.aasignment10_class",
+        "peekOfCode": "Y = int(input(\"car Year\"))\ncar1=car(N,M,Y)\ncar1.stop_running()",
+        "detail": "julson.Assignments.assignment10.aasignment10_class",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment10.increment",
+        "description": "julson.Assignments.assignment10.increment",
+        "peekOfCode": "class counter:\n    def __init__(self, start=0):\n        self.value = start\n    def increment(self):\n        self.value += 1\n    def get_value(self):\n        return self.value \ncounter = counter()\ncounter.increment()\ncounter.increment()",
+        "detail": "julson.Assignments.assignment10.increment",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment10.increment",
+        "description": "julson.Assignments.assignment10.increment",
+        "peekOfCode": "counter = counter()\ncounter.increment()\ncounter.increment()\ncounter.increment()\nprint(\"Current value of the counter :\",counter.get_value())",
+        "detail": "julson.Assignments.assignment10.increment",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment10.practice",
+        "description": "julson.Assignments.assignment10.practice",
+        "peekOfCode": "class BankAccount:\n    def __init__(self, owner, balance=0):\n        self.owner = owner\n        self.balance = balance\n    @property\n    def account_info(self):\n        return f\"Account Owner: {self.owner}, Balance: ${self.balance}\"\n    def deposit(self, amount):\n        self.balance += amount\n        print(f\"Deposited ${amount}. New balance: ${self.balance}\")",
+        "detail": "julson.Assignments.assignment10.practice",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.inheritage",
+        "description": "julson.Assignments.assignment11.inheritage",
+        "peekOfCode": "class Animal:\n    def __init__(self, name, species):\n        self.name = name\n        self.species = species\n    def make_sound(self):\n        pass  # Placeholder method to be overridden by subclasses\nclass Dog(Animal):\n    def __init__(self, name, breed):\n        super().__init__(name, species=\"Dog\")  # Call superclass constructor\n        self.breed = breed",
+        "detail": "julson.Assignments.assignment11.inheritage",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.inheritage",
+        "description": "julson.Assignments.assignment11.inheritage",
+        "peekOfCode": "class Dog(Animal):\n    def __init__(self, name, breed):\n        super().__init__(name, species=\"Dog\")  # Call superclass constructor\n        self.breed = breed\n    def make_sound(self):\n        return \"Woof!\"  # Implement method specific to Dog subclass\nmy_dog = Dog(\"Buddy\", \"Golden Retriever\")\nprint(my_dog.name)  # Output: Buddy\nprint(my_dog.species)  # Output: Dog\nprint(my_dog.breed)  # Output: Golden Retriever",
+        "detail": "julson.Assignments.assignment11.inheritage",
+        "documentation": {}
+    },
+    {
+        "label": "my_dog",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment11.inheritage",
+        "description": "julson.Assignments.assignment11.inheritage",
+        "peekOfCode": "my_dog = Dog(\"Buddy\", \"Golden Retriever\")\nprint(my_dog.name)  # Output: Buddy\nprint(my_dog.species)  # Output: Dog\nprint(my_dog.breed)  # Output: Golden Retriever\nprint(my_dog.make_sound())  # Output: Woof!",
+        "detail": "julson.Assignments.assignment11.inheritage",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.polymorphisim",
+        "description": "julson.Assignments.assignment11.polymorphisim",
+        "peekOfCode": "class Animal:\n    def make_sound(self):\n        print(\"Some generic sound\")\nclass Dog(Animal):\n    def make_sound(self):\n        print(\"Woof!\")\nclass Cat(Animal):\n    def make_sound(self):\n        print(\"Meow!\")\ndog = Dog()",
+        "detail": "julson.Assignments.assignment11.polymorphisim",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.polymorphisim",
+        "description": "julson.Assignments.assignment11.polymorphisim",
+        "peekOfCode": "class Dog(Animal):\n    def make_sound(self):\n        print(\"Woof!\")\nclass Cat(Animal):\n    def make_sound(self):\n        print(\"Meow!\")\ndog = Dog()\ncat = Cat()\ndog.make_sound()  # Output: Woof!\ncat.make_sound()  # Output: Meow!",
+        "detail": "julson.Assignments.assignment11.polymorphisim",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.polymorphisim",
+        "description": "julson.Assignments.assignment11.polymorphisim",
+        "peekOfCode": "class Cat(Animal):\n    def make_sound(self):\n        print(\"Meow!\")\ndog = Dog()\ncat = Cat()\ndog.make_sound()  # Output: Woof!\ncat.make_sound()  # Output: Meow!",
+        "detail": "julson.Assignments.assignment11.polymorphisim",
+        "documentation": {}
+    },
+    {
+        "label": "dog",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment11.polymorphisim",
+        "description": "julson.Assignments.assignment11.polymorphisim",
+        "peekOfCode": "dog = Dog()\ncat = Cat()\ndog.make_sound()  # Output: Woof!\ncat.make_sound()  # Output: Meow!",
+        "detail": "julson.Assignments.assignment11.polymorphisim",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment11.polymorphisim",
+        "description": "julson.Assignments.assignment11.polymorphisim",
+        "peekOfCode": "cat = Cat()\ndog.make_sound()  # Output: Woof!\ncat.make_sound()  # Output: Meow!",
+        "detail": "julson.Assignments.assignment11.polymorphisim",
+        "documentation": {}
+    },
+    {
+        "label": "MathOperations",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment11.poly_two",
+        "description": "julson.Assignments.assignment11.poly_two",
+        "peekOfCode": "class MathOperations:\n    def add(self, a, b):\n        return a + b\n    def add(self, a, b, c):\n        return a + b + c\nmath_ops = MathOperations()\n#print(math_ops.add(2, 3))      # Error: Only the second definition of add() is recognized\nprint(math_ops.add(2, 3, 4))   # Output: 9",
+        "detail": "julson.Assignments.assignment11.poly_two",
+        "documentation": {}
+    },
+    {
+        "label": "math_ops",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment11.poly_two",
+        "description": "julson.Assignments.assignment11.poly_two",
+        "peekOfCode": "math_ops = MathOperations()\n#print(math_ops.add(2, 3))      # Error: Only the second definition of add() is recognized\nprint(math_ops.add(2, 3, 4))   # Output: 9",
+        "detail": "julson.Assignments.assignment11.poly_two",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment12.Abstraction",
+        "description": "julson.Assignments.assignment12.Abstraction",
+        "peekOfCode": "class Vehicle(ABC):\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\n    @abstractmethod\n    def drive(self):\n        pass\n    @abstractmethod\n    def stop(self):\n        pass",
+        "detail": "julson.Assignments.assignment12.Abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment12.Abstraction",
+        "description": "julson.Assignments.assignment12.Abstraction",
+        "peekOfCode": "class Car(Vehicle):\n    def drive(self):\n        return f\"{self.make} {self.model} is driving.\"\n    def stop(self):\n        return f\"{self.make} {self.model} has stopped.\"\nclass Motorcycle(Vehicle):\n    def drive(self):\n        return f\"{self.make} {self.model} is riding.\"\n    def stop(self):\n        return f\"{self.make} {self.model} has stopped.\"",
+        "detail": "julson.Assignments.assignment12.Abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Motorcycle",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment12.Abstraction",
+        "description": "julson.Assignments.assignment12.Abstraction",
+        "peekOfCode": "class Motorcycle(Vehicle):\n    def drive(self):\n        return f\"{self.make} {self.model} is riding.\"\n    def stop(self):\n        return f\"{self.make} {self.model} has stopped.\"\n# Usage\ncar = Car(\"Toyota\", \"Camry\")\nprint(car.drive())  # Output: Toyota Camry is driving.\nprint(car.stop())   # Output: Toyota Camry has stopped.\nmotorcycle = Motorcycle(\"Harley-Davidson\", \"Sportster\")",
+        "detail": "julson.Assignments.assignment12.Abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment12.Abstraction",
+        "description": "julson.Assignments.assignment12.Abstraction",
+        "peekOfCode": "car = Car(\"Toyota\", \"Camry\")\nprint(car.drive())  # Output: Toyota Camry is driving.\nprint(car.stop())   # Output: Toyota Camry has stopped.\nmotorcycle = Motorcycle(\"Harley-Davidson\", \"Sportster\")\nprint(motorcycle.drive())  # Output: Harley-Davidson Sportster is riding.\nprint(motorcycle.stop())   # Output: Harley-Davidson Sportster has stopped.",
+        "detail": "julson.Assignments.assignment12.Abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "motorcycle",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment12.Abstraction",
+        "description": "julson.Assignments.assignment12.Abstraction",
+        "peekOfCode": "motorcycle = Motorcycle(\"Harley-Davidson\", \"Sportster\")\nprint(motorcycle.drive())  # Output: Harley-Davidson Sportster is riding.\nprint(motorcycle.stop())   # Output: Harley-Davidson Sportster has stopped.",
+        "detail": "julson.Assignments.assignment12.Abstraction",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment12.Encapsulation",
+        "description": "julson.Assignments.assignment12.Encapsulation",
+        "peekOfCode": "class Car:\n    def __init__(self, make, model, year):\n        self.make = make\n        self.model = model\n        self.year = year\n        self.__odometer_reading = 0  # Private attribute\n    def get_odometer_reading(self):\n        return self.__odometer_reading\n    def update_odometer(self, mileage):\n        if mileage >= self.__odometer_reading:",
+        "detail": "julson.Assignments.assignment12.Encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "my_car",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment12.Encapsulation",
+        "description": "julson.Assignments.assignment12.Encapsulation",
+        "peekOfCode": "my_car = Car(\"Toyota\", \"Camry\", 2022)\nprint(my_car.get_odometer_reading())  # Output: 0\nmy_car.update_odometer(100)\nprint(my_car.get_odometer_reading())  # Output: 100",
+        "detail": "julson.Assignments.assignment12.Encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.encapsu3",
+        "description": "julson.Assignments.assignment13.encapsu3",
+        "peekOfCode": "class BankAccount:\n    def __init__(self):\n        self.__balance = 0   # Private variable\n    def deposit(self, amount):\n        self.__balance += amount\n    def withdraw(self, amount):\n        if amount <= self.__balance:\n            self.__balance -= amount\n        else:\n            print(\"Insufficient funds\")",
+        "detail": "julson.Assignments.assignment13.encapsu3",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.encapsu3",
+        "description": "julson.Assignments.assignment13.encapsu3",
+        "peekOfCode": "account = BankAccount()\naccount.deposit(100)\nprint(account.get_balance())  # Output: 100\naccount.withdraw(50)\nprint(account.get_balance())  # Output: 50",
+        "detail": "julson.Assignments.assignment13.encapsu3",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.encapsulation",
+        "description": "julson.Assignments.assignment13.encapsulation",
+        "peekOfCode": "class Car:\n    def __init__(self):\n        self.__speed = 10   # Private variable\n    def accelerate(self, increment):\n        self.__speed += increment\n    def get_speed(self):\n        return self.__speed\ncar = Car()\ncar.accelerate(20)\nprint(car.get_speed())  # Output: 20",
+        "detail": "julson.Assignments.assignment13.encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "car",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.encapsulation",
+        "description": "julson.Assignments.assignment13.encapsulation",
+        "peekOfCode": "car = Car()\ncar.accelerate(20)\nprint(car.get_speed())  # Output: 20",
+        "detail": "julson.Assignments.assignment13.encapsulation",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.encapsulation2",
+        "description": "julson.Assignments.assignment13.encapsulation2",
+        "peekOfCode": "class Person:\n    def __init__(self, name):\n        self.__name = name   # Private variable\n    @property\n    def name(self):\n        return self.__name\n    @name.setter\n    def name(self, value):\n        self.__name = value\nperson = Person(\"Alice\")",
+        "detail": "julson.Assignments.assignment13.encapsulation2",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.encapsulation2",
+        "description": "julson.Assignments.assignment13.encapsulation2",
+        "peekOfCode": "person = Person(\"Alice\")\nprint(person.name)    # Output: Alice\nperson.name = \"Bob\"\nprint(person.name)    # Output: Bob",
+        "detail": "julson.Assignments.assignment13.encapsulation2",
+        "documentation": {}
+    },
+    {
+        "label": "person.name",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.encapsulation2",
+        "description": "julson.Assignments.assignment13.encapsulation2",
+        "peekOfCode": "person.name = \"Bob\"\nprint(person.name)    # Output: Bob",
+        "detail": "julson.Assignments.assignment13.encapsulation2",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymo2",
+        "description": "julson.Assignments.assignment13.polymo2",
+        "peekOfCode": "class Shape:\n    def area(self):\n        pass\nclass Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def area(self):\n        return self.width * self.height\nclass Circle(Shape):",
+        "detail": "julson.Assignments.assignment13.polymo2",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymo2",
+        "description": "julson.Assignments.assignment13.polymo2",
+        "peekOfCode": "class Rectangle(Shape):\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def area(self):\n        return self.width * self.height\nclass Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):",
+        "detail": "julson.Assignments.assignment13.polymo2",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymo2",
+        "description": "julson.Assignments.assignment13.polymo2",
+        "peekOfCode": "class Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return 3.14 * self.radius ** 2\nshapes = [Rectangle(5, 4), Circle(3)]\nfor shape in shapes:\n    print(\"Area:\", shape.area())",
+        "detail": "julson.Assignments.assignment13.polymo2",
+        "documentation": {}
+    },
+    {
+        "label": "shapes",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymo2",
+        "description": "julson.Assignments.assignment13.polymo2",
+        "peekOfCode": "shapes = [Rectangle(5, 4), Circle(3)]\nfor shape in shapes:\n    print(\"Area:\", shape.area())",
+        "detail": "julson.Assignments.assignment13.polymo2",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymo3",
+        "description": "julson.Assignments.assignment13.polymo3",
+        "peekOfCode": "class Dog:\n    def sound(self):\n        return \"Woof!\"\nclass Cat:\n    def sound(self):\n        return \"Meow!\"\ndef make_sound(animal):\n    return animal.sound()\ndog = Dog()\ncat = Cat()",
+        "detail": "julson.Assignments.assignment13.polymo3",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymo3",
+        "description": "julson.Assignments.assignment13.polymo3",
+        "peekOfCode": "class Cat:\n    def sound(self):\n        return \"Meow!\"\ndef make_sound(animal):\n    return animal.sound()\ndog = Dog()\ncat = Cat()\nprint(make_sound(dog))  # Output: Woof!\nprint(make_sound(cat))  # Output: Meow!",
+        "detail": "julson.Assignments.assignment13.polymo3",
+        "documentation": {}
+    },
+    {
+        "label": "make_sound",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment13.polymo3",
+        "description": "julson.Assignments.assignment13.polymo3",
+        "peekOfCode": "def make_sound(animal):\n    return animal.sound()\ndog = Dog()\ncat = Cat()\nprint(make_sound(dog))  # Output: Woof!\nprint(make_sound(cat))  # Output: Meow!",
+        "detail": "julson.Assignments.assignment13.polymo3",
+        "documentation": {}
+    },
+    {
+        "label": "dog",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymo3",
+        "description": "julson.Assignments.assignment13.polymo3",
+        "peekOfCode": "dog = Dog()\ncat = Cat()\nprint(make_sound(dog))  # Output: Woof!\nprint(make_sound(cat))  # Output: Meow!",
+        "detail": "julson.Assignments.assignment13.polymo3",
+        "documentation": {}
+    },
+    {
+        "label": "cat",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymo3",
+        "description": "julson.Assignments.assignment13.polymo3",
+        "peekOfCode": "cat = Cat()\nprint(make_sound(dog))  # Output: Woof!\nprint(make_sound(cat))  # Output: Meow!",
+        "detail": "julson.Assignments.assignment13.polymo3",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "class Car:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model\n  def move(self):\n    print(\"Drive!\")\nclass Boat:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "Boat",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "class Boat:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model\n  def move(self):\n    print(\"Sail!\")\nclass Plane:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "Plane",
+        "kind": 6,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "class Plane:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model\n  def move(self):\n    print(\"Fly!\")\ncar1 = Car(\"Ford\", \"Mustang\")       #Create a Car class\nboat1 = Boat(\"Ibiza\", \"Touring 20\") #Create a Boat class\nplane1 = Plane(\"Boeing\", \"747\")     #Create a Plane class\nfor x in (car1, boat1, plane1):",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "x = \"Hello World!\"\n#print(len(x))\n#on a tuple\nmytuple = (\"apple\", \"banana\", \"cherry\")\n#print(len(mytuple))\nclass Car:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model\n  def move(self):",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "mytuple",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "mytuple = (\"apple\", \"banana\", \"cherry\")\n#print(len(mytuple))\nclass Car:\n  def __init__(self, brand, model):\n    self.brand = brand\n    self.model = model\n  def move(self):\n    print(\"Drive!\")\nclass Boat:\n  def __init__(self, brand, model):",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "car1",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "car1 = Car(\"Ford\", \"Mustang\")       #Create a Car class\nboat1 = Boat(\"Ibiza\", \"Touring 20\") #Create a Boat class\nplane1 = Plane(\"Boeing\", \"747\")     #Create a Plane class\nfor x in (car1, boat1, plane1):\n  x.move()",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "boat1",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "boat1 = Boat(\"Ibiza\", \"Touring 20\") #Create a Boat class\nplane1 = Plane(\"Boeing\", \"747\")     #Create a Plane class\nfor x in (car1, boat1, plane1):\n  x.move()",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "plane1",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment13.polymorphism",
+        "description": "julson.Assignments.assignment13.polymorphism",
+        "peekOfCode": "plane1 = Plane(\"Boeing\", \"747\")     #Create a Plane class\nfor x in (car1, boat1, plane1):\n  x.move()",
+        "detail": "julson.Assignments.assignment13.polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "phone_input",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phone_input = []\n# Taking input from three variables\ninput_var1 = input(\"Enter first Phone: \")\ninput_var2 = input(\"Enter second Phone: \")\ninput_var3 = input(\"Enter third Phone: \")\n# Adding inputs to the list\nphone_input.append(input_var1)\nphone_input.append(input_var2)\nphone_input.append(input_var3)\nprint(phone_input)",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "input_var1",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "input_var1 = input(\"Enter first Phone: \")\ninput_var2 = input(\"Enter second Phone: \")\ninput_var3 = input(\"Enter third Phone: \")\n# Adding inputs to the list\nphone_input.append(input_var1)\nphone_input.append(input_var2)\nphone_input.append(input_var3)\nprint(phone_input)\n#reverse list\nphones_reverse = phone_input[::-1]",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "input_var2",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "input_var2 = input(\"Enter second Phone: \")\ninput_var3 = input(\"Enter third Phone: \")\n# Adding inputs to the list\nphone_input.append(input_var1)\nphone_input.append(input_var2)\nphone_input.append(input_var3)\nprint(phone_input)\n#reverse list\nphones_reverse = phone_input[::-1]\nprint(\"Reversed :\" , phones_reverse) ",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "input_var3",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "input_var3 = input(\"Enter third Phone: \")\n# Adding inputs to the list\nphone_input.append(input_var1)\nphone_input.append(input_var2)\nphone_input.append(input_var3)\nprint(phone_input)\n#reverse list\nphones_reverse = phone_input[::-1]\nprint(\"Reversed :\" , phones_reverse) \n#To Uppercase",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "phones_reverse",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phones_reverse = phone_input[::-1]\nprint(\"Reversed :\" , phones_reverse) \n#To Uppercase\nphone_toUppercase = [word.upper() for word in phone_input]\nprint(\"To uppercase : \" , phone_toUppercase)\n#To Lowercase\nphone_toLowercase = [word.lower() for word in phone_input]\nprint(\"To Lowercase : \" , phone_toLowercase)\n#Strip : The strip() method removes any leading and trailing whitespaces from a string\nphone_strip = [word.strip() for word in phone_input]",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "phone_toUppercase",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phone_toUppercase = [word.upper() for word in phone_input]\nprint(\"To uppercase : \" , phone_toUppercase)\n#To Lowercase\nphone_toLowercase = [word.lower() for word in phone_input]\nprint(\"To Lowercase : \" , phone_toLowercase)\n#Strip : The strip() method removes any leading and trailing whitespaces from a string\nphone_strip = [word.strip() for word in phone_input]\nprint(\"Striped : \" , phone_strip)\n#Count\nelement = input(\"Which phone do you wanna count : \")",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "phone_toLowercase",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phone_toLowercase = [word.lower() for word in phone_input]\nprint(\"To Lowercase : \" , phone_toLowercase)\n#Strip : The strip() method removes any leading and trailing whitespaces from a string\nphone_strip = [word.strip() for word in phone_input]\nprint(\"Striped : \" , phone_strip)\n#Count\nelement = input(\"Which phone do you wanna count : \")\nphone_count = phone_input.count(element)\nprint(\"Counted : \" , phone_count)",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "phone_strip",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phone_strip = [word.strip() for word in phone_input]\nprint(\"Striped : \" , phone_strip)\n#Count\nelement = input(\"Which phone do you wanna count : \")\nphone_count = phone_input.count(element)\nprint(\"Counted : \" , phone_count)",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "element",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "element = input(\"Which phone do you wanna count : \")\nphone_count = phone_input.count(element)\nprint(\"Counted : \" , phone_count)",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "phone_count",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment14.app2",
+        "description": "julson.Assignments.assignment14.app2",
+        "peekOfCode": "phone_count = phone_input.count(element)\nprint(\"Counted : \" , phone_count)",
+        "detail": "julson.Assignments.assignment14.app2",
+        "documentation": {}
+    },
+    {
+        "label": "lines_to_write",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment15.write.my_file2",
+        "description": "julson.Assignments.assignment15.write.my_file2",
+        "peekOfCode": "lines_to_write = [\n    \"First line\",\n    \"Second line\",\n    \"Third line\"\n]\n# Open the file in write mode ('w' mode will overwrite existing file or create a new one)\nwith open('output.txt', 'w') as file:\n    # Write each line from the list to the file\n    for line in lines_to_write:\n        file.write(line + '\\n')  # Add a newline character to separate lines",
+        "detail": "julson.Assignments.assignment15.write.my_file2",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment15.my_file",
+        "description": "julson.Assignments.assignment15.my_file",
+        "peekOfCode": "f = open(\"my_text.txt\", \"r\")   # Opens \"my_text.txt\" for reading\ncontent = f.read()\nprint(content)",
+        "detail": "julson.Assignments.assignment15.my_file",
+        "documentation": {}
+    },
+    {
+        "label": "content",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment15.my_file",
+        "description": "julson.Assignments.assignment15.my_file",
+        "peekOfCode": "content = f.read()\nprint(content)",
+        "detail": "julson.Assignments.assignment15.my_file",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment15.range",
+        "description": "julson.Assignments.assignment15.range",
+        "peekOfCode": "def main(start, end, step):\n    # Using range() with specified start, end, and step\n    for i in range(start, end, step):\n        print(i)\nif __name__ == \"__main__\":\n    # Calling main function with start, end, and step values\n    start = int(input(\"Enter start value: \"))\n    end = int(input(\"Enter end value: \"))\n    step = int(input(\"Enter step value: \"))\n    main(start, end, step)",
+        "detail": "julson.Assignments.assignment15.range",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment2.area",
+        "description": "julson.Assignments.assignment2.area",
+        "peekOfCode": "length = 20\nwidth = 10\narea= length*width\nprint(area)",
+        "detail": "julson.Assignments.assignment2.area",
+        "documentation": {}
+    },
+    {
+        "label": "width",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment2.area",
+        "description": "julson.Assignments.assignment2.area",
+        "peekOfCode": "width = 10\narea= length*width\nprint(area)",
+        "detail": "julson.Assignments.assignment2.area",
+        "documentation": {}
+    },
+    {
         "label": "num",
         "kind": 5,
-        "importPath": "julson.whileloop",
-        "description": "julson.whileloop",
-        "peekOfCode": "num = 10\nwhile num <= 0:\n    print(num)\n    num -=1\nprint('My name is Mumbere Luviro Julson')",
-        "detail": "julson.whileloop",
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "num = 123\nnum_str = str(num)\nprint(num_str)  # Output: \"123\"\n#Int\nnum_str = \"456\"\nnum = int(num_str)\nprint(num)  # Output: 456\nfloat_num = 3.14\nint_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
         "documentation": {}
     },
     {
-        "label": "sum",
+        "label": "num_str",
         "kind": 5,
-        "importPath": "loops.whileloops",
-        "description": "loops.whileloops",
-        "peekOfCode": "sum = 0\ncount = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)",
-        "detail": "loops.whileloops",
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "num_str = str(num)\nprint(num_str)  # Output: \"123\"\n#Int\nnum_str = \"456\"\nnum = int(num_str)\nprint(num)  # Output: 456\nfloat_num = 3.14\nint_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
         "documentation": {}
     },
     {
-        "label": "count",
+        "label": "num_str",
         "kind": 5,
-        "importPath": "loops.whileloops",
-        "description": "loops.whileloops",
-        "peekOfCode": "count = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"Sum of the numbers from 1 to 10: \", sum)\n# print even numbers between 1 an 20\nnum=2\nwhile num <= 20:\n    # print(num)\n    num +=2",
-        "detail": "loops.whileloops",
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "num_str = \"456\"\nnum = int(num_str)\nprint(num)  # Output: 456\nfloat_num = 3.14\nint_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
         "documentation": {}
     },
     {
-        "label": "y",
+        "label": "num",
         "kind": 5,
-        "importPath": "loops.whileloops",
-        "description": "loops.whileloops",
-        "peekOfCode": "y = 6\nwhile y <=5:\n    print(\"Hello, World\")\n    y +=1\n# looping through strings\nstring = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1",
-        "detail": "loops.whileloops",
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "num = int(num_str)\nprint(num)  # Output: 456\nfloat_num = 3.14\nint_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
         "documentation": {}
     },
     {
-        "label": "string",
+        "label": "float_num",
         "kind": 5,
-        "importPath": "loops.whileloops",
-        "description": "loops.whileloops",
-        "peekOfCode": "string = \"Python\"\nindex =1\nwhile index < len(string):\n    # print(string[index])\n    index +=1\n# counting down from a specified number\n# num = int(input(\"Enter a number to count: \"))\nwhile num > 0:\n    # print(num)\n    num -=10",
-        "detail": "loops.whileloops",
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "float_num = 3.14\nint_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "int_num",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment3.casting",
+        "description": "julson.Assignments.assignment3.casting",
+        "peekOfCode": "int_num = int(float_num)\nprint(int_num)  # Output: 3",
+        "detail": "julson.Assignments.assignment3.casting",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment3.del",
+        "description": "julson.Assignments.assignment3.del",
+        "peekOfCode": "name = \"Mumbere\"\ndel name\nprint(name)\n# example 2\nstudents = [\"Maurice\",\"Emma\",\"Joel\"]\nprint(students)\ndel students",
+        "detail": "julson.Assignments.assignment3.del",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment3.del",
+        "description": "julson.Assignments.assignment3.del",
+        "peekOfCode": "students = [\"Maurice\",\"Emma\",\"Joel\"]\nprint(students)\ndel students",
+        "detail": "julson.Assignments.assignment3.del",
+        "documentation": {}
+    },
+    {
+        "label": "a=b=c",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment3.multi",
+        "description": "julson.Assignments.assignment3.multi",
+        "peekOfCode": "a=b=c = 40\nprint(a, b, c)\n# example 2\nDog, goat = 10, 200\nDog, goat = Dog, goat\nprint(\"Dog:\", Dog, \"goat:\", goat)\n# example 3\nx, y, z = 5, 2, 99\nprint(\"x:\", x)\nprint(\"y:\", y)",
+        "detail": "julson.Assignments.assignment3.multi",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment4.adding_to_list",
+        "description": "julson.Assignments.assignment4.adding_to_list",
+        "peekOfCode": "my_list = [1, 2, 3]\nmy_list.append(4)\nprint(my_list)  # Output: [1, 2, 3, 4]\n# Adding elements using extend()\nnew_elements = [5, 6]\nmy_list.extend(new_elements)\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]",
+        "detail": "julson.Assignments.assignment4.adding_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "new_elements",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment4.adding_to_list",
+        "description": "julson.Assignments.assignment4.adding_to_list",
+        "peekOfCode": "new_elements = [5, 6]\nmy_list.extend(new_elements)\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]",
+        "detail": "julson.Assignments.assignment4.adding_to_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment4.removing",
+        "description": "julson.Assignments.assignment4.removing",
+        "peekOfCode": "my_list = [1, 2, 3]\nmy_list.append(4)\nprint(my_list)  # Output: [1, 2, 3, 4]\n# Adding elements using extend()\nnew_elements = [5, 6]\nmy_list.extend(new_elements)\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]\n# Removing elements using pop()\npopped_element = my_list.pop()\nprint(\"Popped element:\", popped_element)  # Output: 6",
+        "detail": "julson.Assignments.assignment4.removing",
+        "documentation": {}
+    },
+    {
+        "label": "new_elements",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment4.removing",
+        "description": "julson.Assignments.assignment4.removing",
+        "peekOfCode": "new_elements = [5, 6]\nmy_list.extend(new_elements)\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]\n# Removing elements using pop()\npopped_element = my_list.pop()\nprint(\"Popped element:\", popped_element)  # Output: 6\nprint(\"Updated list after pop:\", my_list)  # Output: [1, 2, 3, 4, 5]\n# Removing elements using remove()\nmy_list.remove(3)\nprint(\"Updated list after remove:\", my_list)  # Output: [1, 2, 4, 5]",
+        "detail": "julson.Assignments.assignment4.removing",
+        "documentation": {}
+    },
+    {
+        "label": "popped_element",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment4.removing",
+        "description": "julson.Assignments.assignment4.removing",
+        "peekOfCode": "popped_element = my_list.pop()\nprint(\"Popped element:\", popped_element)  # Output: 6\nprint(\"Updated list after pop:\", my_list)  # Output: [1, 2, 3, 4, 5]\n# Removing elements using remove()\nmy_list.remove(3)\nprint(\"Updated list after remove:\", my_list)  # Output: [1, 2, 4, 5]\n# Removing elements using del\ndel my_list[1]\nprint(\"Updated list after del:\", my_list)  # Output: [1, 4, 5]",
+        "detail": "julson.Assignments.assignment4.removing",
+        "documentation": {}
+    },
+    {
+        "label": "greetings",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment5.function",
+        "description": "julson.Assignments.assignment5.function",
+        "peekOfCode": "def greetings():\n   \"This is docstring of greetings function\"\n   print (\"Hello World\")\n   return\ngreetings()\n#display time\ndef cureent_time_datime():\n   now = time.localtime()\n   tt = time.strftime( now)\n   print(\"Current time :\", tt)",
+        "detail": "julson.Assignments.assignment5.function",
+        "documentation": {}
+    },
+    {
+        "label": "cureent_time_datime",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment5.function",
+        "description": "julson.Assignments.assignment5.function",
+        "peekOfCode": "def cureent_time_datime():\n   now = time.localtime()\n   tt = time.strftime( now)\n   print(\"Current time :\", tt)\n# adding to a funtion\n   def testfunction(arg):\n      print (\"Inside function:\",arg)\n   print (\"ID inside the function:\", id(arg))\n   arg=arg.append(100)\n   var=[10, 20, 30, 40]",
+        "detail": "julson.Assignments.assignment5.function",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment6.functions",
+        "description": "julson.Assignments.assignment6.functions",
+        "peekOfCode": "def name():\n    n = input(\"Enter Your Name \")\nname()\n# def age():\n#     Age = 22\n#     print (name() + str(Age))\n# age()\ndef Age():\n     Age = input(\"Enter your Age \")\n     print (name() + Age)",
+        "detail": "julson.Assignments.assignment6.functions",
+        "documentation": {}
+    },
+    {
+        "label": "Age",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment6.functions",
+        "description": "julson.Assignments.assignment6.functions",
+        "peekOfCode": "def Age():\n     Age = input(\"Enter your Age \")\n     print (name() + Age)\nAge()",
+        "detail": "julson.Assignments.assignment6.functions",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment6.input",
+        "description": "julson.Assignments.assignment6.input",
+        "peekOfCode": "def add(num1=10,num2=5):\n    return(num1+num2)\ndef get input():\n    n1=input(\"Enter first value \")\n    n2=input(\"Enter Second Value \")",
+        "detail": "julson.Assignments.assignment6.input",
+        "documentation": {}
+    },
+    {
+        "label": "ge",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment6.input",
+        "description": "julson.Assignments.assignment6.input",
+        "peekOfCode": "def get input():\n    n1=input(\"Enter first value \")\n    n2=input(\"Enter Second Value \")",
+        "detail": "julson.Assignments.assignment6.input",
+        "documentation": {}
+    },
+    {
+        "label": "multi",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment7.multi",
+        "description": "julson.Assignments.assignment7.multi",
+        "peekOfCode": "def multi(x,y):\n    return x*y\nresult = multi(5,2)\nprint(result)",
+        "detail": "julson.Assignments.assignment7.multi",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment7.multi",
+        "description": "julson.Assignments.assignment7.multi",
+        "peekOfCode": "result = multi(5,2)\nprint(result)",
+        "detail": "julson.Assignments.assignment7.multi",
+        "documentation": {}
+    },
+    {
+        "label": "subtrat",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment7.sub",
+        "description": "julson.Assignments.assignment7.sub",
+        "peekOfCode": "def subtrat(x, y):\n    return x-y\nresult = subtrat(10, 4)\nprint (result)",
+        "detail": "julson.Assignments.assignment7.sub",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment7.sub",
+        "description": "julson.Assignments.assignment7.sub",
+        "peekOfCode": "result = subtrat(10, 4)\nprint (result)",
+        "detail": "julson.Assignments.assignment7.sub",
         "documentation": {}
     },
     {
         "label": "numbers",
         "kind": 5,
-        "importPath": "loops.whileloops",
-        "description": "loops.whileloops",
-        "peekOfCode": "numbers = [1,2,3,4,5]\ntotal=1\nfor x in numbers:\n    total+=x\nprint(f\"Total: {total} of the list {numbers}\")",
-        "detail": "loops.whileloops",
+        "importPath": "julson.Assignments.assignment8.Assignment08",
+        "description": "julson.Assignments.assignment8.Assignment08",
+        "peekOfCode": "numbers = [1, 2, 3,4 ,5]\nsquared_numbers = [x**2 for x in numbers]\nprint(squared_numbers)\n#Pop\nelement = numbers.pop(3)\nprint(\"This is a Pop number :\", element)\nprint(\"This are numbers after pop :\",numbers)",
+        "detail": "julson.Assignments.assignment8.Assignment08",
+        "documentation": {}
+    },
+    {
+        "label": "squared_numbers",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.Assignment08",
+        "description": "julson.Assignments.assignment8.Assignment08",
+        "peekOfCode": "squared_numbers = [x**2 for x in numbers]\nprint(squared_numbers)\n#Pop\nelement = numbers.pop(3)\nprint(\"This is a Pop number :\", element)\nprint(\"This are numbers after pop :\",numbers)",
+        "detail": "julson.Assignments.assignment8.Assignment08",
+        "documentation": {}
+    },
+    {
+        "label": "element",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.Assignment08",
+        "description": "julson.Assignments.assignment8.Assignment08",
+        "peekOfCode": "element = numbers.pop(3)\nprint(\"This is a Pop number :\", element)\nprint(\"This are numbers after pop :\",numbers)",
+        "detail": "julson.Assignments.assignment8.Assignment08",
+        "documentation": {}
+    },
+    {
+        "label": "dic1",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.dic_oparation",
+        "description": "julson.Assignments.assignment8.dic_oparation",
+        "peekOfCode": "dic1 = {'a':1, 'b':2}\ndic2 = {'b':3, 'c':4}\n#upsating a Dictionary\ndic1.update(dic2)\nprint(dic1)\n#comparison\ndic3 = {'a':1, 'b':2}\ndic4 = {'b':3, 'c':4}\nprint(dic3==dic4)\n#length",
+        "detail": "julson.Assignments.assignment8.dic_oparation",
+        "documentation": {}
+    },
+    {
+        "label": "dic2",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.dic_oparation",
+        "description": "julson.Assignments.assignment8.dic_oparation",
+        "peekOfCode": "dic2 = {'b':3, 'c':4}\n#upsating a Dictionary\ndic1.update(dic2)\nprint(dic1)\n#comparison\ndic3 = {'a':1, 'b':2}\ndic4 = {'b':3, 'c':4}\nprint(dic3==dic4)\n#length\nprint(len(dic1))",
+        "detail": "julson.Assignments.assignment8.dic_oparation",
+        "documentation": {}
+    },
+    {
+        "label": "dic3",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.dic_oparation",
+        "description": "julson.Assignments.assignment8.dic_oparation",
+        "peekOfCode": "dic3 = {'a':1, 'b':2}\ndic4 = {'b':3, 'c':4}\nprint(dic3==dic4)\n#length\nprint(len(dic1))\n#sorting items in dict\ndic5 = {'b':2, 'a':1,'c':3}\nsorted_dic=dict(sorted(dic5.items()))\nprint(sorted_dic)",
+        "detail": "julson.Assignments.assignment8.dic_oparation",
+        "documentation": {}
+    },
+    {
+        "label": "dic4",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.dic_oparation",
+        "description": "julson.Assignments.assignment8.dic_oparation",
+        "peekOfCode": "dic4 = {'b':3, 'c':4}\nprint(dic3==dic4)\n#length\nprint(len(dic1))\n#sorting items in dict\ndic5 = {'b':2, 'a':1,'c':3}\nsorted_dic=dict(sorted(dic5.items()))\nprint(sorted_dic)",
+        "detail": "julson.Assignments.assignment8.dic_oparation",
+        "documentation": {}
+    },
+    {
+        "label": "dic5",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.dic_oparation",
+        "description": "julson.Assignments.assignment8.dic_oparation",
+        "peekOfCode": "dic5 = {'b':2, 'a':1,'c':3}\nsorted_dic=dict(sorted(dic5.items()))\nprint(sorted_dic)",
+        "detail": "julson.Assignments.assignment8.dic_oparation",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "list2 = [\"John\",20,30]\nnew_list = list1 + list2\nprint (new_list)\n#clearing a list, removes everything from a list\n#cleared_list = list2.clear\n#Count\ncount_items = new_list.count('20')\nprint(count_items)\n#sort only works for numbers\nunsorted = [29,30,40,1]",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "new_list",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "new_list = list1 + list2\nprint (new_list)\n#clearing a list, removes everything from a list\n#cleared_list = list2.clear\n#Count\ncount_items = new_list.count('20')\nprint(count_items)\n#sort only works for numbers\nunsorted = [29,30,40,1]\n#sorted_items = new_list.sort()",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "#cleared_list",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "#cleared_list = list2.clear\n#Count\ncount_items = new_list.count('20')\nprint(count_items)\n#sort only works for numbers\nunsorted = [29,30,40,1]\n#sorted_items = new_list.sort()\nunsorted.sort()\nprint (\"Thise are the sorted items: \",unsorted)\n#reverse sort",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "count_items",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "count_items = new_list.count('20')\nprint(count_items)\n#sort only works for numbers\nunsorted = [29,30,40,1]\n#sorted_items = new_list.sort()\nunsorted.sort()\nprint (\"Thise are the sorted items: \",unsorted)\n#reverse sort\nunsorted.reverse()\nprint(unsorted)",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "unsorted",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "unsorted = [29,30,40,1]\n#sorted_items = new_list.sort()\nunsorted.sort()\nprint (\"Thise are the sorted items: \",unsorted)\n#reverse sort\nunsorted.reverse()\nprint(unsorted)\n#coping\ncopied = unsorted.copy()\nprint(copied)",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "#sorted_items",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "#sorted_items = new_list.sort()\nunsorted.sort()\nprint (\"Thise are the sorted items: \",unsorted)\n#reverse sort\nunsorted.reverse()\nprint(unsorted)\n#coping\ncopied = unsorted.copy()\nprint(copied)",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "copied",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.list_oparations",
+        "description": "julson.Assignments.assignment8.list_oparations",
+        "peekOfCode": "copied = unsorted.copy()\nprint(copied)",
+        "detail": "julson.Assignments.assignment8.list_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "a,*b,c",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.my_tuple_oparations",
+        "description": "julson.Assignments.assignment8.my_tuple_oparations",
+        "peekOfCode": "a,*b,c = tuple1\nprint(\"Item assign to a :\", a)\nprint(\"Item assign to b :\", b)\nprint(\"Item assign to c :\", c)\n#tuple comparison\ntuple2 = (1,2,3)\ntuple3 = (1,2,4)\nprint(tuple1==tuple2)\n#deleting a tuple\ntuple4 = (1,2,3,4,5)",
+        "detail": "julson.Assignments.assignment8.my_tuple_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple2",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.my_tuple_oparations",
+        "description": "julson.Assignments.assignment8.my_tuple_oparations",
+        "peekOfCode": "tuple2 = (1,2,3)\ntuple3 = (1,2,4)\nprint(tuple1==tuple2)\n#deleting a tuple\ntuple4 = (1,2,3,4,5)\ndel tuple4\n#print (tuple4)\ntuple5 =(\"John\",False,20,0.7,10,30)\nslice_tuple = tuple5[1:5]\nprint(\"slice :\",slice_tuple)",
+        "detail": "julson.Assignments.assignment8.my_tuple_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple3",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.my_tuple_oparations",
+        "description": "julson.Assignments.assignment8.my_tuple_oparations",
+        "peekOfCode": "tuple3 = (1,2,4)\nprint(tuple1==tuple2)\n#deleting a tuple\ntuple4 = (1,2,3,4,5)\ndel tuple4\n#print (tuple4)\ntuple5 =(\"John\",False,20,0.7,10,30)\nslice_tuple = tuple5[1:5]\nprint(\"slice :\",slice_tuple)",
+        "detail": "julson.Assignments.assignment8.my_tuple_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "tuple4",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.my_tuple_oparations",
+        "description": "julson.Assignments.assignment8.my_tuple_oparations",
+        "peekOfCode": "tuple4 = (1,2,3,4,5)\ndel tuple4\n#print (tuple4)\ntuple5 =(\"John\",False,20,0.7,10,30)\nslice_tuple = tuple5[1:5]\nprint(\"slice :\",slice_tuple)",
+        "detail": "julson.Assignments.assignment8.my_tuple_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "slice_tuple",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment8.my_tuple_oparations",
+        "description": "julson.Assignments.assignment8.my_tuple_oparations",
+        "peekOfCode": "slice_tuple = tuple5[1:5]\nprint(\"slice :\",slice_tuple)",
+        "detail": "julson.Assignments.assignment8.my_tuple_oparations",
+        "documentation": {}
+    },
+    {
+        "label": "deposit",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.ban",
+        "description": "julson.Assignments.assignment9.ban",
+        "peekOfCode": "def deposit(amount):\n    balance += amount\n    print(\"Deposited ${}. Current balance: ${}\".format(amount, balance))\ndef withdraw(amount):\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))\n    else:\n        print(\"Insufficient funds.\")\ndef check_balance():",
+        "detail": "julson.Assignments.assignment9.ban",
+        "documentation": {}
+    },
+    {
+        "label": "withdraw",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.ban",
+        "description": "julson.Assignments.assignment9.ban",
+        "peekOfCode": "def withdraw(amount):\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))\n    else:\n        print(\"Insufficient funds.\")\ndef check_balance():\n    print(\"Current balance: ${}\".format(balance))\nprint(\"\\nServices available:\")\nprint(\"1. Check Balance\")",
+        "detail": "julson.Assignments.assignment9.ban",
+        "documentation": {}
+    },
+    {
+        "label": "check_balance",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.ban",
+        "description": "julson.Assignments.assignment9.ban",
+        "peekOfCode": "def check_balance():\n    print(\"Current balance: ${}\".format(balance))\nprint(\"\\nServices available:\")\nprint(\"1. Check Balance\")\nprint(\"2. Deposit\")\nprint(\"3. Withdraw\")\nprint(\"4. Exit\")\n\"* \" *10\nchoice = int(input(\"Enter choice: \"))\nif choice == 1:",
+        "detail": "julson.Assignments.assignment9.ban",
+        "documentation": {}
+    },
+    {
+        "label": "balance",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment9.ban",
+        "description": "julson.Assignments.assignment9.ban",
+        "peekOfCode": "balance = 0\nprint(\"Hello\")\ndef deposit(amount):\n    balance += amount\n    print(\"Deposited ${}. Current balance: ${}\".format(amount, balance))\ndef withdraw(amount):\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))\n    else:",
+        "detail": "julson.Assignments.assignment9.ban",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment9.ban",
+        "description": "julson.Assignments.assignment9.ban",
+        "peekOfCode": "choice = int(input(\"Enter choice: \"))\nif choice == 1:\n    check_balance()\nelif choice == 2:\n    amount = float(input(\"Enter deposit amount: $\"))\n    deposit(amount)\nelif choice == 3:\n    amount = float(input(\"Enter withdrawal amount: $\"))\n    withdraw(amount)\nelif choice == 4:",
+        "detail": "julson.Assignments.assignment9.ban",
+        "documentation": {}
+    },
+    {
+        "label": "deposit",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.bbank",
+        "description": "julson.Assignments.assignment9.bbank",
+        "peekOfCode": "def deposit(amount):\n    global balance     #global function can be called from multiple parts of the code\n    balance += amount\n    print(\"Deposited ${}. Current balance: ${}\".format(amount, balance))\ndef withdraw(amount):\n    global balance\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))\n    else:",
+        "detail": "julson.Assignments.assignment9.bbank",
+        "documentation": {}
+    },
+    {
+        "label": "withdraw",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.bbank",
+        "description": "julson.Assignments.assignment9.bbank",
+        "peekOfCode": "def withdraw(amount):\n    global balance\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))\n    else:\n        print(\"Insufficient funds.\")\ndef check_balance():\n    print(\"Current balance: ${}\".format(balance))\nwhile True:",
+        "detail": "julson.Assignments.assignment9.bbank",
+        "documentation": {}
+    },
+    {
+        "label": "check_balance",
+        "kind": 2,
+        "importPath": "julson.Assignments.assignment9.bbank",
+        "description": "julson.Assignments.assignment9.bbank",
+        "peekOfCode": "def check_balance():\n    print(\"Current balance: ${}\".format(balance))\nwhile True:\n    print(\"\\nATM services Available Options:\")\n    print(\"1. Check Balance\")\n    print(\"2. Deposit\")\n    print(\"3. Withdraw\")\n    print(\"4. Exit\")\n    choice = int(input(\"Enter choice: \"))\n    if choice == 1:",
+        "detail": "julson.Assignments.assignment9.bbank",
+        "documentation": {}
+    },
+    {
+        "label": "balance",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment9.bbank",
+        "description": "julson.Assignments.assignment9.bbank",
+        "peekOfCode": "balance = 0\ndef deposit(amount):\n    global balance     #global function can be called from multiple parts of the code\n    balance += amount\n    print(\"Deposited ${}. Current balance: ${}\".format(amount, balance))\ndef withdraw(amount):\n    global balance\n    if amount <= balance:\n        balance -= amount\n        print(\"Withdrew ${}. Current balance: ${}\".format(amount, balance))",
+        "detail": "julson.Assignments.assignment9.bbank",
+        "documentation": {}
+    },
+    {
+        "label": "#day",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment9.weekdays",
+        "description": "julson.Assignments.assignment9.weekdays",
+        "peekOfCode": "#day = datetime.now()\n#current_day_of_week = day.weekday()\n#print(\"current day (0 = Monday) :\",current_day_of_week)\n#print(day)\n#print(datetime.now().day)\nWeekDay='monday'\nif WeekDay == 'monday':\n   print (\"Go and Work\")\nelif WeekDay == 'Tuesday':\n   print (\"Its a Tuesday\")",
+        "detail": "julson.Assignments.assignment9.weekdays",
+        "documentation": {}
+    },
+    {
+        "label": "#current_day_of_week",
+        "kind": 5,
+        "importPath": "julson.Assignments.assignment9.weekdays",
+        "description": "julson.Assignments.assignment9.weekdays",
+        "peekOfCode": "#current_day_of_week = day.weekday()\n#print(\"current day (0 = Monday) :\",current_day_of_week)\n#print(day)\n#print(datetime.now().day)\nWeekDay='monday'\nif WeekDay == 'monday':\n   print (\"Go and Work\")\nelif WeekDay == 'Tuesday':\n   print (\"Its a Tuesday\")\nelif WeekDay == 'Wednesday':",
+        "detail": "julson.Assignments.assignment9.weekdays",
         "documentation": {}
     },
     {
@@ -5916,6 +7782,24 @@
         "description": "maurice.2Darray.while",
         "peekOfCode": "count = 1\nwhile count <=10:\n    sum +=count\n    count += 1\n# print(\"sum to 10: \", sum)",
         "detail": "maurice.2Darray.while",
+        "documentation": {}
+    },
+    {
+        "label": "calculation",
+        "kind": 2,
+        "importPath": "maurice.advanced_functions.main",
+        "description": "maurice.advanced_functions.main",
+        "peekOfCode": "def calculation(a,b):\n    a=input('enter no1: ')\n    b=input('enter no.2: ')\n    return a*b \nprint(calculation(4,5))\ndef main():\n    print('This script is being executed')\nif __name__==\"__main__\":\n    main()",
+        "detail": "maurice.advanced_functions.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "maurice.advanced_functions.main",
+        "description": "maurice.advanced_functions.main",
+        "peekOfCode": "def main():\n    print('This script is being executed')\nif __name__==\"__main__\":\n    main()",
+        "detail": "maurice.advanced_functions.main",
         "documentation": {}
     },
     {
@@ -6054,6 +7938,15 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": "maurice.asignments.15_part2",
+        "description": "maurice.asignments.15_part2",
+        "peekOfCode": "def main():\n    start=input('enter start: ')\n    end=input('enter end: ')\n    set=input('enter set: ')\n    for i in range(int(start),int(end),int(set)):\n      print(i)\nmain()",
+        "detail": "maurice.asignments.15_part2",
+        "documentation": {}
+    },
+    {
         "label": "Markert",
         "kind": 6,
         "importPath": "maurice.asignments.assignment10",
@@ -6096,6 +7989,15 @@
         "description": "maurice.asignments.assignment11_polymorphism",
         "peekOfCode": "class Animals:\n    def breathe(self):\n        print(\"Animals can breathe\")\n    def speake(self):\n        print(\"Animals cannot speake\")\nobj_hum=Humans()\nobj_ani=Animals()\nfor object in (obj_hum, obj_ani):\n    object.breathe()\n    object.speake()",
         "detail": "maurice.asignments.assignment11_polymorphism",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "maurice.asignments.assignment14",
+        "description": "maurice.asignments.assignment14",
+        "peekOfCode": "def main():\n    original_string=input(\"Enter text: ..... \")\n    print(\"The original string: \",original_string)\n    reversed_text=original_string[::-1]\n    print(\"The reversed Text: \",reversed_text)\n    print(\"The text in capital: \",original_string.upper())\n    print(\"The stripped text: \",original_string.strip(\".\"))\n    counting=input(\"Enter word whose number you want to know: \")\n    print(\"Times appeared: \",original_string.count(counting))\nmain()",
+        "detail": "maurice.asignments.assignment14",
         "documentation": {}
     },
     {
@@ -6288,6 +8190,42 @@
         "documentation": {}
     },
     {
+        "label": "ImmutableTuple",
+        "kind": 6,
+        "importPath": "maurice.mutability.main",
+        "description": "maurice.mutability.main",
+        "peekOfCode": "class ImmutableTuple:\n    def __init__(self,data):\n        self.data=tuple(data)\n        print(self.data)\nnum=ImmutableTuple([1,2,3])\n# we are changing a list to a tuple is what ive done above\nclass Mutablelist:\n    def __init__(self,data):\n        self.data=data\nlst=Mutablelist([1,2,3])",
+        "detail": "maurice.mutability.main",
+        "documentation": {}
+    },
+    {
+        "label": "Mutablelist",
+        "kind": 6,
+        "importPath": "maurice.mutability.main",
+        "description": "maurice.mutability.main",
+        "peekOfCode": "class Mutablelist:\n    def __init__(self,data):\n        self.data=data\nlst=Mutablelist([1,2,3])\n# exercise\nclass Immutablebool:\n    def __init__(self,data):\n        self.data=str(data)\n        print(self.data)\nbool=Immutablebool(False)",
+        "detail": "maurice.mutability.main",
+        "documentation": {}
+    },
+    {
+        "label": "Immutablebool",
+        "kind": 6,
+        "importPath": "maurice.mutability.main",
+        "description": "maurice.mutability.main",
+        "peekOfCode": "class Immutablebool:\n    def __init__(self,data):\n        self.data=str(data)\n        print(self.data)\nbool=Immutablebool(False)\n# exercise2\nclass Immutablestring():\n    def __init__(self,data):\n        self.data=int(data)\n        print(self.data)",
+        "detail": "maurice.mutability.main",
+        "documentation": {}
+    },
+    {
+        "label": "Immutablestring",
+        "kind": 6,
+        "importPath": "maurice.mutability.main",
+        "description": "maurice.mutability.main",
+        "peekOfCode": "class Immutablestring():\n    def __init__(self,data):\n        self.data=int(data)\n        print(self.data)\nstr=Immutablestring('Boy')",
+        "detail": "maurice.mutability.main",
+        "documentation": {}
+    },
+    {
         "label": "democlass",
         "kind": 6,
         "importPath": "maurice.oop.abstruction",
@@ -6369,6 +8307,24 @@
         "documentation": {}
     },
     {
+        "label": "StudentRegister",
+        "kind": 6,
+        "importPath": "maurice.PROJECT.projecttt",
+        "description": "maurice.PROJECT.projecttt",
+        "peekOfCode": "class StudentRegister:\n    # Constructor method to initialize the class with an empty dictionary for storing student information\n    def __init__(self):\n        self.students = {}\n    # Method to register a new student by taking user input for student ID, name, and age\n    def register_student(self):\n        student_id = input(\"Enter student ID: \")\n        name = input(\"Enter student name: \")\n        age = int(input(\"Enter student age: \"))\n        # Store the entered student information in the 'students' dictionary",
+        "detail": "maurice.PROJECT.projecttt",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "maurice.PROJECT.projecttt",
+        "description": "maurice.PROJECT.projecttt",
+        "peekOfCode": "register = StudentRegister()\n# Invoke the run_register method to start the program\nregister.run_register()",
+        "detail": "maurice.PROJECT.projecttt",
+        "documentation": {}
+    },
+    {
         "label": "call1",
         "kind": 2,
         "importPath": "maurice.PROJECT.register(final)",
@@ -6378,39 +8334,12 @@
         "documentation": {}
     },
     {
-        "label": "new_list",
-        "kind": 5,
-        "importPath": "operations.list_operations",
-        "description": "operations.list_operations",
-        "peekOfCode": "new_list = list1 + list2 \nprint(new_list)\n#clear() removes everything from a list\nlist2.clear()\nprint(list2)\n#count\ncount_items=new_list.count(20)\nprint(count_items)\n#sort(only sort numbers)\nunsorted_items=[29,3,0,1,5,80]",
-        "detail": "operations.list_operations",
-        "documentation": {}
-    },
-    {
-        "label": "copied_list",
-        "kind": 5,
-        "importPath": "operations.list_operations",
-        "description": "operations.list_operations",
-        "peekOfCode": "copied_list = unsorted_items.copy()\nprint(copied_list)",
-        "detail": "operations.list_operations",
-        "documentation": {}
-    },
-    {
-        "label": "slice_tuple",
-        "kind": 5,
-        "importPath": "operations.tuple_operations",
-        "description": "operations.tuple_operations",
-        "peekOfCode": "slice_tuple = tuple5[1:2:3]\nprint(slice_tuple)",
-        "detail": "operations.tuple_operations",
-        "documentation": {}
-    },
-    {
-        "label": "first",
+        "label": "replacement",
         "kind": 2,
-        "importPath": "Rajvir.advanced_func.main",
-        "description": "Rajvir.advanced_func.main",
-        "peekOfCode": "def first():\n    print(\"first code\")\ndef main():\n    print(\"this script is being executed directly\")\nif __name__==\"__main__\":\n    main()\n    first()",
-        "detail": "Rajvir.advanced_func.main",
+        "importPath": "maurice.string_function.find",
+        "description": "maurice.string_function.find",
+        "peekOfCode": "def replacement():\n    enter=input(\"Enter your text: \")\n    word_to_find=\"stay\"\n    word_to_insert=\"GO!\"\n    new_sentence=enter.find(word_to_find)\n    if new_sentence != -1:\n      final_sentence=enter.replace(word_to_find,word_to_insert)\n      print(final_sentence)\n    else:\n       print(f'{word_to_find} is not in the entered sentence')",
+        "detail": "maurice.string_function.find",
         "documentation": {}
     },
     {
@@ -6423,11 +8352,29 @@
         "documentation": {}
     },
     {
-        "label": "Shape",
+        "label": "step",
+        "kind": 5,
+        "importPath": "Rajvir.advanced_func.range",
+        "description": "Rajvir.advanced_func.range",
+        "peekOfCode": "step = int(input(\"Enter the step u want it to follow: \"))\nfor i in range(start,end,step):\n    print(i)\n    for i in range(5):\n    # print(i)\n    pass\n#start and end point\nfor i in range(2,8):\n    # print(i)\n    pass",
+        "detail": "Rajvir.advanced_func.range",
+        "documentation": {}
+    },
+    {
+        "label": "Parent",
         "kind": 6,
         "importPath": "Rajvir.assignments.assignment13.encap",
         "description": "Rajvir.assignments.assignment13.encap",
-        "peekOfCode": "class Shape:\n    def __init__(self, base, height):\n        self.__area = (base*height)/2\n    def get_area(self):\n        return self.__area\ntriangle= Shape(2, 4)\nprint(triangle.get_area())",
+        "peekOfCode": "class Parent:\n    def __init__(self,name,age):\n        self.__name= name\n        self.__age= age \n    def get_name(self):\n        return self.__name\n    def set_name(self,name):\n        self.__name = name\n    def get_age(self,age):\n        return self.__age",
+        "detail": "Rajvir.assignments.assignment13.encap",
+        "documentation": {}
+    },
+    {
+        "label": "Child",
+        "kind": 6,
+        "importPath": "Rajvir.assignments.assignment13.encap",
+        "description": "Rajvir.assignments.assignment13.encap",
+        "peekOfCode": "class Child(Parent):\n    def __init__(self,name,age,mname):\n        super().__init__(name,age)\n        self.mname = mname\nparent1 =Parent(\"Alice\", 20)\nprint (\"parents name is \" , Parent.get_name())\nchild1 =Child(\"John\", 20, \"jack\")\nprint (\"childs name is \" , Child.get_name())",
         "detail": "Rajvir.assignments.assignment13.encap",
         "documentation": {}
     },
@@ -6690,6 +8637,51 @@
         "description": "Rajvir.assignments.assignment14",
         "peekOfCode": "def app():\n # this is a reverse technique.. reverses the order of the data elements in place.\n    sentence = input(\"Enter a short sentence: \")\n    reversed_string= list(reversed(sentence))\n # this is for uppercase...\n    upper_case = sentence.upper()\n # this is for lowercase..\n    lower_case= upper_case.lower()\n # strip...\n    word = (\"    banana     \")",
         "detail": "Rajvir.assignments.assignment14",
+        "documentation": {}
+    },
+    {
+        "label": "wr_file",
+        "kind": 2,
+        "importPath": "Rajvir.assignments.assignment15",
+        "description": "Rajvir.assignments.assignment15",
+        "peekOfCode": "def wr_file():\n    file =open(\"test.txt\",\"w\")\n    file.write(\"this is data inside a file..\")\n    file.close()\n    file= open(\"test.txt\",\"r\")\n    print(file.read())\n    file.close()\nstart= int(input(\"Enter the range you want to begin with: \"))\nend= int(input(\"Enter the range with a number u want to stop: \"))\nstep = int(input(\"Enter the step u want it to follow: \"))",
+        "detail": "Rajvir.assignments.assignment15",
+        "documentation": {}
+    },
+    {
+        "label": "step",
+        "kind": 5,
+        "importPath": "Rajvir.assignments.assignment15",
+        "description": "Rajvir.assignments.assignment15",
+        "peekOfCode": "step = int(input(\"Enter the step u want it to follow: \"))\nfor i in range(start,end,step):\n    def main():\n        print(i)\n    if __name__ ==\"__main__\":\n        main()\n        wr_file()",
+        "detail": "Rajvir.assignments.assignment15",
+        "documentation": {}
+    },
+    {
+        "label": "Shape",
+        "kind": 6,
+        "importPath": "Rajvir.assignments.assignment16",
+        "description": "Rajvir.assignments.assignment16",
+        "peekOfCode": "class Shape(ABC):\n    @abstractmethod\n    def calculate_area(self):\n        pass\n    @abstractmethod\n    def calculate_perimeter(self):\n        pass \nclass Triangle(Shape):\n    def __init__(self,a, b, c):\n        self.A= a ",
+        "detail": "Rajvir.assignments.assignment16",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle",
+        "kind": 6,
+        "importPath": "Rajvir.assignments.assignment16",
+        "description": "Rajvir.assignments.assignment16",
+        "peekOfCode": "class Triangle(Shape):\n    def __init__(self,a, b, c):\n        self.A= a \n        self.B= b \n        self.C= c \n    def calculate_area(self):\n        area1=(self.A + self.B + self.C)/2\n        return area1\n    def calculate_perimeter(self):\n        return self.A + self.B + self.C ",
+        "detail": "Rajvir.assignments.assignment16",
+        "documentation": {}
+    },
+    {
+        "label": "Square",
+        "kind": 6,
+        "importPath": "Rajvir.assignments.assignment16",
+        "description": "Rajvir.assignments.assignment16",
+        "peekOfCode": "class Square(Shape):\n    def __init__(self,side__length):\n        self.side__length= side__length\n    def calculate_area(self):\n        return self.side__length**2\n    def calculate_perimeter(self):\n        return 4*self.side__length\n# inorder to attain users input variables are created for the specific input from the sub/child class..\n# float will be used because some answers can come as points...\nA= float(input(\"Enter the first length: \"))",
+        "detail": "Rajvir.assignments.assignment16",
         "documentation": {}
     },
     {
@@ -6976,7 +8968,7 @@
         "kind": 5,
         "importPath": "Rajvir.loops.while_loop",
         "description": "Rajvir.loops.while_loop",
-        "peekOfCode": "numbers = [1, 2, 3, 4, 5]\ntotal = 0\nindex = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5]\ntotal = 0\nindex = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")\n# while 0<10:\n#     print(\"infinite loop\")     #this prints infintely wihtout terminating\ncount =3       #this startes counting from 3\nwhile count <= 10:",
         "detail": "Rajvir.loops.while_loop",
         "documentation": {}
     },
@@ -6985,7 +8977,7 @@
         "kind": 5,
         "importPath": "Rajvir.loops.while_loop",
         "description": "Rajvir.loops.while_loop",
-        "peekOfCode": "total = 0\nindex = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")",
+        "peekOfCode": "total = 0\nindex = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")\n# while 0<10:\n#     print(\"infinite loop\")     #this prints infintely wihtout terminating\ncount =3       #this startes counting from 3\nwhile count <= 10:\n    print(count)",
         "detail": "Rajvir.loops.while_loop",
         "documentation": {}
     },
@@ -6994,7 +8986,16 @@
         "kind": 5,
         "importPath": "Rajvir.loops.while_loop",
         "description": "Rajvir.loops.while_loop",
-        "peekOfCode": "index = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")",
+        "peekOfCode": "index = 1\nwhile total < 10:\n    total += numbers[index]\nprint(f\"total: {total} of the list {numbers}\")\n# while 0<10:\n#     print(\"infinite loop\")     #this prints infintely wihtout terminating\ncount =3       #this startes counting from 3\nwhile count <= 10:\n    print(count)\n    count +=1 #this will increament the number by 1",
+        "detail": "Rajvir.loops.while_loop",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Rajvir.loops.while_loop",
+        "description": "Rajvir.loops.while_loop",
+        "peekOfCode": "index = 1\nwhile index <= len(string):\n    print(str(string))\n    index += 1\nprint('*'*20)\n# counting down from a specified number\nnum= int(input(\"Enter a number to count down from: \"))\nwhile num > 0:\n    print(num)\n    num -= 1",
         "detail": "Rajvir.loops.while_loop",
         "documentation": {}
     },
@@ -7089,6 +9090,15 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Rajvir.string_func.app",
+        "description": "Rajvir.string_func.app",
+        "peekOfCode": "def main():\n    input_string=input(\"Enter the string: \")\n    substring_to_replace=input(\"Enter sub string to replace: \")\n    replacement_sub_string=input(\"Enter the replacement: \")\n    #perform replacement operation\n    replaced_string = input_string.replace(substring_to_replace,replacement_sub_string)\n    #spliting the replaced string into a list of words\n    words_list = replaced_string.split()\n    #join the splitted words with a hyphen\n    hyphenated_string = \"-\".join(words_list)",
+        "detail": "Rajvir.string_func.app",
+        "documentation": {}
+    },
+    {
         "label": "replacement",
         "kind": 2,
         "importPath": "Rajvir.string_func.find",
@@ -7104,6 +9114,42 @@
         "description": "Rajvir.function",
         "peekOfCode": "def sub(num1 , num2):\n    return(num1 - num2)\nnumber1=int(input(\"enter the first value: \"))\nnumber2= int(input(\"enter the second value: \"))\nprint(\"The answer will be:\", sub(number1,number2))",
         "detail": "Rajvir.function",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "Rajvir.range",
+        "description": "Rajvir.range",
+        "peekOfCode": "start = 10\nend = 20 \nstep = 2\nfor i in range(start,end,step):\n    print(i)",
+        "detail": "Rajvir.range",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "Rajvir.range",
+        "description": "Rajvir.range",
+        "peekOfCode": "end = 20 \nstep = 2\nfor i in range(start,end,step):\n    print(i)",
+        "detail": "Rajvir.range",
+        "documentation": {}
+    },
+    {
+        "label": "step",
+        "kind": 5,
+        "importPath": "Rajvir.range",
+        "description": "Rajvir.range",
+        "peekOfCode": "step = 2\nfor i in range(start,end,step):\n    print(i)",
+        "detail": "Rajvir.range",
+        "documentation": {}
+    },
+    {
+        "label": "generate_readme",
+        "kind": 2,
+        "importPath": "readme_generator_script",
+        "description": "readme_generator_script",
+        "peekOfCode": "def generate_readme():\n    readme_content = \"\"\"# Greenbridge School of Open Technologies\nWelcome to the Greenbridge School of Open Technologies! Here you will embark on an exciting journey into the world of Python programming. This README provides an overview of our Certificate in Python Programming course, its structure, and what you can expect to learn throughout the five-week duration.\n## Certificate in Python Programming\n- **Duration:** 5 weeks\nPython, an object-oriented programming language created by Guido Rossum in 1989, is renowned for its versatility and simplicity. It's widely adopted by major companies like NASA, Google, and YouTube for its rapid prototyping capabilities and robustness. Our course aims to equip you with a solid foundation in Python programming, tailored for absolute beginners.\n## Course Overview\n### Week 1\n**Topics Covered:**\n- Introduction to Python Programming",
+        "detail": "readme_generator_script",
         "documentation": {}
     }
 ]
