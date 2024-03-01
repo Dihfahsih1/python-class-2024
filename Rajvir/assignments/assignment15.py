@@ -18,6 +18,12 @@ def main():
     for i in range(start,end,step):
         print(i)
 
+<<<<<<< HEAD
 if __name__ =="__main__":
     main()
     wr_file()
+=======
+    if __name__ =="__main__":
+        main()
+        wr_file() 
+>>>>>>> 101d7554af05893102393290d61e747df821c928
