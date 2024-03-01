@@ -1,10 +1,5 @@
-const findSquareRooy = (number) => Math.sqrt(number):
+import math
 
-
-// Example usage
-const userInput = parseFloat(prompt("Enter a number:"));
-if (!isNaN(userInput)) {
-    const squareRoot = findSquareRoot(userInput):
-    console.log('The square root of ${userInput} is ${squareRoot}');
-} else {
-    console.log("Invalid input. Please enter a valid number.");
+num = int(input("Enter the number: "))
+number = lambda x: math.sqrt(num)
+print(f"The square root of {num} is {number(num)}")
