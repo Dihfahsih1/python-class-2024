@@ -1,10 +1,18 @@
-from zipfile import ZipFile
+import zipfile
 
-zip_file = 'assignment_files/sample_zipfile.zip'
+#creating a zipfile
 
-try:
-    with ZipFile(zip_file, 'r') as zip:
-        zip.printdir()
+with zipfile.ZipFile("assignment_files/sample_zipfile.zip", "w") as zip_file:
+    zip_file.write("assignment_files/data.txt")
 
-except Exception as e:
-    print(f"{e}")
+#reading zip
+
+with zipfile.ZipFile("assignment_files/sample_zipfile.zip", "r") as zip_file:
+    zip_file.extract("assignment_files/data.txt")
+
+#appending 
+
+with zipfile.ZipFile("assignment_files/sample_zipfile.zip", "a") as zip_file:
+    zip_file.write("assignment_files/data1.txt")
+
+
