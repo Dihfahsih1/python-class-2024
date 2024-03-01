@@ -10,20 +10,25 @@ except FileNotFoundError:
     print("This file doesnot exist.")
 
 except PermissionError:
-    print("You ")
+    print("You have no permission.")
 
 except IOError:
-    print("")
+    print("An error has occured.")
 
 except EOFError:
-    print('')
+    print("An error has occured.")
 
 except OSError:
+    print("An error has occured.")
 
 except RuntimeError:
+    print("An error has occured.")
 
 except MemoryError:
+    print("An error has occured.")
 
 except NameError:
+    print("An error has occured.")
 
 except KeyError:
+    print("An error has occured.")
