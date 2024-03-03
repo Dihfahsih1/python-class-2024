@@ -63,7 +63,7 @@ Throughout the course, you'll engage in practical lab exercises to reinforce you
 
 We're thrilled to have you join us on this educational adventure. By the end of the course, you'll have a solid understanding of Python programming fundamentals, empowering you to embark on your own projects and ventures in the vast world of technology.
 
-For any inquiries or support, please contact our team at [email@example.com](mailto:email@example.com).
+For any inquiries or support, please email me [@gmail.com](mailto:dihfahsihm@gmail.com).
 
 Happy coding!
 
