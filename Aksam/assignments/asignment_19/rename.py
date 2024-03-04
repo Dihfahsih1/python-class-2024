@@ -10,4 +10,4 @@ def rename_function(old_name, new_name):
 
 old_directory = input("Enter the directory you want to rename: ")
 new_directory = input("Enter the new name for the directory: ")       
-rename_function(old_directory, new_directory)
+rename_function(old_directory, new_directory) 
