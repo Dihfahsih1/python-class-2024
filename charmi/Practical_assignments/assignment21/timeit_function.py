@@ -12,6 +12,11 @@ import time
 
 #example 1
 
+execution_time = timeit.timeit("print('My name is Charmi')", number=1)
+print("The time for execution is: ", execution_time)
+
+#example 2
+
 def addition(a,b):
     
     add = a+b

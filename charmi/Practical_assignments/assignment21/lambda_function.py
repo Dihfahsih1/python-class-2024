@@ -4,12 +4,8 @@ def list_comprehension():
 
     numbers = [1,2,3,4,5,6]
 
-    even_number = []
+    even_list = list((lambda x: x%2==0)(x) for x in numbers)  #thi print true if even and false if odd
 
-    for number in numbers:
-        even_number.append((lambda x: x%2==0)(number))
-
-    for number in even_number:
-        print(even_number)
+    print(even_list)
 
 list_comprehension()
