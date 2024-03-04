@@ -12,7 +12,7 @@ df = pd.DataFrame(data)      #df is dataframe
 df = pd.read_csv("csv_file2.csv")
 # print(df)
 
-#print(df['Name'])            #for accessing a specific coloumn
+#print(df['Year'])            #for accessing a specific coloumn
 
 # print(df.tail())          #for accessing the end of the 
 
