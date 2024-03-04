@@ -6,11 +6,11 @@ data_to_add = [
 ]
 
 
-file = open('files/csv.csv','a', newline='')
-writer = csv.writer(file)
+with open('files/csv.csv','a', newline='') as file:
+    writer = csv.writer(file)
 
 
 writer.writerows(data_to_add)
 
-file.close()
+
 
