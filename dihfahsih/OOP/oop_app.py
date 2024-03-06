@@ -9,9 +9,7 @@ class Shape:
         pass
 
 # Encapsulation: We'll encapsulate the properties and methods of each shape within its respective class.
-
 # Inheritance: Different shapes will inherit from the Shape class and implement their specific functionalities.
-
 # Polymorphism: We will use polymorphism to calculate the area and perimeter of different shapes using the same method names.
 
 # Define a Rectangle class inheriting from Shape

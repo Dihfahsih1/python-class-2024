@@ -1,0 +1,5 @@
+file=open("data.txt",'w')
+input=input("Enter content to append")
+content=file.write(input)
+print(content)
+file.close()
