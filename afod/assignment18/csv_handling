@@ -1,0 +1,60 @@
+import csv
+
+def read_csv(file_name):
+    try:
+        with open(file_name, 'r', newline='') as file:
+            reader = csv.reader(file)
+            print("CSV file content:")
+            for row in reader:
+                print(row)
+    except FileNotFoundError:
+        print("File not found.")
+
+def write_csv(file_name, data):
+    try:
+        with open(file_name, 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(data)
+            print("Data successfully written to the CSV file.")
+    except FileNotFoundError:
+        print("File not found.")
+
+def append_csv(file_name, data):
+    try:
+        with open(file_name, 'a', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(data)
+            print("Data successfully appended to the CSV file.")
+    except FileNotFoundError:
+        print("File not found.")
+
+def main():
+    file_name = input("Enter CSV file name: ")
+
+    print("\n1. Read from CSV file")
+    print("2. Write to CSV file")
+    print("3. Append to CSV file")
+
+    choice = input("Enter your choice (1/2/3): ")
+
+    if choice == '1':
+        read_csv(file_name)
+    elif choice == '2':
+        data = []
+        num_rows = int(input("Enter number of rows: "))
+        for _ in range(num_rows):
+            row = input("Enter comma-separated values for a row: ").split(',')
+            data.append(row)
+        write_csv(file_name, data)
+    elif choice == '3':
+        data = []
+        num_rows = int(input("Enter number of rows to append: "))
+        for _ in range(num_rows):
+            row = input("Enter comma-separated values for a row to append: ").split(',')
+            data.append(row)
+        append_csv(file_name, data)
+    else:
+        print("Invalid choice.")
+
+if __name__ == "__main__":
+    main()

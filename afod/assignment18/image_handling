@@ -1,0 +1,37 @@
+def write_image(file_name, image_data):
+    try:
+        with open(file_name, 'wb') as file:
+            file.write(image_data)
+            print("Image successfully written to the file.")
+    except FileNotFoundError:
+        print("File not found.")
+
+def append_image(file_name, image_data):
+    try:
+        with open(file_name, 'ab') as file:
+            file.write(image_data)
+            print("Image successfully appended to the file.")
+    except FileNotFoundError:
+        print("File not found.")
+
+def main():
+    file_name = input("Enter file name: ")
+
+    print("\n1. Write image to file")
+    print("2. Append image to file")
+
+    choice = input("Enter your choice (1/2): ")
+
+    if choice == '1':
+        with open("image.jpg", "rb") as image_file:
+            image_data = image_file.read()
+            write_image(file_name, image_data)
+    elif choice == '2':
+        with open("image.jpg", "rb") as image_file:
+            image_data = image_file.read()
+            append_image(file_name, image_data)
+    else:
+        print("Invalid choice.")
+
+if __name__ == "__main__":
+    main()
