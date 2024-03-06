@@ -16,35 +16,22 @@ class Shape(ABC):
         pass
         # print("This is for calculating the perimeter of the shape.")
 
-    def length(self):
-        return self.length
-
-    def width(self):
-        return self.width
-
-    def radius(self):
-        return self.radius
-
 class Circle(Shape):
-    def __init__(self,length, width, radius):
+    def __init__(self,radius):
         super().__init__(length, width, radius)
-        self.length=length
-        self.width=width
         self.radius=radius
 
 #this is to calculate the area and perimeter of the circle
     def area(self):
-        return self.radius*self.radius*(4.314)
+        return self.radius*self.radius*(3.142)
 
     def perimeter(self):
-        return self.radius* (2*4.314)
+        return self.radius* (2*3.142)
 
 class Square(Shape):
-    def __init__(self, length, width, radius):
+    def __init__(self, length):
         super().__init__(length, width, radius)
         self.length=length
-        self.width=width
-        self.radius=radius
 
 #this is to calculate the area and perimeter of the square
     def area(self):
@@ -54,11 +41,10 @@ class Square(Shape):
         return (4*self.length)
 
 class Rectangle(Shape):
-    def __init__(self, length, width, radius):
+    def __init__(self, length, width):
         super().__init__(length, width, radius)
         self.length=length
         self.width=width
-        self.radius=radius
 
 #this is to calculate the area and perimeter of the rectangle
     def area(self):
@@ -78,24 +64,24 @@ shape_input= input("Enter your shape: ")
 if shape_input =="A" or shape_input== "a":
     length = 0
     width = 0
-    radius = float(input("Enter the radius of the circle: "))
-    circle1= Circle(length, width, radius) 
+    radius = float(input("\nEnter the radius of the circle: "))
+    circle1= Circle(radius) 
     print("\nThe area of the circle is: ", circle1.area())
     print("The perimeter of the circle is: ", circle1.perimeter())
 
 elif shape_input =="B" or shape_input== "b":
     radius = 0
     width = 0
-    length = float(input("Enter the length of the sqaure: "))
-    square1= Square(length, width, radius)
+    length = float(input("\nEnter the length of the sqaure: "))
+    square1= Square(length)
     print("\nThe area of the square is: ", square1.area())
     print("The perimeter of the square is: ", square1.perimeter())
 
 elif shape_input =="C" or shape_input== "c":
     radius = 0
-    length = float(input("Enter the length of the rectangle: "))
+    length = float(input("\nEnter the length of the rectangle: "))
     width = float(input("Enter the width of the rectangle: "))
-    rectangle1= Rectangle(length, width, radius)
+    rectangle1= Rectangle(length, width)
     print("\nThe area of the rectangle is: ", rectangle1.area())
     print("The perimeter of the rectangle is: ", rectangle1.perimeter())
 

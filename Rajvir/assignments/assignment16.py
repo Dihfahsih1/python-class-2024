@@ -48,11 +48,11 @@ side__length= float(input("Enter the side length: "))
 square1= Square(side__length)
 
 # printing the objects created..
-print(f"The area is.. {triangle1.calculate_area()}")
+print(f"The area of a triangle is.. {triangle1.calculate_area()}")
 print(f"The perimeter is.. {triangle1.calculate_perimeter()}")
 
 # squareprinting
-print(f"The area is.. {square1.calculate_area()}")
+print(f"The area square is.. {square1.calculate_area()}")
 print(f"The perimeter is.. {square1.calculate_perimeter()}")
 
 
