@@ -9,7 +9,7 @@ def current_day():
     current_day= datetime.datetime.now()
 
     if current_day.strftime('%a') == "Mon":
-        print("Monday: First da of the week. ")
+        print("Monday: First day of the week. ")
 
     elif current_day.strftime('%a') == "Tue":
         print("Tuesday: Second day of the week.")
