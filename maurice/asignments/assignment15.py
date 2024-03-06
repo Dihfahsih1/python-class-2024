@@ -9,3 +9,4 @@ fr=open('music.txt','r')
 music=fr.read()
 print(music)
 fr.close()
+
