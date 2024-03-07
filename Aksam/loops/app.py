@@ -1,15 +1,14 @@
 
 
 def enumarateApp():
-    
     # student names
     student_name_1 = input("Please enter first student name: ")
     student_name_2 = input("Please enter second student name: ")
     student_name_3 = input("Please enter third student name: ")
     student_name_4 = input("Please enter fourth student name: ")
     print("\n")
-    # student age 
     
+    # student age 
     student_age_1 = int(input("Please enter first age name: "))
     student_age_2 = int(input("Please enter second age name: "))
     student_age_3 = int(input("Please enter third age name: "))
