@@ -4,19 +4,14 @@ data = {'Name':['John','Anna','Peter'], 'Age':[12,45,67]}
 
 df=pd.DataFrame(data)
 
-# print(df.get('Age'))
+print(df.get('Age'))
 
 #reading a csv file into a dataframe
 df=pd.read_csv('csv_file.csv')
 print(df.loc[40000])
-
-#filtering rows based on a condition
 print(df[df['Year'] > 2020])
-
-#Descriptive statistics of the dataframe
 print(df.describe())
 
-#sorting dataframe by a column
 print(df.sort_values(by="Year",ascending=False))
 
 #Dropping rows or columns with missing values

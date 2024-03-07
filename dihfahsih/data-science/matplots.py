@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
-# x=[1,2,3,4,5,6]
-# y=[9,4,7,3,6,5]
+x=[1,2,3,4,5,6]
+y=[9,4,7,3,6,5]
 
-# plt.plot(x,y)
+plt.plot(x,y)
 
 # plt.xlabel('X-axis')
 # plt.ylabel('Y-axis')
@@ -13,16 +13,16 @@ import numpy as np
 
 #bar graph 
 
-# categories=['A','B','C','D','E']
-# values=[5,6,8,3,5]
+categories=['A','B','C','D','E']
+values=[5,6,8,3,5]
 
-# plt.bar(categories, values, color='grey')
-# plt.xlabel('Categories')
-# plt.ylabel('Values')
-# plt.title('A bar graph')
-# plt.grid(axis='y')
+plt.bar(categories, values, color='grey')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('A bar graph')
+plt.grid(axis='y')
 
-# plt.show()
+plt.show()
 
 #histogram
 # data = np.random.random(1000)
