@@ -8,7 +8,7 @@ index =0
 
 while index < len(students):
     student_name = students[index]
-    attendence = input(f"Is {student_name} present? (yes/no):").lower
+    attendence = input(f"Is {student_name} present? (yes/no): ").lower
 
     if attendence == "yes":
         print(f"{student_name} is present.")
