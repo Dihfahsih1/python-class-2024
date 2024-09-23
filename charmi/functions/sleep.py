@@ -16,7 +16,7 @@ print("Time is up!")
 
 def task():
     print('Task complete')
- if __name__ == "__main__":
+if __name__ == "__main__":
     time.sleep(3)
         
     task()

@@ -1,6 +1,6 @@
 def switch_cases(argument):
     if argument== "a":
-        print("You selected option: {argument}")
+        print(f"You selected option: {argument}")
         return "Apple"      # return only returns a value but it does not print
 
     elif argument== "b":

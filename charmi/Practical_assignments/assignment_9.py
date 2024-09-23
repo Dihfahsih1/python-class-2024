@@ -18,8 +18,8 @@ def vowels():
 
     for student in students:   
         #Using if to get names that end with a vowel
-        if student[-1].lower() in ['a', 'e', 'i', 'o', 'u']:  #While using for we dont write [index][-1]
-            print(f"{student} ends with a vowel.")            #While using for we dont insert [index]
+        if student[-1].lower() in ['a', 'e', 'i', 'o', 'u']:  #While using 'for' we dont write [index][-1]
+            print(f"{student} ends with a vowel.")            #While using 'for' we dont insert [index]
 
         else:
             print(f"{student} does not end with a vowel.")

@@ -23,7 +23,7 @@ def add(a=5, b=10):          # the second value for b is taken from the placehol
     c=a+b
     print(c)
 
-add(10)
+add(1)
 
 #how to call a function inside a function
 

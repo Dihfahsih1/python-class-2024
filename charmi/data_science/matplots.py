@@ -43,7 +43,7 @@ values = [1,2,3,4,5]
 lables= ["A", "B", "C", "D", "E"]
 sizes = [5,6,7,4,3]
 
-plt.pie(sizes, lables=lables, autopct='%1.1f%%', startangle=140, colors=['red', 'green', 'blue', 'yellow', 'purple'])
+plt.pie(sizes, labels=lables, autopct='%1.1f%%', startangle=140, colors=['red', 'green', 'blue', 'yellow', 'purple'])
 plt.axis('equal')
 plt.title("The pie chart")
 

@@ -7,16 +7,16 @@ def add(a,b):
     print(str(a) + "+" + str(b) + "=" + str(answer))     #only strings can be concatenated
 
 def sub(a,b):
-    answer=a+b
+    answer=a-b
     print(str(a) + "-" + str(b)  + "=" + str(answer))
     
 def mul(a,b):
-    answer=a+b
+    answer=a*b
     print(str(a) + "*" + str(b) + "=" + str(answer))
 
 def div(a,b):
-    answer=a+b
-    print(str(a) + "/" + str(b) + "=" + str(answer))
+    answer=a/b
+    print(str(a) + "/" + str(b) + "=" + "{:.2f}".format(answer)) # printing the answer to 2 decimal places
     
 print("Select an option: ")
 print('A: Addtion')
@@ -27,7 +27,7 @@ choice=input("Enter your option:")
 print("*"*20)
 
 if(choice=='a' or choice=='A'):
-    print("the sum is:")
+    print("the sum is: ")
     add(a,b)
     
 
@@ -37,12 +37,12 @@ elif(choice=='b' or choice=='B'):
     
 
 elif(choice=='c' or choice=='C'):
-    print("the product is:") 
+    print("the product is: ") 
     mul(a,b)
     
 
 elif(choice=='d' or choice=='D'):
-    print("the quotient is:")
+    print("the quotient is: ")
     div(a,b)
     
 
